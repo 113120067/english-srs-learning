@@ -1,0 +1,162 @@
+[
+  {
+    "word": "bird",
+    "phonetic": "/bɜːrd/",
+    "meaning": "鳥兒",
+    "example": "A bird is singing.（一隻鳥在唱歌。）",
+    "hint": "清晨窗外小鳥的叫聲。",
+    "pronunciation": "長音捲舌 /ɜːr/。"
+  },
+  {
+    "word": "bite",
+    "phonetic": "/baɪt/",
+    "meaning": "咬",
+    "example": "Don't bite your nails.（不要咬指甲。）",
+    "hint": "大口咬下一顆蘋果。",
+    "pronunciation": "雙元音 /aɪ/ 加短促字尾 /t/。"
+  },
+  {
+    "word": "blow",
+    "phonetic": "/bloʊ/",
+    "meaning": "吹",
+    "example": "Blow out the candles.（吹熄蠟燭。）",
+    "hint": "深呼吸吹生日蛋糕。",
+    "pronunciation": "輔音叢 /bl/ 接雙元音 /oʊ/。"
+  },
+  {
+    "word": "blue",
+    "phonetic": "/bluː/",
+    "meaning": "藍色的",
+    "example": "The sky is blue.（天空是藍色的。）",
+    "hint": "抬頭看蔚藍的天空。",
+    "pronunciation": "/bl/ 後接長音 /uː/。"
+  },
+  {
+    "word": "boat",
+    "phonetic": "/boʊt/",
+    "meaning": "船",
+    "example": "We rented a boat.（我們租了一艘船。）",
+    "hint": "在湖上划著一艘小木船。",
+    "pronunciation": "雙元音 /oʊ/ 要發得飽滿。"
+  },
+  {
+    "word": "body",
+    "phonetic": "/ˈbɑːdi/",
+    "meaning": "身體",
+    "example": "Listen to your body.（傾聽你的身體。）",
+    "hint": "雙手拍拍自己的身體。",
+    "pronunciation": "重音在第一音節。"
+  },
+  {
+    "word": "bomb",
+    "phonetic": "/bɑːm/",
+    "meaning": "炸彈",
+    "example": "A bomb exploded.（炸彈爆炸了。）",
+    "hint": "電影裡倒數計時的定時炸彈。",
+    "pronunciation": "字尾的 b 不發音。"
+  },
+  {
+    "word": "bone",
+    "phonetic": "/boʊn/",
+    "meaning": "骨頭",
+    "example": "The dog found a bone.（狗找到了一根骨頭。）",
+    "hint": "想像一根白色的狗骨頭。",
+    "pronunciation": "雙元音 /oʊ/ 加鼻音 /n/。"
+  },
+  {
+    "word": "book",
+    "phonetic": "/bʊk/",
+    "meaning": "書籍",
+    "example": "Read a book.（看一本書。）",
+    "hint": "翻開一本厚厚的書。",
+    "pronunciation": "短元音 /ʊ/。"
+  },
+  {
+    "word": "boot",
+    "phonetic": "/buːt/",
+    "meaning": "靴子",
+    "example": "Wear your boots.（穿上你的靴子。）",
+    "hint": "下雨天穿的高筒雨靴。",
+    "pronunciation": "長元音 /uː/。"
+  },
+  {
+    "word": "born",
+    "phonetic": "/bɔːrn/",
+    "meaning": "天生的；出生的",
+    "example": "I was born here.（我出生在這裡。）",
+    "hint": "醫院裡剛出生的嬰兒。",
+    "pronunciation": "/ɔːr/ 捲舌音。"
+  },
+  {
+    "word": "boss",
+    "phonetic": "/bɔːs/ 或 /bɑːs/",
+    "meaning": "老闆",
+    "example": "He is my boss.（他是我的老闆。）",
+    "hint": "坐在大辦公桌後面的主管。",
+    "pronunciation": "母音後接清輔音 /s/。"
+  },
+  {
+    "word": "both",
+    "phonetic": "/boʊθ/",
+    "meaning": "兩者",
+    "example": "I like both.（我兩個都喜歡。）",
+    "hint": "雙手各拿一個選項。",
+    "pronunciation": "字尾的 /θ/ 要輕咬舌尖吹氣。"
+  },
+  {
+    "word": "come",
+    "phonetic": "/kʌm/",
+    "meaning": "來",
+    "example": "Come here.（過來這裡。）",
+    "hint": "對著別人招手。",
+    "pronunciation": "短元音 /ʌ/ 接閉唇鼻音 /m/。"
+  },
+  {
+    "word": "cook",
+    "phonetic": "/kʊk/",
+    "meaning": "烹調；廚師",
+    "example": "I cook dinner.（我煮晚餐。）",
+    "hint": "穿圍裙拿鍋鏟炒菜。",
+    "pronunciation": "短元音 /ʊ/。"
+  },
+  {
+    "word": "cool",
+    "phonetic": "/kuːl/",
+    "meaning": "冷卻；涼爽的；酷的",
+    "example": "It is cool today.（今天很涼爽。）",
+    "hint": "吹著秋天的涼風。",
+    "pronunciation": "長音 /uː/ 接 Dark L。"
+  },
+  {
+    "word": "copy",
+    "phonetic": "/ˈkɑːpi/",
+    "meaning": "複製；副本",
+    "example": "Make a copy.（印一份副本。）",
+    "hint": "影印機印出一張紙。",
+    "pronunciation": "重音在第一音節。"
+  },
+  {
+    "word": "cork",
+    "phonetic": "/kɔːrk/",
+    "meaning": "軟木塞",
+    "example": "Pull the cork.（拔出軟木塞。）",
+    "hint": "開紅酒時拔出的木塞。",
+    "pronunciation": "捲舌音 /ɔːrk/。"
+  },
+  {
+    "word": "corn",
+    "phonetic": "/kɔːrn/",
+    "meaning": "玉米",
+    "example": "Sweet corn.（甜玉米。）",
+    "hint": "啃黃澄澄的玉米。",
+    "pronunciation": "捲舌音 /ɔːrn/。"
+  },
+  {
+    "word": "cost",
+    "phonetic": "/kɔːst/ 或 /kɑːst/",
+    "meaning": "成本；價值",
+    "example": "It costs a lot.（這花費很多。）",
+    "hint": "看著標價很高的吊牌。",
+    "pronunciation": "字尾 /st/ 連綴。"
+  }
+]

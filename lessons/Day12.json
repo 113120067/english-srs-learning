@@ -1,0 +1,162 @@
+[
+  {
+    "word": "fuel",
+    "phonetic": "/ˈfjuːəl/",
+    "meaning": "燃料",
+    "example": "Add more fuel.（添加更多燃料。）",
+    "hint": "把汽油加進火堆裡。",
+    "pronunciation": "兩個音節，/fjuː/ 後接輕音 /əl/。"
+  },
+  {
+    "word": "full",
+    "phonetic": "/fʊl/",
+    "meaning": "滿的",
+    "example": "My glass is full.（我的杯子滿了。）",
+    "hint": "水滿到快溢出來的杯子。",
+    "pronunciation": "短元音 /ʊ/ 接 Dark L。"
+  },
+  {
+    "word": "gain",
+    "phonetic": "/ɡeɪn/",
+    "meaning": "得到；獲得",
+    "example": "Gain some weight.（增加了一些體重。）",
+    "hint": "站上體重計發現變重了。",
+    "pronunciation": "濁輔音 /ɡ/ 起頭，雙元音 /eɪ/。"
+  },
+  {
+    "word": "game",
+    "phonetic": "/ɡeɪm/",
+    "meaning": "遊戲；比賽",
+    "example": "Play a game.（玩一場遊戲。）",
+    "hint": "拿著遊戲手把打電動。",
+    "pronunciation": "雙元音 /eɪ/ 接閉唇鼻音 /m/。"
+  },
+  {
+    "word": "gang",
+    "phonetic": "/ɡæŋ/",
+    "meaning": "一幫；一群（幫派）",
+    "example": "A street gang.（一個街頭幫派。）",
+    "hint": "一群在巷弄聚集的不良少年。",
+    "pronunciation": "蝴蝶音 /æ/ 接鼻音 /ŋ/。"
+  },
+  {
+    "word": "gift",
+    "phonetic": "/ɡɪft/",
+    "meaning": "禮物；天賦",
+    "example": "A birthday gift.（一份生日禮物。）",
+    "hint": "一個打著漂亮緞帶的禮物盒。",
+    "pronunciation": "短音 /ɪ/ 接 /ft/ 連綴。"
+  },
+  {
+    "word": "girl",
+    "phonetic": "/ɡɜːrl/",
+    "meaning": "女孩",
+    "example": "She is a smart girl.（她是一個聰明的女孩。）",
+    "hint": "一個綁著馬尾的小女生。",
+    "pronunciation": "捲舌音 /ɜːr/ 滑向 Dark L。"
+  },
+  {
+    "word": "give",
+    "phonetic": "/ɡɪv/",
+    "meaning": "給予",
+    "example": "Give me a hand.（幫我一把。）",
+    "hint": "把東西遞給別人的動作。",
+    "pronunciation": "短促的 /ɪ/，字尾是上齒咬下唇有震動的 /v/。"
+  },
+  {
+    "word": "goal",
+    "phonetic": "/ɡoʊl/",
+    "meaning": "目標；得分",
+    "example": "Achieve your goal.（達成你的目標。）",
+    "hint": "足球踢進球網得分。",
+    "pronunciation": "雙元音 /oʊ/ 滑向 Dark L。"
+  },
+  {
+    "word": "gold",
+    "phonetic": "/ɡoʊld/",
+    "meaning": "金色的；黃金",
+    "example": "A gold ring.（一枚金戒指。）",
+    "hint": "閃閃發光的金條。",
+    "pronunciation": "雙元音 /oʊ/ 接 /ld/ 輔音連綴。"
+  },
+  {
+    "word": "good",
+    "phonetic": "/ɡʊd/",
+    "meaning": "好的",
+    "example": "Have a good time.（玩得開心。）",
+    "hint": "比出讚的大拇指。",
+    "pronunciation": "短元音 /ʊ/。"
+  },
+  {
+    "word": "gray",
+    "phonetic": "/ɡreɪ/",
+    "meaning": "灰色的（英式拼為 grey）",
+    "example": "A gray sky.（灰暗的天空。）",
+    "hint": "陰天時灰濛濛的天空。",
+    "pronunciation": "/ɡr/ 連綴接雙元音 /eɪ/。"
+  },
+  {
+    "word": "grow",
+    "phonetic": "/ɡroʊ/",
+    "meaning": "成長；種植",
+    "example": "Plants grow fast.（植物長得快。）",
+    "hint": "看著小樹苗慢慢變大樹。",
+    "pronunciation": "/ɡr/ 連綴接雙元音 /oʊ/。"
+  },
+  {
+    "word": "hair",
+    "phonetic": "/hɛr/",
+    "meaning": "頭髮；毛髮",
+    "example": "Long black hair.（烏黑的長髮。）",
+    "hint": "用梳子梳理長頭髮。",
+    "pronunciation": "氣音 /h/ 滑向捲舌的 /ɛr/。"
+  },
+  {
+    "word": "half",
+    "phonetic": "/hæf/",
+    "meaning": "一半的",
+    "example": "Half an hour.（半小時。）",
+    "hint": "把一顆蘋果切成兩半。",
+    "pronunciation": "蝴蝶音 /æ/，注意中間的 L 不發音。"
+  },
+  {
+    "word": "halt",
+    "phonetic": "/hɔːlt/",
+    "meaning": "停止",
+    "example": "Come to a halt.（停下來。）",
+    "hint": "交通警察舉手示意停車。",
+    "pronunciation": "不捲舌的 /ɔː/ 加 /lt/ 連綴。"
+  },
+  {
+    "word": "hand",
+    "phonetic": "/hænd/",
+    "meaning": "手",
+    "example": "Raise your hand.（舉起你的手。）",
+    "hint": "揮動你的手掌。",
+    "pronunciation": "蝴蝶音 /æ/ 加 /nd/ 連綴。"
+  },
+  {
+    "word": "hang",
+    "phonetic": "/hæŋ/",
+    "meaning": "懸掛；吊死",
+    "example": "Hang up the coat.（把外套掛起來。）",
+    "hint": "把外套掛在衣架上。",
+    "pronunciation": "蝴蝶音 /æ/ 加鼻音 /ŋ/。"
+  },
+  {
+    "word": "hard",
+    "phonetic": "/hɑːrd/",
+    "meaning": "堅硬的；困難的；努力的",
+    "example": "Work hard.（努力工作。）",
+    "hint": "敲敲一塊堅硬的大石頭。",
+    "pronunciation": "氣音 /h/ 接張大嘴捲舌的 /ɑːrd/。"
+  },
+  {
+    "word": "hate",
+    "phonetic": "/heɪt/",
+    "meaning": "憎恨；討厭",
+    "example": "I hate bugs.（我討厭蟲子。）",
+    "hint": "看到蟑螂皺眉頭的表情。",
+    "pronunciation": "雙元音 /eɪ/ 加短促的 /t/ 結尾。"
+  }
+]

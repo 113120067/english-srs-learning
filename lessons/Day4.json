@@ -1,0 +1,162 @@
+[
+  {
+    "word": "ice",
+    "phonetic": "/aɪs/",
+    "meaning": "冰",
+    "example": "Put ice in the drink.（飲料裡加冰塊。）",
+    "hint": "夏天喝冰飲料。",
+    "pronunciation": "/aɪ/ 加清輔音 /s/ 收尾。"
+  },
+  {
+    "word": "ill",
+    "phonetic": "/ɪl/",
+    "meaning": "生病的",
+    "example": "He feels ill today.（他今天覺得生病了。）",
+    "hint": "躺在床上生病的樣子。",
+    "pronunciation": "短促 /ɪ/ 接舌尖上頂的 /l/ (Dark L)。"
+  },
+  {
+    "word": "job",
+    "phonetic": "/dʒɑb/",
+    "meaning": "工作",
+    "example": "Good job!（做得好！）",
+    "hint": "比出讚的大拇指。",
+    "pronunciation": "字首 /dʒ/ 聲帶震動，母音 /ɑ/ 張大嘴。"
+  },
+  {
+    "word": "joy",
+    "phonetic": "/dʒɔɪ/",
+    "meaning": "喜悅",
+    "example": "Tears of joy.（喜悅的眼淚。）",
+    "hint": "開心到流淚的表情。",
+    "pronunciation": "雙元音 /ɔɪ/，嘴唇由圓滑向扁平。"
+  },
+  {
+    "word": "key",
+    "phonetic": "/kiː/",
+    "meaning": "鑰匙；關鍵的",
+    "example": "Where is the key?（鑰匙在哪裡？）",
+    "hint": "拿鑰匙開門的動作。",
+    "pronunciation": "長元音 /iː/，嘴角拉開。"
+  },
+  {
+    "word": "kid",
+    "phonetic": "/kɪd/",
+    "meaning": "孩子",
+    "example": "He is just a kid.（他只是個孩子。）",
+    "hint": "一個蹦蹦跳跳的小孩。",
+    "pronunciation": "短元音 /ɪ/ 加上字尾濁輔音 /d/。"
+  },
+  {
+    "word": "kit",
+    "phonetic": "/kɪt/",
+    "meaning": "成套的工具",
+    "example": "A first aid kit.（急救包。）",
+    "hint": "打開一個紅十字急救箱。",
+    "pronunciation": "注意與 kid 區分，字尾為清輔音 /t/。"
+  },
+  {
+    "word": "law",
+    "phonetic": "/lɔː/",
+    "meaning": "法律",
+    "example": "Obey the law.（遵守法律。）",
+    "hint": "法官敲槌子的畫面。",
+    "pronunciation": "母音 /ɔː/，嘴唇收圓不捲舌。"
+  },
+  {
+    "word": "lay",
+    "phonetic": "/leɪ/",
+    "meaning": "放；產卵",
+    "example": "Lay it on the table.（把它放在桌上。）",
+    "hint": "輕輕把東西放在桌上。",
+    "pronunciation": "雙元音 /eɪ/ 要發飽滿。"
+  },
+  {
+    "word": "leg",
+    "phonetic": "/lɛɡ/",
+    "meaning": "腿",
+    "example": "My leg hurts.（我的腿痛。）",
+    "hint": "摸摸自己的大腿。",
+    "pronunciation": "/ɛ/ 的開口大小適中。"
+  },
+  {
+    "word": "let",
+    "phonetic": "/lɛt/",
+    "meaning": "允許；讓",
+    "example": "Let me try.（讓我試試看。）",
+    "hint": "舉手表示想嘗試。",
+    "pronunciation": "短促有力的 /lɛt/。"
+  },
+  {
+    "word": "lie",
+    "phonetic": "/laɪ/",
+    "meaning": "說謊；謊言",
+    "example": "Do not tell a lie.（不要說謊。）",
+    "hint": "童話中鼻子變長的小木偶。",
+    "pronunciation": "雙元音 /aɪ/。"
+  },
+  {
+    "word": "lie",
+    "phonetic": "/laɪ/",
+    "meaning": "躺下",
+    "example": "Lie down and rest.（躺下來休息。）",
+    "hint": "平躺在沙發上。",
+    "pronunciation": "同上，發音完全一樣。"
+  },
+  {
+    "word": "lip",
+    "phonetic": "/lɪp/",
+    "meaning": "嘴唇",
+    "example": "Bite your lip.（咬嘴唇。）",
+    "hint": "指著自己的嘴唇。",
+    "pronunciation": "短促的 /ɪ/，字尾 /p/ 輕微爆破。"
+  },
+  {
+    "word": "log",
+    "phonetic": "/lɑɡ/ 或 /lɔɡ/",
+    "meaning": "原木；記錄",
+    "example": "A wooden log.（一根原木。）",
+    "hint": "劈開一塊木柴。",
+    "pronunciation": "字尾的濁輔音 /ɡ/ 輕輕震動。"
+  },
+  {
+    "word": "lot",
+    "phonetic": "/lɑt/",
+    "meaning": "很多；一塊地",
+    "example": "Thanks a lot.（非常感謝。）",
+    "hint": "雙手比出很多的手勢。",
+    "pronunciation": "/ɑ/ 音張口要大，字尾 /t/ 短促。"
+  },
+  {
+    "word": "low",
+    "phonetic": "/loʊ/",
+    "meaning": "低的",
+    "example": "The bridge is too low.（這座橋太低了。）",
+    "hint": "彎腰低頭走過天花板。",
+    "pronunciation": "雙元音 /oʊ/ 圓唇收尾。"
+  },
+  {
+    "word": "man",
+    "phonetic": "/mæn/",
+    "meaning": "男人",
+    "example": "He is a good man.（他是個好男人。）",
+    "hint": "一個穿西裝的男子。",
+    "pronunciation": "蝴蝶音 /æ/，嘴巴要張開。"
+  },
+  {
+    "word": "map",
+    "phonetic": "/mæp/",
+    "meaning": "地圖",
+    "example": "Check the map.（查看地圖。）",
+    "hint": "攤開一張大紙本地圖。",
+    "pronunciation": "蝴蝶音 /æ/ 加上爆破音 /p/。"
+  },
+  {
+    "word": "may",
+    "phonetic": "/meɪ/",
+    "meaning": "或許；能夠",
+    "example": "You may go now.（你現在可以走了。）",
+    "hint": "點頭示意別人可以離開。",
+    "pronunciation": "雙元音 /eɪ/。"
+  }
+]

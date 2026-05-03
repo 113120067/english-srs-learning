@@ -1,0 +1,162 @@
+[
+  {
+    "word": "crew",
+    "phonetic": "/kruː/",
+    "meaning": "團隊；全體工作人員",
+    "example": "The flight crew.（飛行機組人員。）",
+    "hint": "一群穿制服的空服員。",
+    "pronunciation": "/kr/ 連綴接長音 /uː/。"
+  },
+  {
+    "word": "crop",
+    "phonetic": "/krɑːp/",
+    "meaning": "作物；剪短",
+    "example": "A good crop.（好收成。）",
+    "hint": "農田裡長滿了黃金稻麥。",
+    "pronunciation": "/kr/ 接張大嘴的 /ɑː/。"
+  },
+  {
+    "word": "cure",
+    "phonetic": "/kjʊr/",
+    "meaning": "治癒",
+    "example": "Find a cure.（找到解藥/療法。）",
+    "hint": "喝下發光的魔法藥水病就好了。",
+    "pronunciation": "/kj/ 加上捲舌音。"
+  },
+  {
+    "word": "dark",
+    "phonetic": "/dɑːrk/",
+    "meaning": "黑暗的",
+    "example": "It is dark outside.（外面很黑。）",
+    "hint": "伸手不見五指的夜晚。",
+    "pronunciation": "/dɑːr/ 捲舌加 /k/ 輕微爆破。"
+  },
+  {
+    "word": "date",
+    "phonetic": "/deɪt/",
+    "meaning": "日期；約會",
+    "example": "Save the date.（保留這個日期。）",
+    "hint": "在月曆上畫一個紅圈。",
+    "pronunciation": "雙元音 /eɪ/ 要發滿。"
+  },
+  {
+    "word": "dead",
+    "phonetic": "/dɛd/",
+    "meaning": "死亡的",
+    "example": "The plant is dead.（植物死了。）",
+    "hint": "一朵枯萎掉落的花。",
+    "pronunciation": "短元音 /ɛ/。"
+  },
+  {
+    "word": "deaf",
+    "phonetic": "/dɛf/",
+    "meaning": "聾的",
+    "example": "He is deaf.（他失聰了。）",
+    "hint": "指著耳朵搖頭表示聽不見。",
+    "pronunciation": "短元音 /ɛ/ 接上齒輕咬下唇的 /f/。"
+  },
+  {
+    "word": "deal",
+    "phonetic": "/diːl/",
+    "meaning": "交易；處理",
+    "example": "It is a deal.（成交。）",
+    "hint": "兩人互相握手達成協議。",
+    "pronunciation": "長音 /iː/ 接 Dark L。"
+  },
+  {
+    "word": "dear",
+    "phonetic": "/dɪr/",
+    "meaning": "親愛的",
+    "example": "Oh dear!（噢親愛的/天啊！）",
+    "hint": "寫信時的開頭 \"Dear...\"。",
+    "pronunciation": "短音 /ɪ/ 滑向捲舌 /r/。"
+  },
+  {
+    "word": "debt",
+    "phonetic": "/dɛt/",
+    "meaning": "債務",
+    "example": "Pay off the debt.（還清債務。）",
+    "hint": "看到信用卡帳單上的負數。",
+    "pronunciation": "中間的 b 不發音，唸作 /dɛt/。"
+  },
+  {
+    "word": "deep",
+    "phonetic": "/diːp/",
+    "meaning": "深的",
+    "example": "Take a deep breath.（深呼吸。）",
+    "hint": "潛入深不見底的海洋。",
+    "pronunciation": "長音 /iː/ 接 /p/ 短促。"
+  },
+  {
+    "word": "deny",
+    "phonetic": "/dɪˈnaɪ/",
+    "meaning": "否認",
+    "example": "Don't deny it.（別否認。）",
+    "hint": "雙手交叉胸前搖頭說不是我。",
+    "pronunciation": "重音在第二音節 /ˈnaɪ/。"
+  },
+  {
+    "word": "diet",
+    "phonetic": "/ˈdaɪət/",
+    "meaning": "飲食；節食",
+    "example": "I am on a diet.（我在節食。）",
+    "hint": "看著沙拉不吃炸雞。",
+    "pronunciation": "兩個音節，重音在第一。"
+  },
+  {
+    "word": "dirt",
+    "phonetic": "/dɜːrt/",
+    "meaning": "塵土；泥土",
+    "example": "Wash the dirt off.（把泥土洗掉。）",
+    "hint": "鞋子上沾滿爛泥巴。",
+    "pronunciation": "長音捲舌 /ɜːr/。"
+  },
+  {
+    "word": "disk",
+    "phonetic": "/dɪsk/",
+    "meaning": "圓盤；【電腦】磁碟",
+    "example": "Save to the disk.（存入磁碟。）",
+    "hint": "拿著一片反光的 CD 光碟。",
+    "pronunciation": "/sk/ 輔音連綴結尾。"
+  },
+  {
+    "word": "door",
+    "phonetic": "/dɔːr/",
+    "meaning": "門",
+    "example": "Open the door.（開門。）",
+    "hint": "轉動門把推開一扇木門。",
+    "pronunciation": "/ɔːr/ 捲舌。"
+  },
+  {
+    "word": "down",
+    "phonetic": "/daʊn/",
+    "meaning": "向下",
+    "example": "Look down.（往下看。）",
+    "hint": "用手指比著下面。",
+    "pronunciation": "雙元音 /aʊ/ 加鼻音 /n/。"
+  },
+  {
+    "word": "draw",
+    "phonetic": "/drɔː/",
+    "meaning": "畫；拉",
+    "example": "Draw a picture.（畫一幅畫。）",
+    "hint": "拿著鉛筆在紙上畫畫。",
+    "pronunciation": "/dr/ 連綴加不捲舌的 /ɔː/。"
+  },
+  {
+    "word": "drop",
+    "phonetic": "/drɑːp/",
+    "meaning": "落下；掉下",
+    "example": "Don't drop it.（別弄掉了。）",
+    "hint": "東西從手中滑落砸在地上。",
+    "pronunciation": "/dr/ 連綴加張大嘴的 /ɑː/。"
+  },
+  {
+    "word": "drug",
+    "phonetic": "/drʌɡ/",
+    "meaning": "藥物",
+    "example": "A new drug.（一種新藥。）",
+    "hint": "吞下一顆白色的小藥丸。",
+    "pronunciation": "/dr/ 連綴加短促的 /ʌ/。"
+  }
+]

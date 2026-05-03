@@ -1,0 +1,162 @@
+[
+  {
+    "word": "I",
+    "phonetic": "/aɪ/",
+    "meaning": "我",
+    "example": "I am here.（我在這裡。）",
+    "hint": "像中文「愛」的發音 /aɪ/，想像指自己說「I」。",
+    "pronunciation": "單音節、長元音 /aɪ/，口形從開到收；跟讀 3 次，錄音一次。"
+  },
+  {
+    "word": "do",
+    "phonetic": "/duː/",
+    "meaning": "做",
+    "example": "Do it now.（現在就做。）",
+    "hint": "短詞、像中文「都」(dōu) 開頭相近聯想。",
+    "pronunciation": "尾音有 /uː/（長元音），注意不要把 /d/ 聲吞掉；跟讀 3 次。"
+  },
+  {
+    "word": "go",
+    "phonetic": "/ɡoʊ/",
+    "meaning": "去",
+    "example": "I will go.（我要去。）",
+    "hint": "想像走路的動作「go」。",
+    "pronunciation": "雙元音 /oʊ/，口形由圓到收，強調 /ɡ/ 起始聲。"
+  },
+  {
+    "word": "he",
+    "phonetic": "/hiː/",
+    "meaning": "他",
+    "example": "He is late.（他遲到了。）",
+    "hint": "He → 男性代名詞，想像一位男性說話。",
+    "pronunciation": "/h/ + 長元音 /iː/，注意 /h/ 吹氣要輕，跟讀 3 次。"
+  },
+  {
+    "word": "if",
+    "phonetic": "/ɪf/",
+    "meaning": "如果",
+    "example": "If it rains, stay home.（如果下雨就待在家。）",
+    "hint": "想到「如果」的條件句開頭。",
+    "pronunciation": "短元音 /ɪ/，末尾 /f/ 用上齒輕咬下唇；模仿句子節奏。"
+  },
+  {
+    "word": "in",
+    "phonetic": "/ɪn/",
+    "meaning": "在……裡面",
+    "example": "She is in the room.（她在房間裡。）",
+    "hint": "想像進到房間裡。",
+    "pronunciation": "短元音 /ɪ/ + /n/ 鼻音，注意 /n/ 共鳴；跟讀 3 次。"
+  },
+  {
+    "word": "it",
+    "phonetic": "/ɪt/",
+    "meaning": "它；這個",
+    "example": "It is cold.（天氣冷。）",
+    "hint": "指代事物，短促發音。",
+    "pronunciation": "/t/ 爆破音要清楚，結尾有時濁化要注意；跟讀 3 次。"
+  },
+  {
+    "word": "me",
+    "phonetic": "/miː/",
+    "meaning": "我（受格）",
+    "example": "Give it to me.（把它給我。）",
+    "hint": "像中文「咪」(mi)，想像自己伸手接東西。",
+    "pronunciation": "長元音 /iː/，嘴形扁平，跟讀並錄音一次比較。"
+  },
+  {
+    "word": "my",
+    "phonetic": "/maɪ/",
+    "meaning": "我的（所有格）",
+    "example": "This is my book.（這是我的書。）",
+    "hint": "/maɪ/ 聯想到「我的」。",
+    "pronunciation": "雙元音 /aɪ/，注意與 `I` 的區別（`I` 可獨立作主詞）。"
+  },
+  {
+    "word": "no",
+    "phonetic": "/noʊ/",
+    "meaning": "不；沒有",
+    "example": "No, thank you.（不，謝謝。）",
+    "hint": "短而有力的否定詞。",
+    "pronunciation": "雙元音 /oʊ/，尾音略收；練習短促且堅定的語氣。"
+  },
+  {
+    "word": "of",
+    "phonetic": "/əv/（弱讀 /ə/）",
+    "meaning": "……的（屬於）",
+    "example": "A piece of cake.（一塊蛋糕。）",
+    "hint": "連接語，常弱讀。",
+    "pronunciation": "常弱化為 /əv/ 或連讀成 /ə/，注意不要發成 /ɒf/。"
+  },
+  {
+    "word": "on",
+    "phonetic": "/ɑn/ 或 /ɒn/",
+    "meaning": "在……上面",
+    "example": "Put it on the table.（把它放到桌上。）",
+    "hint": "想像東西放上去。",
+    "pronunciation": "元音接近 /ɑ/（美式），或 /ɒ/（英式），練習連讀句子。"
+  },
+  {
+    "word": "or",
+    "phonetic": "/ɔr/ 或 /ɔːr/",
+    "meaning": "或者",
+    "example": "Tea or coffee?（要茶還是咖啡？）",
+    "hint": "選擇詞，想像兩種選項。",
+    "pronunciation": "注意 /r/ 音（美式捲舌 /r/）；英式常弱化但清楚分辨選項。"
+  },
+  {
+    "word": "so",
+    "phonetic": "/soʊ/",
+    "meaning": "所以；那麼",
+    "example": "So, what now?（那現在怎麼辦？）",
+    "hint": "連接語或驚嘆語，語氣靈活。",
+    "pronunciation": "雙元音 /oʊ/，練習在句中連讀。"
+  },
+  {
+    "word": "to",
+    "phonetic": "/tuː/（重讀）或 /tə/（弱讀）",
+    "meaning": "向、至、為了（不定詞符號）",
+    "example": "I want to go.（我想去。）",
+    "hint": "看句子位置決定重讀或弱讀。",
+    "pronunciation": "句中多為弱讀 /tə/；練習自然語流中的弱讀。"
+  },
+  {
+    "word": "up",
+    "phonetic": "/ʌp/",
+    "meaning": "往上",
+    "example": "Stand up.（站起來。）",
+    "hint": "向上的動作。",
+    "pronunciation": "短元音 /ʌ/ + /p/ 爆破，跟讀 3 次。"
+  },
+  {
+    "word": "us",
+    "phonetic": "/ʌs/",
+    "meaning": "我們（受格）",
+    "example": "They gave us gifts.（他們給我們禮物。）",
+    "hint": "想像大家一起。",
+    "pronunciation": "/ʌ/ + /s/ 清晰，注意不要連成 /əz/。"
+  },
+  {
+    "word": "we",
+    "phonetic": "/wiː/",
+    "meaning": "我們",
+    "example": "We are ready.（我們準備好了。）",
+    "hint": "包含自己和別人的集體感。",
+    "pronunciation": "長元音 /iː/，跟讀並錄音一次。"
+  },
+  {
+    "word": "and",
+    "phonetic": "/ænd/（重讀）或 /ənd/（弱讀）",
+    "meaning": "和、以及",
+    "example": "You and I.（你和我。）",
+    "hint": "連接兩個東西的詞。",
+    "pronunciation": "連讀時常弱化為 /ən/，留意句流中的變化。"
+  },
+  {
+    "word": "any",
+    "phonetic": "/ˈɛni/",
+    "meaning": "任何（的）",
+    "example": "Do you have any questions?（你有任何問題嗎？）",
+    "hint": "想像「任意一個」。",
+    "pronunciation": "重音在第一音節 /ˈɛ/，注意清楚 /n/ 音。"
+  }
+]

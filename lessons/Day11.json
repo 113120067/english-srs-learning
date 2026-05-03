@@ -1,0 +1,162 @@
+[
+  {
+    "word": "feel",
+    "phonetic": "/fiːl/",
+    "meaning": "感覺",
+    "example": "I feel good.（我感覺很好。）",
+    "hint": "摸著胸口感受心情。",
+    "pronunciation": "長音 /iː/ 滑向舌尖頂上齒齦的 Dark L。"
+  },
+  {
+    "word": "file",
+    "phonetic": "/faɪl/",
+    "meaning": "檔案；歸檔",
+    "example": "Save the file.（儲存檔案。）",
+    "hint": "電腦裡黃色的資料夾。",
+    "pronunciation": "雙元音 /aɪ/ 滑向 Dark L。"
+  },
+  {
+    "word": "fill",
+    "phonetic": "/fɪl/",
+    "meaning": "填滿",
+    "example": "Fill the cup.（把杯子倒滿。）",
+    "hint": "水龍頭的水將杯子裝滿。",
+    "pronunciation": "短音 /ɪ/ 滑向 Dark L。（注意區分 feel 與 fill）"
+  },
+  {
+    "word": "film",
+    "phonetic": "/fɪlm/",
+    "meaning": "電影；軟片",
+    "example": "Watch a film.（看電影。）",
+    "hint": "坐在電影院吃爆米花。",
+    "pronunciation": "短音 /ɪ/ 加上 /lm/ 雙輔音結尾。"
+  },
+  {
+    "word": "find",
+    "phonetic": "/faɪnd/",
+    "meaning": "尋找",
+    "example": "Find the key.（找到鑰匙。）",
+    "hint": "拿著放大鏡四處找東西。",
+    "pronunciation": "雙元音 /aɪ/ 接 /nd/ 連綴。"
+  },
+  {
+    "word": "fine",
+    "phonetic": "/faɪn/",
+    "meaning": "美好的；罰款",
+    "example": "I am fine.（我很好。）",
+    "hint": "微笑著比出 OK 手勢。",
+    "pronunciation": "雙元音 /aɪ/ 接鼻音 /n/。"
+  },
+  {
+    "word": "fire",
+    "phonetic": "/ˈfaɪər/",
+    "meaning": "火；解雇",
+    "example": "Make a fire.（生火。）",
+    "hint": "冬天壁爐裡熊熊燃燒的火。",
+    "pronunciation": "雙元音滑向捲舌音。"
+  },
+  {
+    "word": "firm",
+    "phonetic": "/fɜːrm/",
+    "meaning": "堅定的；公司",
+    "example": "A law firm.（一家律師事務所。）",
+    "hint": "穿西裝的律師走進大樓。",
+    "pronunciation": "長捲舌音 /ɜːr/ 加鼻音 /m/。"
+  },
+  {
+    "word": "fish",
+    "phonetic": "/fɪʃ/",
+    "meaning": "魚",
+    "example": "Catch a fish.（釣到一條魚。）",
+    "hint": "一條在水裡游的紅魚。",
+    "pronunciation": "短音 /ɪ/ 接雙唇微嘟的 /ʃ/。"
+  },
+  {
+    "word": "fist",
+    "phonetic": "/fɪst/",
+    "meaning": "拳頭",
+    "example": "Make a fist.（握緊拳頭。）",
+    "hint": "用力握拳準備出擊。",
+    "pronunciation": "短音 /ɪ/ 接 /st/ 連綴。"
+  },
+  {
+    "word": "flag",
+    "phonetic": "/flæɡ/",
+    "meaning": "旗幟",
+    "example": "Wave the flag.（揮舞旗幟。）",
+    "hint": "隨風飄揚的一面國旗。",
+    "pronunciation": "輔音連綴 /fl/ 接蝴蝶音 /æ/。"
+  },
+  {
+    "word": "flat",
+    "phonetic": "/flæt/",
+    "meaning": "平坦的；公寓",
+    "example": "A flat surface.（一個平坦的表面。）",
+    "hint": "用手摸著桌面感覺很平。",
+    "pronunciation": "/fl/ 接蝴蝶音 /æ/ 再接短促的 /t/。"
+  },
+  {
+    "word": "flow",
+    "phonetic": "/floʊ/",
+    "meaning": "流動",
+    "example": "The river flows.（河水流動。）",
+    "hint": "看著小溪的水緩緩流過。",
+    "pronunciation": "/fl/ 接雙元音 /oʊ/。"
+  },
+  {
+    "word": "fold",
+    "phonetic": "/foʊld/",
+    "meaning": "摺疊",
+    "example": "Fold the paper.（把紙對折。）",
+    "hint": "摺紙飛機的第一步。",
+    "pronunciation": "雙元音 /oʊ/ 接 /ld/。"
+  },
+  {
+    "word": "food",
+    "phonetic": "/fuːd/",
+    "meaning": "食物",
+    "example": "Good food.（好吃的食物。）",
+    "hint": "桌上擺滿了豐盛的菜餚。",
+    "pronunciation": "長元音 /uː/ 接濁輔音 /d/。"
+  },
+  {
+    "word": "fool",
+    "phonetic": "/fuːl/",
+    "meaning": "傻瓜",
+    "example": "Don't be a fool.（別做傻瓜。）",
+    "hint": "小丑在台上搞笑。",
+    "pronunciation": "長元音 /uː/ 接 Dark L。"
+  },
+  {
+    "word": "foot",
+    "phonetic": "/fʊt/",
+    "meaning": "腳；英呎",
+    "example": "My right foot.（我的右腳。）",
+    "hint": "穿鞋子前光著的腳丫。",
+    "pronunciation": "短元音 /ʊ/。（與 food 的母音不同）"
+  },
+  {
+    "word": "form",
+    "phonetic": "/fɔːrm/",
+    "meaning": "形式；表格；形成",
+    "example": "Fill out the form.（填寫這份表格。）",
+    "hint": "拿筆在申請表上寫字。",
+    "pronunciation": "捲舌音 /ɔːr/ 加鼻音 /m/。"
+  },
+  {
+    "word": "free",
+    "phonetic": "/friː/",
+    "meaning": "自由的；免費的",
+    "example": "It is free.（這是免費的。）",
+    "hint": "看到標示「0 元」的牌子。",
+    "pronunciation": "/fr/ 連綴接長音 /iː/。"
+  },
+  {
+    "word": "from",
+    "phonetic": "/frʌm/（重讀可為 /frɑːm/）",
+    "meaning": "來自……",
+    "example": "Where are you from?（你從哪裡來？）",
+    "hint": "包裹上的寄件人地址。",
+    "pronunciation": "多發短音 /ʌ/ 接鼻音 /m/。"
+  }
+]

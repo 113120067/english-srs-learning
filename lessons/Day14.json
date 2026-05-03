@@ -1,0 +1,162 @@
+[
+  {
+    "word": "idea",
+    "phonetic": "/aɪˈdiːə/",
+    "meaning": "想法；點子",
+    "example": "A good idea.（好主意。）",
+    "hint": "頭上突然亮起一顆燈泡。",
+    "pronunciation": "三個音節，重音在第二音節 /diː/。"
+  },
+  {
+    "word": "inch",
+    "phonetic": "/ɪntʃ/",
+    "meaning": "吋（長度單位）",
+    "example": "One inch long.（一英吋長。）",
+    "hint": "用捲尺量出大約兩指寬的距離。",
+    "pronunciation": "短音 /ɪ/ 接鼻音 /n/ 加氣音 /tʃ/。"
+  },
+  {
+    "word": "into",
+    "phonetic": "/ˈɪntuː/",
+    "meaning": "到……裡面",
+    "example": "Go into the room.（走進房間裡。）",
+    "hint": "推開門走進去的動作。",
+    "pronunciation": "重音在第一音節的 /ɪ/。"
+  },
+  {
+    "word": "iron",
+    "phonetic": "/ˈaɪərn/",
+    "meaning": "鐵；熨斗",
+    "example": "An iron gate.（一扇鐵門。）",
+    "hint": "拿著發熱的熨斗燙平襯衫。",
+    "pronunciation": "注意 r 不發很重的音，整個字念起來像 eye-earn。"
+  },
+  {
+    "word": "item",
+    "phonetic": "/ˈaɪtəm/",
+    "meaning": "項目；物品",
+    "example": "The first item.（第一個項目。）",
+    "hint": "清單上列出的一個個小點。",
+    "pronunciation": "美式常把中間的 t 發成閃音（像輕微的 d）。"
+  },
+  {
+    "word": "jail",
+    "phonetic": "/dʒeɪl/",
+    "meaning": "監獄",
+    "example": "Go to jail.（進監獄。）",
+    "hint": "有鐵柵欄的牢房。",
+    "pronunciation": "/dʒ/ 起頭，雙元音 /eɪ/ 滑向 Dark L。"
+  },
+  {
+    "word": "join",
+    "phonetic": "/dʒɔɪn/",
+    "meaning": "參加；加入",
+    "example": "Join the club.（加入這個俱樂部。）",
+    "hint": "一群人圍成一圈，你走進去加入他們。",
+    "pronunciation": "/dʒ/ 起頭，雙元音 /ɔɪ/ 接鼻音 /n/。"
+  },
+  {
+    "word": "joke",
+    "phonetic": "/dʒoʊk/",
+    "meaning": "笑話",
+    "example": "Tell a joke.（說個笑話。）",
+    "hint": "講話讓大家哈哈大笑。",
+    "pronunciation": "雙元音 /oʊ/。"
+  },
+  {
+    "word": "jump",
+    "phonetic": "/dʒʌmp/",
+    "meaning": "跳躍",
+    "example": "Jump up and down.（上下跳躍。）",
+    "hint": "雙腳用力蹬地跳起來。",
+    "pronunciation": "短音 /ʌ/ 接 /mp/ 雙唇閉合爆破。"
+  },
+  {
+    "word": "jury",
+    "phonetic": "/ˈdʒʊri/",
+    "meaning": "陪審團",
+    "example": "The jury decides.（陪審團做決定。）",
+    "hint": "法庭旁聽席上一排嚴肅的陪審員。",
+    "pronunciation": "重音在第一音節的捲舌音。"
+  },
+  {
+    "word": "just",
+    "phonetic": "/dʒʌst/",
+    "meaning": "僅僅；剛好",
+    "example": "Just a minute.（請等一下。）",
+    "hint": "比出一根手指表示「只要一下下」。",
+    "pronunciation": "短音 /ʌ/ 接 /st/ 連綴。"
+  },
+  {
+    "word": "keep",
+    "phonetic": "/kiːp/",
+    "meaning": "保持；保留",
+    "example": "Keep it safe.（把它保管好。）",
+    "hint": "把寶物放進保險箱鎖起來。",
+    "pronunciation": "長元音 /iː/ 接 /p/ 收尾。"
+  },
+  {
+    "word": "kick",
+    "phonetic": "/kɪk/",
+    "meaning": "踢",
+    "example": "Kick the ball.（踢球。）",
+    "hint": "用力抬腳踢飛一顆足球。",
+    "pronunciation": "短音 /ɪ/。"
+  },
+  {
+    "word": "kill",
+    "phonetic": "/kɪl/",
+    "meaning": "殺死",
+    "example": "Kill the bugs.（殺蟲子。）",
+    "hint": "拿著殺蟲劑噴蚊子。",
+    "pronunciation": "短音 /ɪ/ 滑向 Dark L。"
+  },
+  {
+    "word": "kind",
+    "phonetic": "/kaɪnd/",
+    "meaning": "種類；善良的",
+    "example": "Be kind to others.（對別人仁慈一點。）",
+    "hint": "微笑著扶老奶奶過馬路。",
+    "pronunciation": "雙元音 /aɪ/ 接 /nd/ 連綴。"
+  },
+  {
+    "word": "king",
+    "phonetic": "/kɪŋ/",
+    "meaning": "國王",
+    "example": "The king of the country.（這個國家的國王。）",
+    "hint": "頭戴金冠、手拿權杖的國王。",
+    "pronunciation": "短音 /ɪ/ 接後鼻音 /ŋ/。"
+  },
+  {
+    "word": "kiss",
+    "phonetic": "/kɪs/",
+    "meaning": "親吻",
+    "example": "Kiss goodbye.（吻別。）",
+    "hint": "臉頰上的一個吻。",
+    "pronunciation": "短音 /ɪ/ 接清輔音 /s/。"
+  },
+  {
+    "word": "know",
+    "phonetic": "/noʊ/",
+    "meaning": "知道；認識",
+    "example": "I know him.（我認識他。）",
+    "hint": "敲敲腦袋表示懂了。",
+    "pronunciation": "k 不發音，發音完全等同於 no。"
+  },
+  {
+    "word": "lack",
+    "phonetic": "/læk/",
+    "meaning": "缺乏",
+    "example": "Lack of sleep.（缺乏睡眠。）",
+    "hint": "黑眼圈很深，表示沒睡夠。",
+    "pronunciation": "蝴蝶音 /æ/ 加 /k/ 收尾。"
+  },
+  {
+    "word": "lake",
+    "phonetic": "/leɪk/",
+    "meaning": "湖泊",
+    "example": "A beautiful lake.（一個美麗的湖。）",
+    "hint": "群山環繞著平靜的湖面。",
+    "pronunciation": "雙元音 /eɪ/ 加 /k/ 收尾。"
+  }
+]

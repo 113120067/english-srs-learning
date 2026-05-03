@@ -1,0 +1,162 @@
+[
+  {
+    "word": "have",
+    "phonetic": "/hæv/",
+    "meaning": "有",
+    "example": "I have a pen.（我有一支筆。）",
+    "hint": "手裡握著擁有的物品。",
+    "pronunciation": "蝴蝶音 /æ/，字尾是上齒咬下唇的濁輔音 /v/。"
+  },
+  {
+    "word": "head",
+    "phonetic": "/hɛd/",
+    "meaning": "頭；前往",
+    "example": "Nod your head.（點點頭。）",
+    "hint": "用手指指著自己的額頭。",
+    "pronunciation": "短音 /ɛ/ 加 /d/ 收尾。"
+  },
+  {
+    "word": "heal",
+    "phonetic": "/hiːl/",
+    "meaning": "痊癒",
+    "example": "Time heals all wounds.（時間能治癒一切創傷。）",
+    "hint": "傷口上的結痂慢慢掉落復原。",
+    "pronunciation": "長音 /iː/ 滑向 Dark L。"
+  },
+  {
+    "word": "hear",
+    "phonetic": "/hɪr/",
+    "meaning": "聽見",
+    "example": "Can you hear me?（你聽得見我嗎？）",
+    "hint": "把手放在耳朵旁作傾聽狀。",
+    "pronunciation": "氣音 /h/ 滑向捲舌的 /ɪr/。"
+  },
+  {
+    "word": "heat",
+    "phonetic": "/hiːt/",
+    "meaning": "熱；加熱",
+    "example": "Feel the heat.（感受熱度。）",
+    "hint": "把手靠近暖爐感覺熱氣。",
+    "pronunciation": "長音 /iː/ 加短促的 /t/。"
+  },
+  {
+    "word": "help",
+    "phonetic": "/hɛlp/",
+    "meaning": "幫忙",
+    "example": "I need help.（我需要幫忙。）",
+    "hint": "向別人伸出援手。",
+    "pronunciation": "短音 /ɛ/ 加 /lp/ 連綴。"
+  },
+  {
+    "word": "here",
+    "phonetic": "/hɪr/",
+    "meaning": "這裡",
+    "example": "Come here.（過來這裡。）",
+    "hint": "指著自己腳下的地板。",
+    "pronunciation": "與 hear 的發音完全相同。"
+  },
+  {
+    "word": "hide",
+    "phonetic": "/haɪd/",
+    "meaning": "隱藏",
+    "example": "Hide and seek.（捉迷藏。）",
+    "hint": "躲在窗簾後面不被發現。",
+    "pronunciation": "雙元音 /aɪ/。"
+  },
+  {
+    "word": "high",
+    "phonetic": "/haɪ/",
+    "meaning": "高的",
+    "example": "Jump high.（跳得高。）",
+    "hint": "抬頭望著高聳的摩天大樓。",
+    "pronunciation": "發音完全等同於打招呼的 Hi，gh 不發音。"
+  },
+  {
+    "word": "hill",
+    "phonetic": "/hɪl/",
+    "meaning": "小丘；山丘",
+    "example": "Up the hill.（上山坡。）",
+    "hint": "長滿綠草的起伏小山丘。",
+    "pronunciation": "短音 /ɪ/ 滑向 Dark L。"
+  },
+  {
+    "word": "hire",
+    "phonetic": "/ˈhaɪər/",
+    "meaning": "雇用",
+    "example": "Hire a new worker.（雇用新員工。）",
+    "hint": "老闆對面試者握手說「你錄取了」。",
+    "pronunciation": "雙元音 /aɪ/ 滑向捲舌音。"
+  },
+  {
+    "word": "hold",
+    "phonetic": "/hoʊld/",
+    "meaning": "握著；保持",
+    "example": "Hold my hand.（握住我的手。）",
+    "hint": "緊緊握住咖啡杯的把手。",
+    "pronunciation": "雙元音 /oʊ/ 加 /ld/ 連綴。"
+  },
+  {
+    "word": "hole",
+    "phonetic": "/hoʊl/",
+    "meaning": "洞",
+    "example": "A deep hole.（一個深洞。）",
+    "hint": "路上挖出的一個大坑洞。",
+    "pronunciation": "雙元音 /oʊ/ 滑向 Dark L。"
+  },
+  {
+    "word": "holy",
+    "phonetic": "/ˈhoʊli/",
+    "meaning": "神聖的",
+    "example": "A holy place.（一個神聖的地方。）",
+    "hint": "教堂裡透著光的十字架。",
+    "pronunciation": "重音在第一音節，雙元音 /oʊ/。"
+  },
+  {
+    "word": "home",
+    "phonetic": "/hoʊm/",
+    "meaning": "家",
+    "example": "Go home.（回家。）",
+    "hint": "打開家門溫暖的燈光。",
+    "pronunciation": "雙元音 /oʊ/ 收在鼻音 /m/。"
+  },
+  {
+    "word": "hope",
+    "phonetic": "/hoʊp/",
+    "meaning": "希望",
+    "example": "I hope so.（我希望如此。）",
+    "hint": "雙手合十許願。",
+    "pronunciation": "雙元音 /oʊ/ 加輕微爆破的 /p/。"
+  },
+  {
+    "word": "hour",
+    "phonetic": "/ˈaʊər/",
+    "meaning": "小時",
+    "example": "Wait an hour.（等一小時。）",
+    "hint": "時鐘的分針走完一整圈。",
+    "pronunciation": "h 不發音，發音等同於 our。"
+  },
+  {
+    "word": "huge",
+    "phonetic": "/hjuːdʒ/",
+    "meaning": "巨大的",
+    "example": "A huge bear.（一隻巨大的熊。）",
+    "hint": "一隻比人還高的大象。",
+    "pronunciation": "氣音 /h/ 接 /juː/ 長音，字尾是濁輔音 /dʒ/。"
+  },
+  {
+    "word": "hunt",
+    "phonetic": "/hʌnt/",
+    "meaning": "打獵；尋找",
+    "example": "Hunt for food.（尋找食物。）",
+    "hint": "拿著弓箭在森林裡打獵。",
+    "pronunciation": "短音 /ʌ/ 接 /nt/ 連綴。"
+  },
+  {
+    "word": "hurt",
+    "phonetic": "/hɜːrt/",
+    "meaning": "傷害；疼痛",
+    "example": "It hurts.（這很痛。）",
+    "hint": "跌倒膝蓋擦傷覺得痛。",
+    "pronunciation": "長音捲舌 /ɜːr/ 加短促 /t/。"
+  }
+]

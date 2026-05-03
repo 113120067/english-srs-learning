@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="zh-TW">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Global English SRS Web App</title>
+    <!-- Google Fonts for Modern Typography -->
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+    <div class="app-container">
+        <!-- Dashboard / Day Selector -->
+        <header class="dashboard glass-panel">
+            <h1>Global English SRS</h1>
+            <div class="controls">
+                <select id="day-selector">
+                    <!-- Populated by JS -->
+                </select>
+                <div class="status-summary" id="status-summary">
+                    Loading...
+                </div>
+            </div>
+        </header>
+
+        <!-- Flashcard Area -->
+        <main class="flashcard-container" id="flashcard-container" style="display: none;">
+            <div class="scene scene--card">
+                <div class="card" id="flashcard">
+                    
+                    <!-- Front of card -->
+                    <div class="card__face card__face--front glass-panel">
+                        <button class="tts-btn" id="tts-front" aria-label="Play pronunciation">🔊</button>
+                        <h2 class="word" id="word-front">Word</h2>
+                        <p class="phonetic" id="phonetic-front">/wɜːd/</p>
+                        <div class="hint-text">Tap to flip</div>
+                    </div>
+
+                    <!-- Back of card -->
+                    <div class="card__face card__face--back glass-panel">
+                        <button class="tts-btn" id="tts-back" aria-label="Play pronunciation">🔊</button>
+                        <div class="back-content">
+                            <h2 class="word" id="word-back">Word</h2>
+                            <p class="meaning" id="meaning-back">翻譯</p>
+                            
+                            <div class="section">
+                                <h3>Example 例句</h3>
+                                <p class="example" id="example-back">Example sentence here.</p>
+                            </div>
+                            
+                            <div class="section" id="hint-section">
+                                <h3>Hint 記憶提示</h3>
+                                <p class="hint" id="hint-back">Memory hint here.</p>
+                            </div>
+
+                            <div class="section" id="pronunciation-section">
+                                <h3>Pronunciation 發音要點</h3>
+                                <p class="pronunciation" id="pronunciation-back">Pronunciation tip here.</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Controls -->
+            <div class="action-controls">
+                <!-- Navigation -->
+                <button class="btn secondary" id="prev-btn">Prev</button>
+                <button class="btn secondary" id="next-btn">Next</button>
+            </div>
+            
+            <div class="srs-controls" id="srs-controls">
+                <!-- Status marking -->
+                <button class="btn srs-btn bad" id="mark-bad-btn">❌ 還不熟</button>
+                <button class="btn srs-btn good" id="mark-good-btn">✅ 記住了</button>
+            </div>
+        </main>
+        
+        <!-- Empty State -->
+        <div class="empty-state glass-panel" id="empty-state">
+            <h2>You've finished this lesson!</h2>
+            <p>Great job! Select another day to continue learning.</p>
+            <button class="btn primary mt-20" id="reset-day-btn">Review Again</button>
+        </div>
+    </div>
+
+    <script src="js/storage.js"></script>
+    <script src="js/tts.js"></script>
+    <script src="js/app.js"></script>
+</body>
+</html>

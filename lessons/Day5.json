@@ -1,0 +1,162 @@
+[
+  {
+    "word": "mix",
+    "phonetic": "/mɪks/",
+    "meaning": "混合",
+    "example": "Mix them together.（把它們混合在一起。）",
+    "hint": "用湯匙攪拌碗裡的料。",
+    "pronunciation": "字尾 /ks/ 要連續且清晰。"
+  },
+  {
+    "word": "mob",
+    "phonetic": "/mɑb/",
+    "meaning": "暴民",
+    "example": "An angry mob.（一群憤怒的暴民。）",
+    "hint": "一群生氣抗議的人。",
+    "pronunciation": "嘴巴張大發 /ɑ/，字尾 /b/ 閉唇。"
+  },
+  {
+    "word": "new",
+    "phonetic": "/nuː/ 或 /njuː/",
+    "meaning": "新的",
+    "example": "A new phone.（一支新手機。）",
+    "hint": "拆開剛買的禮物。",
+    "pronunciation": "美式常發 /nuː/，長元音。"
+  },
+  {
+    "word": "not",
+    "phonetic": "/nɑt/",
+    "meaning": "不",
+    "example": "It is not true.（這不是真的。）",
+    "hint": "搖頭並比出交叉手勢。",
+    "pronunciation": "字尾 /t/ 短促。"
+  },
+  {
+    "word": "now",
+    "phonetic": "/naʊ/",
+    "meaning": "現在",
+    "example": "Do it right now.（現在馬上做。）",
+    "hint": "指著手錶表示時間緊迫。",
+    "pronunciation": "雙元音 /aʊ/。"
+  },
+  {
+    "word": "off",
+    "phonetic": "/ɔf/ 或 /ɑf/",
+    "meaning": "開（離）；變壞",
+    "example": "Turn off the light.（關掉燈。）",
+    "hint": "按一下開關關燈。",
+    "pronunciation": "/f/ 上齒輕咬下唇吹氣。"
+  },
+  {
+    "word": "oil",
+    "phonetic": "/ɔɪl/",
+    "meaning": "油",
+    "example": "Add some oil.（加點油。）",
+    "hint": "往鍋裡倒食用油。",
+    "pronunciation": "雙元音 /ɔɪ/ 接 Dark L。"
+  },
+  {
+    "word": "old",
+    "phonetic": "/oʊld/",
+    "meaning": "老的",
+    "example": "He is very old.（他很老了。）",
+    "hint": "一位拄著拐杖的老爺爺。",
+    "pronunciation": "雙元音 /oʊ/ 接 /ld/ 輔音連綴。"
+  },
+  {
+    "word": "our",
+    "phonetic": "/aʊr/",
+    "meaning": "我們的（所有格）",
+    "example": "This is our house.（這是我們的房子。）",
+    "hint": "雙手環抱表示屬於大家。",
+    "pronunciation": "/aʊ/ 雙元音並加上捲舌音。"
+  },
+  {
+    "word": "out",
+    "phonetic": "/aʊt/",
+    "meaning": "出外",
+    "example": "Go out.（出去。）",
+    "hint": "指著門外的方向。",
+    "pronunciation": "/aʊ/ 加輕巧的字尾 /t/。"
+  },
+  {
+    "word": "owe",
+    "phonetic": "/oʊ/",
+    "meaning": "欠（債）；歸功於",
+    "example": "I owe you one.（我欠你一次人情。）",
+    "hint": "點頭表示感謝與虧欠。",
+    "pronunciation": "發音同字母 O。"
+  },
+  {
+    "word": "own",
+    "phonetic": "/oʊn/",
+    "meaning": "自己的；擁有",
+    "example": "My own room.（我自己的房間。）",
+    "hint": "雙手拍拍自己的胸膛。",
+    "pronunciation": "雙元音 /oʊ/ 後接鼻音 /n/。"
+  },
+  {
+    "word": "pan",
+    "phonetic": "/pæn/",
+    "meaning": "平底鍋",
+    "example": "A frying pan.（一個平底鍋。）",
+    "hint": "拿平底鍋煎荷包蛋。",
+    "pronunciation": "蝴蝶音 /æ/ 加上鼻音 /n/。"
+  },
+  {
+    "word": "pay",
+    "phonetic": "/peɪ/",
+    "meaning": "付款",
+    "example": "I will pay for it.（我會付款。）",
+    "hint": "從錢包拿出現金或刷卡。",
+    "pronunciation": "爆破音 /p/ 加雙元音 /eɪ/。"
+  },
+  {
+    "word": "pen",
+    "phonetic": "/pɛn/",
+    "meaning": "筆",
+    "example": "Use a pen to write.（用筆寫字。）",
+    "hint": "拿著一隻原子筆簽名。",
+    "pronunciation": "短元音 /ɛ/。"
+  },
+  {
+    "word": "pig",
+    "phonetic": "/pɪɡ/",
+    "meaning": "豬",
+    "example": "A fat pig.（一隻胖豬。）",
+    "hint": "農場裡圓滾滾的小豬。",
+    "pronunciation": "/p/ 輕微爆破，短促 /ɪ/。"
+  },
+  {
+    "word": "put",
+    "phonetic": "/pʊt/",
+    "meaning": "放",
+    "example": "Put it here.（把它放這裡。）",
+    "hint": "把書輕輕放下。",
+    "pronunciation": "短元音 /ʊ/，與 boot 的長音不同。"
+  },
+  {
+    "word": "ray",
+    "phonetic": "/reɪ/",
+    "meaning": "光線；射線",
+    "example": "A ray of light.（一束光線。）",
+    "hint": "窗簾縫隙透進來的陽光。",
+    "pronunciation": "/r/ 捲舌，滑向 /eɪ/。"
+  },
+  {
+    "word": "red",
+    "phonetic": "/rɛd/",
+    "meaning": "紅色的",
+    "example": "An apple is red.（蘋果是紅色的。）",
+    "hint": "一顆鮮紅的蘋果。",
+    "pronunciation": "/r/ 捲舌起始，接 /ɛd/。"
+  },
+  {
+    "word": "rob",
+    "phonetic": "/rɑb/",
+    "meaning": "搶劫",
+    "example": "They rob the bank.（他們搶銀行。）",
+    "hint": "蒙面大盜拿著袋子。",
+    "pronunciation": "捲舌音 /r/ 起始，大開口 /ɑ/。"
+  }
+]

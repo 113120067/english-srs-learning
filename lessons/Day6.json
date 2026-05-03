@@ -1,0 +1,162 @@
+[
+  {
+    "word": "row",
+    "phonetic": "/roʊ/",
+    "meaning": "划（船）；一列",
+    "example": "Row the boat.（划船。）",
+    "hint": "雙手拿槳划船的動作。",
+    "pronunciation": "捲舌 /r/ 後接雙元音 /oʊ/ 收圓。"
+  },
+  {
+    "word": "rub",
+    "phonetic": "/rʌb/",
+    "meaning": "摩擦",
+    "example": "Rub your hands.（摩擦你的雙手。）",
+    "hint": "冬天覺得冷搓手的動作。",
+    "pronunciation": "短元音 /ʌ/。"
+  },
+  {
+    "word": "run",
+    "phonetic": "/rʌn/",
+    "meaning": "跑",
+    "example": "Run fast.（跑快點。）",
+    "hint": "在操場上全力衝刺。",
+    "pronunciation": "鼻音 /n/ 收尾。"
+  },
+  {
+    "word": "sad",
+    "phonetic": "/sæd/",
+    "meaning": "難過的",
+    "example": "I feel sad.（覺得難過。）",
+    "hint": "皺著眉頭快哭了的表情。",
+    "pronunciation": "蝴蝶音 /æ/ 嘴巴張大。"
+  },
+  {
+    "word": "say",
+    "phonetic": "/seɪ/",
+    "meaning": "說",
+    "example": "Say hello.（說聲哈囉。）",
+    "hint": "揮手跟朋友打招呼講話。",
+    "pronunciation": "/s/ 氣流摩擦，接雙元音 /eɪ/。"
+  },
+  {
+    "word": "sea",
+    "phonetic": "/siː/",
+    "meaning": "海洋",
+    "example": "The deep blue sea.（深藍的海洋。）",
+    "hint": "海浪拍打沙灘的聲音。",
+    "pronunciation": "與 see 發音相同，長元音 /iː/。"
+  },
+  {
+    "word": "see",
+    "phonetic": "/siː/",
+    "meaning": "看見",
+    "example": "I can see you.（我能看見你。）",
+    "hint": "用雙手比出望遠鏡看遠方。",
+    "pronunciation": "長元音 /iː/ 嘴角拉長。"
+  },
+  {
+    "word": "set",
+    "phonetic": "/sɛt/",
+    "meaning": "置；放；一套",
+    "example": "A set of rules.（一套規則。）",
+    "hint": "把整套餐具擺好。",
+    "pronunciation": "短促的 /ɛ/，與 sit 的 /ɪ/ 不同。"
+  },
+  {
+    "word": "sex",
+    "phonetic": "/sɛks/",
+    "meaning": "性別",
+    "example": "Male sex.（男性性別。）",
+    "hint": "表格上的性別欄位。",
+    "pronunciation": "字尾 /ks/ 音要清楚。"
+  },
+  {
+    "word": "she",
+    "phonetic": "/ʃiː/",
+    "meaning": "她",
+    "example": "She is my friend.（她是我的朋友。）",
+    "hint": "指向一位女性朋友。",
+    "pronunciation": "/ʃ/ 雙唇向前微嘟發摩擦氣流。"
+  },
+  {
+    "word": "sit",
+    "phonetic": "/sɪt/",
+    "meaning": "坐",
+    "example": "Sit down, please.（請坐下。）",
+    "hint": "拉開椅子坐下來。",
+    "pronunciation": "短元音 /ɪ/。"
+  },
+  {
+    "word": "sky",
+    "phonetic": "/skaɪ/",
+    "meaning": "天空",
+    "example": "Look at the sky.（看天空。）",
+    "hint": "抬頭看滿天星星或藍天。",
+    "pronunciation": "輔音連綴 /sk/ 緊接雙元音。"
+  },
+  {
+    "word": "son",
+    "phonetic": "/sʌn/",
+    "meaning": "兒子",
+    "example": "My son is cute.（我兒子很可愛。）",
+    "hint": "想像一個活潑的小男孩。",
+    "pronunciation": "與 sun 發音完全一樣。"
+  },
+  {
+    "word": "spy",
+    "phonetic": "/spaɪ/",
+    "meaning": "間諜",
+    "example": "A secret spy.（一個秘密間諜。）",
+    "hint": "穿風衣戴墨鏡的情報員。",
+    "pronunciation": "/sp/ 連綴，/p/ 不需太用力爆破。"
+  },
+  {
+    "word": "sun",
+    "phonetic": "/sʌn/",
+    "meaning": "太陽",
+    "example": "The sun is bright.（太陽很明亮。）",
+    "hint": "夏天刺眼的烈日。",
+    "pronunciation": "/ʌ/ 後接鼻音 /n/。"
+  },
+  {
+    "word": "tax",
+    "phonetic": "/tæks/",
+    "meaning": "稅",
+    "example": "Pay your tax.（繳你的稅。）",
+    "hint": "收到國稅局的繳費單。",
+    "pronunciation": "蝴蝶音 /æ/ 加上 /ks/ 結尾。"
+  },
+  {
+    "word": "tea",
+    "phonetic": "/tiː/",
+    "meaning": "茶",
+    "example": "Drink hot tea.（喝熱茶。）",
+    "hint": "端著一杯冒煙的熱茶。",
+    "pronunciation": "清輔音 /t/ 加上長音 /iː/。"
+  },
+  {
+    "word": "the",
+    "phonetic": "/ðə/ 或 /ði/",
+    "meaning": "這；那（定冠詞）",
+    "example": "The dog is running.（那隻狗在跑。）",
+    "hint": "指著一隻特定的狗。",
+    "pronunciation": "有聲的咬舌音 /ð/。"
+  },
+  {
+    "word": "tie",
+    "phonetic": "/taɪ/",
+    "meaning": "綁；領帶",
+    "example": "Tie your shoes.（綁你的鞋帶。）",
+    "hint": "打蝴蝶結的動作。",
+    "pronunciation": "/t/ 輕吐氣，加上 /aɪ/。"
+  },
+  {
+    "word": "tin",
+    "phonetic": "/tɪn/",
+    "meaning": "錫；罐頭",
+    "example": "A tin can.（一個錫罐。）",
+    "hint": "打開一個鮪魚罐頭。",
+    "pronunciation": "短促的 /ɪ/，注意不要念成長音。"
+  }
+]

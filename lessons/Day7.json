@@ -1,0 +1,162 @@
+[
+  {
+    "word": "too",
+    "phonetic": "/tuː/",
+    "meaning": "也；太",
+    "example": "Me too.（我也一樣。）",
+    "hint": "舉手表示認同附和。",
+    "pronunciation": "長元音 /uː/，嘴唇要收圓向前。"
+  },
+  {
+    "word": "top",
+    "phonetic": "/tɑp/",
+    "meaning": "頂點；最上面",
+    "example": "The top of the mountain.（山頂。）",
+    "hint": "爬到山頂插旗子。",
+    "pronunciation": "母音 /ɑ/ 張大嘴，字尾 /p/ 輕收。"
+  },
+  {
+    "word": "try",
+    "phonetic": "/traɪ/",
+    "meaning": "嘗試",
+    "example": "Let me try.（讓我試試看。）",
+    "hint": "挽起袖子準備動手做。",
+    "pronunciation": "輔音叢 /tr/ 舌尖位置稍微後退。"
+  },
+  {
+    "word": "use",
+    "phonetic": "/juːz/ (動詞) 或 /juːs/ (名詞)",
+    "meaning": "使用",
+    "example": "Use your brain.（用你的大腦。）",
+    "hint": "拿工具起來操作。",
+    "pronunciation": "作動詞時結尾是濁輔音 /z/。"
+  },
+  {
+    "word": "war",
+    "phonetic": "/wɔr/",
+    "meaning": "戰爭",
+    "example": "World war.（世界大戰。）",
+    "hint": "兩軍對抗開砲的畫面。",
+    "pronunciation": "圓唇 /w/ 起頭，緊接 /ɔr/ 捲舌。"
+  },
+  {
+    "word": "way",
+    "phonetic": "/weɪ/",
+    "meaning": "方法；道路",
+    "example": "This way, please.（請走這邊。）",
+    "hint": "服務生伸手引導方向。",
+    "pronunciation": "雙元音 /eɪ/ 要發清楚。"
+  },
+  {
+    "word": "wet",
+    "phonetic": "/wɛt/",
+    "meaning": "濕的",
+    "example": "My hair is wet.（我的頭髮濕了。）",
+    "hint": "被大雨淋濕擰乾衣服。",
+    "pronunciation": "短促的 /ɛ/。"
+  },
+  {
+    "word": "who",
+    "phonetic": "/huː/",
+    "meaning": "誰",
+    "example": "Who are you?（你是誰？）",
+    "hint": "滿臉疑惑地指著陌生人。",
+    "pronunciation": "氣音 /h/ 起頭，長音 /uː/。"
+  },
+  {
+    "word": "why",
+    "phonetic": "/waɪ/",
+    "meaning": "為什麼",
+    "example": "Why do you ask?（你為什麼問？）",
+    "hint": "攤開雙手表示不解。",
+    "pronunciation": "/w/ 圓唇後接 /aɪ/。"
+  },
+  {
+    "word": "win",
+    "phonetic": "/wɪn/",
+    "meaning": "贏得",
+    "example": "We will win.（我們會贏。）",
+    "hint": "高舉獎盃歡呼。",
+    "pronunciation": "短促的 /ɪ/ 加鼻音結尾。"
+  },
+  {
+    "word": "yes",
+    "phonetic": "/jɛs/",
+    "meaning": "是",
+    "example": "Yes, I do.（是的，我願意。）",
+    "hint": "用力點頭。",
+    "pronunciation": "半母音 /j/ 起手。"
+  },
+  {
+    "word": "yet",
+    "phonetic": "/jɛt/",
+    "meaning": "（否定句）尚未",
+    "example": "Not yet.（還沒。）",
+    "hint": "搖手表示事情還沒做完。",
+    "pronunciation": "/jɛt/ 結尾 /t/ 短促。"
+  },
+  {
+    "word": "you",
+    "phonetic": "/juː/",
+    "meaning": "你",
+    "example": "Thank you.（謝謝你。）",
+    "hint": "手指向對面的朋友。",
+    "pronunciation": "長元音 /uː/。"
+  },
+  {
+    "word": "ally",
+    "phonetic": "/ˈælaɪ/",
+    "meaning": "同盟",
+    "example": "A strong ally.（一個強大的同盟。）",
+    "hint": "兩國領袖握手結盟。",
+    "pronunciation": "重音在第一音節 /ˈæ/。"
+  },
+  {
+    "word": "also",
+    "phonetic": "/ˈɔːlsoʊ/",
+    "meaning": "也",
+    "example": "He also went there.（他也去了那裡。）",
+    "hint": "比出「加一」的手勢。",
+    "pronunciation": "/ɔː/ 圓唇，舌尖頂上齒齦發 /l/。"
+  },
+  {
+    "word": "area",
+    "phonetic": "/ˈɛriə/",
+    "meaning": "區域",
+    "example": "A large area.（一個廣大的區域。）",
+    "hint": "拿筆在地圖上畫一個圈。",
+    "pronunciation": "三個音節 /ˈɛ/ + /ri/ + /ə/。"
+  },
+  {
+    "word": "army",
+    "phonetic": "/ˈɑrmi/",
+    "meaning": "軍隊",
+    "example": "Join the army.（加入軍隊。）",
+    "hint": "一群穿迷彩服的軍人。",
+    "pronunciation": "捲舌音 /ɑr/ 為重音。"
+  },
+  {
+    "word": "bend",
+    "phonetic": "/bɛnd/",
+    "meaning": "彎曲",
+    "example": "Bend your knees.（彎曲你的膝蓋。）",
+    "hint": "彎腰或蹲下的動作。",
+    "pronunciation": "/ɛ/ 接 /nd/ 連綴。"
+  },
+  {
+    "word": "best",
+    "phonetic": "/bɛst/",
+    "meaning": "最好的",
+    "example": "You are the best.（你是最棒的。）",
+    "hint": "拿著寫著第一名的金牌。",
+    "pronunciation": "/st/ 輔音連綴結尾。"
+  },
+  {
+    "word": "bill",
+    "phonetic": "/bɪl/",
+    "meaning": "帳單",
+    "example": "Pay the bill.（付帳單。）",
+    "hint": "看著餐廳的結帳單掏錢。",
+    "pronunciation": "短音 /ɪ/ 接 Dark L (/l/舌尖頂住不放)。"
+  }
+]

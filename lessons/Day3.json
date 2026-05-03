@@ -1,0 +1,162 @@
+[
+  {
+    "word": "fat",
+    "phonetic": "/fæt/",
+    "meaning": "肥胖的",
+    "example": "The cat is fat.（那隻貓很胖。）",
+    "hint": "想像一隻圓滾滾的胖貓。",
+    "pronunciation": "蝴蝶音 /æ/ 嘴巴張大，字尾 /t/ 短促。"
+  },
+  {
+    "word": "few",
+    "phonetic": "/fjuː/",
+    "meaning": "少數的",
+    "example": "I have a few books.（我有幾本書。）",
+    "hint": "想像書架上只有一點點書。",
+    "pronunciation": "/f/ 上齒輕咬下唇，連接長音 /juː/。"
+  },
+  {
+    "word": "fit",
+    "phonetic": "/fɪt/",
+    "meaning": "適合；健康的",
+    "example": "These shoes fit me well.（這雙鞋很合我的腳。）",
+    "hint": "穿鞋子剛好的感覺。",
+    "pronunciation": "短促的 /ɪ/，不要拉長成 /i/。"
+  },
+  {
+    "word": "fix",
+    "phonetic": "/fɪks/",
+    "meaning": "修理",
+    "example": "Can you fix it?（你能修理它嗎？）",
+    "hint": "拿工具敲敲打打修理東西。",
+    "pronunciation": "字尾的 /ks/ 音要連貫清楚發出。"
+  },
+  {
+    "word": "fly",
+    "phonetic": "/flaɪ/",
+    "meaning": "飛；蒼蠅",
+    "example": "The bird can fly.（鳥兒會飛。）",
+    "hint": "小鳥拍打翅膀飛走。",
+    "pronunciation": "/fl/ 輔音叢發音流暢，接雙元音 /aɪ/。"
+  },
+  {
+    "word": "fog",
+    "phonetic": "/fɑɡ/ 或 /fɔɡ/",
+    "meaning": "霧",
+    "example": "I can't see in the fog.（在霧中我看不見。）",
+    "hint": "眼前一片白茫茫的霧氣。",
+    "pronunciation": "字尾 /ɡ/ 有輕微的聲帶震動爆破。"
+  },
+  {
+    "word": "for",
+    "phonetic": "/fɔr/（重讀）或 /fɚ/（弱讀）",
+    "meaning": "為了；因為",
+    "example": "This is for you.（這是給你的。）",
+    "hint": "遞出禮物的動作。",
+    "pronunciation": "有明顯的美式捲舌 /r/ 音。"
+  },
+  {
+    "word": "fun",
+    "phonetic": "/fʌn/",
+    "meaning": "樂趣；好玩的",
+    "example": "Learning is fun.（學習很有趣。）",
+    "hint": "開心大笑的樣子。",
+    "pronunciation": "短元音 /ʌ/ 發音短促有力。"
+  },
+  {
+    "word": "gas",
+    "phonetic": "/ɡæs/",
+    "meaning": "瓦斯；汽車燃油",
+    "example": "Put gas in the car.（幫車子加油。）",
+    "hint": "加油站加油的畫面。",
+    "pronunciation": "蝴蝶音 /æ/ 加上清楚的字尾 /s/ 摩擦音。"
+  },
+  {
+    "word": "get",
+    "phonetic": "/ɡɛt/",
+    "meaning": "取得",
+    "example": "Let's get started.（我們開始吧。）",
+    "hint": "伸手拿取物品。",
+    "pronunciation": "半開口母音 /ɛ/，短促俐落。"
+  },
+  {
+    "word": "god",
+    "phonetic": "/ɡɑd/",
+    "meaning": "神",
+    "example": "Oh my god!（喔我的天！）",
+    "hint": "驚訝時仰頭看的動作。",
+    "pronunciation": "母音 /ɑ/，注意字首字尾的濁輔音。"
+  },
+  {
+    "word": "gun",
+    "phonetic": "/ɡʌn/",
+    "meaning": "槍",
+    "example": "Put down the gun.（放下槍。）",
+    "hint": "手指比出開槍的姿勢。",
+    "pronunciation": "/ʌ/ 後接鼻音 /n/ 結尾。"
+  },
+  {
+    "word": "guy",
+    "phonetic": "/ɡaɪ/",
+    "meaning": "男人；傢伙",
+    "example": "He is a nice guy.（他是個好傢伙。）",
+    "hint": "拍拍好哥們的肩膀。",
+    "pronunciation": "雙元音 /aɪ/ 飽滿。"
+  },
+  {
+    "word": "hat",
+    "phonetic": "/hæt/",
+    "meaning": "帽子",
+    "example": "Wear a hat.（戴上一頂帽子。）",
+    "hint": "拿一頂草帽戴在頭上。",
+    "pronunciation": "氣音 /h/ 加上蝴蝶音 /æ/。"
+  },
+  {
+    "word": "her",
+    "phonetic": "/hɚ/ 或 /hɜr/",
+    "meaning": "她的（所有格）；她（受格）",
+    "example": "I know her.（我認識她。）",
+    "hint": "指向遠方的一位女性。",
+    "pronunciation": "捲舌音 /ɚ/ 要明顯。"
+  },
+  {
+    "word": "him",
+    "phonetic": "/hɪm/",
+    "meaning": "他（受格）",
+    "example": "Tell him the truth.（告訴他真相。）",
+    "hint": "對著一位男性說話。",
+    "pronunciation": "/ɪ/ 短音後，嘴唇緊閉發鼻音 /m/。"
+  },
+  {
+    "word": "his",
+    "phonetic": "/hɪz/",
+    "meaning": "他的（所有格）",
+    "example": "That is his car.（那是他的車。）",
+    "hint": "看著一台男士開的車。",
+    "pronunciation": "注意字尾是濁輔音 /z/，聲帶要震動。"
+  },
+  {
+    "word": "hit",
+    "phonetic": "/hɪt/",
+    "meaning": "打；擊",
+    "example": "Do not hit the wall.（不要打牆壁。）",
+    "hint": "用手用力拍打桌子。",
+    "pronunciation": "短促的 /ɪ/ 加 /t/，發音要有力量。"
+  },
+  {
+    "word": "hot",
+    "phonetic": "/hɑt/",
+    "meaning": "熱的",
+    "example": "The soup is hot.（湯很燙。）",
+    "hint": "喝到熱湯呼氣的樣子。",
+    "pronunciation": "/h/ 起頭，嘴巴張開發 /ɑ/ 音。"
+  },
+  {
+    "word": "how",
+    "phonetic": "/haʊ/",
+    "meaning": "如何",
+    "example": "How are you?（你好嗎？）",
+    "hint": "見面打招呼的笑容。",
+    "pronunciation": "雙元音 /aʊ/，嘴形由開到收圓。"
+  }
+]

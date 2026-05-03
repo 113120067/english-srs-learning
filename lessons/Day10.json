@@ -1,0 +1,162 @@
+[
+  {
+    "word": "dust",
+    "phonetic": "/dʌst/",
+    "meaning": "灰塵",
+    "example": "Wipe off the dust.（擦掉灰塵。）",
+    "hint": "用抹布擦拭佈滿灰塵的桌子。",
+    "pronunciation": "短元音 /ʌ/ 接 /st/ 連綴。"
+  },
+  {
+    "word": "duty",
+    "phonetic": "/ˈduːti/ 或 /ˈdjuːti/",
+    "meaning": "職務；責任",
+    "example": "It is my duty.（這是我的職責。）",
+    "hint": "警察穿著制服值班。",
+    "pronunciation": "重音在第一音節。"
+  },
+  {
+    "word": "each",
+    "phonetic": "/iːtʃ/",
+    "meaning": "每一個",
+    "example": "Each of us.（我們每個人。）",
+    "hint": "發禮物給每一個人。",
+    "pronunciation": "長音 /iː/ 接氣音 /tʃ/。"
+  },
+  {
+    "word": "earn",
+    "phonetic": "/ɜːrn/",
+    "meaning": "賺得",
+    "example": "Earn some money.（賺些錢。）",
+    "hint": "努力工作後拿到薪水。",
+    "pronunciation": "長捲舌音 /ɜːr/ 加鼻音 /n/。"
+  },
+  {
+    "word": "east",
+    "phonetic": "/iːst/",
+    "meaning": "東方",
+    "example": "The sun rises in the east.（太陽從東方升起。）",
+    "hint": "指著羅盤上的 E。",
+    "pronunciation": "長音 /iː/ 接 /st/。"
+  },
+  {
+    "word": "easy",
+    "phonetic": "/ˈiːzi/",
+    "meaning": "簡單的",
+    "example": "Take it easy.（放輕鬆。）",
+    "hint": "閉著眼睛就能完成任務。",
+    "pronunciation": "中間是濁輔音 /z/，聲帶要震動。"
+  },
+  {
+    "word": "edge",
+    "phonetic": "/ɛdʒ/",
+    "meaning": "邊緣",
+    "example": "The edge of the table.（桌子的邊緣。）",
+    "hint": "杯子快要從桌邊掉下去。",
+    "pronunciation": "短音 /ɛ/ 接濁輔音 /dʒ/。"
+  },
+  {
+    "word": "else",
+    "phonetic": "/ɛls/",
+    "meaning": "其他",
+    "example": "Anything else?（還要其他的嗎？）",
+    "hint": "點完餐服務生問還有沒有。",
+    "pronunciation": "短音 /ɛ/ 接 Dark L 加 /s/。"
+  },
+  {
+    "word": "even",
+    "phonetic": "/ˈiːvən/",
+    "meaning": "即使；平坦的",
+    "example": "Even if it rains.（即使下雨。）",
+    "hint": "雙手比出平平的水平線。",
+    "pronunciation": "重音在第一，中間是上齒輕咬下唇的 /v/。"
+  },
+  {
+    "word": "ever",
+    "phonetic": "/ˈɛvər/",
+    "meaning": "在任何時候；永遠",
+    "example": "Have you ever been there?（你去過那裡嗎？）",
+    "hint": "回想過去的所有時間。",
+    "pronunciation": "第一音節 /ɛ/，第二音節 /v/ 接捲舌。"
+  },
+  {
+    "word": "evil",
+    "phonetic": "/ˈiːvəl/",
+    "meaning": "邪惡",
+    "example": "An evil plan.（一個邪惡的計畫。）",
+    "hint": "電影裡的壞蛋在冷笑。",
+    "pronunciation": "重音在第一，結尾是 Dark L。"
+  },
+  {
+    "word": "exit",
+    "phonetic": "/ˈɛɡzɪt/ 或 /ˈɛksɪt/",
+    "meaning": "出口",
+    "example": "Where is the exit?（出口在哪裡？）",
+    "hint": "抬頭看綠色的安全門標誌。",
+    "pronunciation": "美式常發為帶震動的 /ˈɛɡzɪt/。"
+  },
+  {
+    "word": "face",
+    "phonetic": "/feɪs/",
+    "meaning": "臉孔；面對",
+    "example": "Wash your face.（洗臉。）",
+    "hint": "早上看著鏡子裡的臉。",
+    "pronunciation": "/f/ 起頭，雙元音 /eɪ/，清輔音 /s/ 結尾。"
+  },
+  {
+    "word": "fact",
+    "phonetic": "/fækt/",
+    "meaning": "事實",
+    "example": "It is a fact.（這是一個事實。）",
+    "hint": "拿出一份充滿數據的報告。",
+    "pronunciation": "蝴蝶音 /æ/ 接 /kt/ 連綴。"
+  },
+  {
+    "word": "fail",
+    "phonetic": "/feɪl/",
+    "meaning": "失敗",
+    "example": "I won't fail.（我不會失敗。）",
+    "hint": "考卷上大大的紅字 F。",
+    "pronunciation": "雙元音 /eɪ/ 接 Dark L。"
+  },
+  {
+    "word": "fair",
+    "phonetic": "/fɛr/",
+    "meaning": "公平的；白皙的",
+    "example": "It is not fair.（這不公平。）",
+    "hint": "天平兩邊重量一樣重。",
+    "pronunciation": "上齒咬下唇發 /f/，滑向捲舌的 /ɛr/。"
+  },
+  {
+    "word": "fall",
+    "phonetic": "/fɔːl/",
+    "meaning": "落下；秋天",
+    "example": "Don't fall down.（別摔倒了。）",
+    "hint": "秋天黃葉從樹上掉落。",
+    "pronunciation": "不捲舌的 /ɔː/ 接 Dark L。"
+  },
+  {
+    "word": "fast",
+    "phonetic": "/fæst/",
+    "meaning": "迅速的",
+    "example": "Run very fast.（跑得非常快。）",
+    "hint": "跑車呼嘯而過的殘影。",
+    "pronunciation": "蝴蝶音 /æ/ 接 /st/。"
+  },
+  {
+    "word": "fear",
+    "phonetic": "/fɪr/",
+    "meaning": "恐懼",
+    "example": "Face your fear.（面對你的恐懼。）",
+    "hint": "看恐怖片時害怕發抖。",
+    "pronunciation": "短音 /ɪ/ 滑向捲舌 /r/。"
+  },
+  {
+    "word": "feed",
+    "phonetic": "/fiːd/",
+    "meaning": "餵；飼料",
+    "example": "Feed the dog.（餵狗。）",
+    "hint": "倒飼料進狗碗裡。",
+    "pronunciation": "長音 /iː/ 接濁輔音 /d/。"
+  }
+]

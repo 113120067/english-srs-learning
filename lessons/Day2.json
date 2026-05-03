@@ -1,0 +1,162 @@
+[
+  {
+    "word": "arm",
+    "phonetic": "/ɑrm/",
+    "meaning": "手臂",
+    "example": "He has a strong arm.（他有強壯的手臂。）",
+    "hint": "想像舉起手臂秀肌肉。",
+    "pronunciation": "美式捲舌 /r/ 音明顯，由 /ɑ/ 平順過渡到 /m/ 閉唇；跟讀 3 次。"
+  },
+  {
+    "word": "big",
+    "phonetic": "/bɪɡ/",
+    "meaning": "大的",
+    "example": "This is a big box.（這是一個大盒子。）",
+    "hint": "雙手畫一個大圓圈。",
+    "pronunciation": "短元音 /ɪ/ 不要拉長成 /i/，字尾 /ɡ/ 輕微爆破；跟讀 3 次。"
+  },
+  {
+    "word": "bit",
+    "phonetic": "/bɪt/",
+    "meaning": "一點；碎片",
+    "example": "I need a little bit.（我需要一點點。）",
+    "hint": "用兩根手指比出「一點點」的距離。",
+    "pronunciation": "短促的 /ɪ/，字尾 /t/ 舌尖輕觸上齒齦即可，不需太過用力。"
+  },
+  {
+    "word": "box",
+    "phonetic": "/bɑks/",
+    "meaning": "盒子",
+    "example": "Put it in the box.（把它放進盒子裡。）",
+    "hint": "想像一個方形的紙箱。",
+    "pronunciation": "美式多發 /ɑ/ 音，字尾是 /k/ + /s/ 兩個輔音連續；跟讀 3 次。"
+  },
+  {
+    "word": "boy",
+    "phonetic": "/bɔɪ/",
+    "meaning": "男孩",
+    "example": "He is a good boy.（他是個好男孩。）",
+    "hint": "聯想一個小男生。",
+    "pronunciation": "雙元音 /ɔɪ/，口形由圓變扁平；注意發音飽滿。"
+  },
+  {
+    "word": "cow",
+    "phonetic": "/kaʊ/",
+    "meaning": "母牛",
+    "example": "The cow is eating grass.（母牛在吃草。）",
+    "hint": "想像一頭黑白相間的乳牛。",
+    "pronunciation": "雙元音 /aʊ/，口形張開後收圓；跟讀 3 次。"
+  },
+  {
+    "word": "cry",
+    "phonetic": "/kraɪ/",
+    "meaning": "哭；喊",
+    "example": "Please do not cry.（請不要哭。）",
+    "hint": "想像流眼淚的表情。",
+    "pronunciation": "輔音叢 /kr/ 要連貫，緊接雙元音 /aɪ/；錄音一次檢視 /kr/ 是否清晰。"
+  },
+  {
+    "word": "cup",
+    "phonetic": "/kʌp/",
+    "meaning": "杯子",
+    "example": "A cup of tea.（一杯茶。）",
+    "hint": "想像手裡拿著一個馬克杯。",
+    "pronunciation": "短元音 /ʌ/ 發音短促有力，字尾 /p/ 輕微爆破；跟讀 3 次。"
+  },
+  {
+    "word": "cut",
+    "phonetic": "/kʌt/",
+    "meaning": "切開",
+    "example": "Cut the apple.（切開那顆蘋果。）",
+    "hint": "想像用剪刀或刀子切東西的動作。",
+    "pronunciation": "與 cup 的母音相同 /ʌ/，字尾換成短促的 /t/。"
+  },
+  {
+    "word": "day",
+    "phonetic": "/deɪ/",
+    "meaning": "日；白天",
+    "example": "Have a nice day.（祝你有美好的一天。）",
+    "hint": "想像太陽升起的白天。",
+    "pronunciation": "雙元音 /eɪ/ 要發完整，不要只發成短音 /ɛ/；跟讀 3 次。"
+  },
+  {
+    "word": "die",
+    "phonetic": "/daɪ/",
+    "meaning": "死",
+    "example": "Plants die without water.（植物沒有水會死。）",
+    "hint": "聯想枯萎的花。",
+    "pronunciation": "雙元音 /aɪ/，與 Day 1 的 `I` 發音相同，加上字首 /d/。"
+  },
+  {
+    "word": "dig",
+    "phonetic": "/dɪɡ/",
+    "meaning": "挖掘",
+    "example": "Dig a hole.（挖個洞。）",
+    "hint": "想像拿鏟子挖土的動作。",
+    "pronunciation": "短元音 /ɪ/，字尾 /ɡ/ 輕微發出，不要拖長音。"
+  },
+  {
+    "word": "dog",
+    "phonetic": "/dɔɡ/ 或 /dɑɡ/",
+    "meaning": "狗",
+    "example": "I have a cute dog.（我有一隻可愛的狗。）",
+    "hint": "想像你最喜歡的狗狗。",
+    "pronunciation": "美式常發 /ɑ/ 或 /ɔ/，字首 /d/ 和字尾 /ɡ/ 要清楚。"
+  },
+  {
+    "word": "dry",
+    "phonetic": "/draɪ/",
+    "meaning": "乾燥的",
+    "example": "The clothes are dry.（衣服乾了。）",
+    "hint": "想像大太陽曬乾衣服。",
+    "pronunciation": "輔音叢 /dr/ 舌頭要捲起，雙元音 /aɪ/ 收尾；錄音檢查 /dr/ 聲音。"
+  },
+  {
+    "word": "ear",
+    "phonetic": "/ɪr/",
+    "meaning": "耳朵",
+    "example": "My ear hurts.（我的耳朵痛。）",
+    "hint": "摸摸自己的耳朵。",
+    "pronunciation": "母音 /ɪ/ 緊接捲舌的 /r/，發音時舌頭往後收。"
+  },
+  {
+    "word": "eat",
+    "phonetic": "/it/",
+    "meaning": "吃",
+    "example": "Eat your food.（吃你的食物。）",
+    "hint": "想像把食物放進嘴裡。",
+    "pronunciation": "長元音 /i/（或標為 /iː/），嘴角微拉，字尾 /t/ 短促；跟讀 3 次。"
+  },
+  {
+    "word": "egg",
+    "phonetic": "/ɛɡ/",
+    "meaning": "蛋",
+    "example": "I eat an egg.（我吃一顆蛋。）",
+    "hint": "想像一顆白色的雞蛋。",
+    "pronunciation": "短元音 /ɛ/ 嘴巴半開，字尾 /ɡ/ 輕微爆破。"
+  },
+  {
+    "word": "end",
+    "phonetic": "/ɛnd/",
+    "meaning": "結束",
+    "example": "This is the end.（這是結局。）",
+    "hint": "電影結尾出現的「The End」。",
+    "pronunciation": "/ɛ/ 加上鼻音 /n/，最後以 /d/ 收尾，注意 /nd/ 輔音連綴。"
+  },
+  {
+    "word": "eye",
+    "phonetic": "/aɪ/",
+    "meaning": "眼睛",
+    "example": "Close your eyes.（閉上你的眼睛。）",
+    "hint": "指著自己的眼睛。",
+    "pronunciation": "雙元音 /aɪ/，發音與字母 I 或單字 I 相同；跟讀 3 次。"
+  },
+  {
+    "word": "far",
+    "phonetic": "/fɑr/",
+    "meaning": "遙遠的",
+    "example": "It is not far.（距離不遠。）",
+    "hint": "用手指向遠方的山。",
+    "pronunciation": "上齒輕咬下唇發 /f/，接 /ɑ/ 並帶出明顯的捲舌 /r/ 音。"
+  }
+]
