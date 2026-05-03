@@ -35,6 +35,19 @@
   - 在 `checkVideoTime()` 中加入防呆機制：`if (Date.now() - lastSeekTime < 500) return;`。
   - **效果**：每次要求影片跳轉後，程式會強制「閉眼 0.5 秒」不檢查時間，給予播放器充足的緩衝空間，徹底解決了誤判暫停的問題。
 
+### 🐛 Issue 3：字幕不動 & 第一次自動播放立即暫停（深度追查）
+- **現象描述**：
+  1. **字幕不動**：切換天數後，卡片內容不隨句子更新，停在第一句不動。
+  2. **首次自動暫停**：點擊「開始播放」後，影片播一下就立刻暫停，無法正常播放第一句。
+- **根本原因（三層）**：
+  1. **`loadDayData()` 時序錯誤**：播放器已存在時，程式在 `loadVideoById()`（非同步）完成前立刻呼叫 `startSegment()`，導致播放器狀態混亂，後續卡片更新全部失效。
+  2. **DOM Layout Reflow 衝突**：`showFlashcardState()` 將 `video-wrapper` 從 `display:none` 切換為 `display:block` 時，YouTube IFrame 需要一個渲染週期重新計算尺寸。在 Reflow 完成前立刻下播放命令，播放器行為不穩定，導致第一次播放命令被靜默忽略或立刻暫停。
+  3. **`checkVideoTime()` 同 tick Race Condition**：`seekedAndPlaying = true`（確認 seek 完成）與 `>= endTime`（終止判斷）在同一個函式呼叫（tick）中執行，確認的瞬間就可能觸發終止。
+- **解決方案（三處精準修改，已套用至 `js/video.js`）**：
+  - **Fix #1**：`checkVideoTime()` 在 `seekedAndPlaying = true` 後立刻 `return`，將確認與終止判斷分在不同 tick，消除 Race Condition。
+  - **Fix #2**：`startVideoBtn` 事件改用**雙重 `requestAnimationFrame`**，等待瀏覽器完成兩個渲染幀（Layout Reflow 穩定後）再呼叫 `startSegment()`。
+  - **Fix #3**：`loadDayData()` 的 else 分支移除 `startSegment()` 的立即呼叫，改為 `player.stopVideo()` + `showStartState()`，讓使用者重新點擊「開始播放」，確保播放命令在播放器完全就緒後才發出。
+
 ## 5. 後續發展建議 (Future Work)
 - 開發或串接 Python 自動化腳本，直接將 YouTube 自動字幕 (SRT/VTT) 轉換為本系統所需的 JSON 格式，降低人工標記 `startTime` / `endTime` 的負擔。
 - 未來可考慮實作 V2 規劃中的「沉浸模式 (Immersive Mode)」，提供連續播放與自動滾動高亮字卡的功能。

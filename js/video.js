@@ -63,7 +63,13 @@ async function init() {
             return;
         }
         showFlashcardState();
-        startSegment();
+        // Fix #2: 等待瀏覽器完成 Layout Reflow（display:none → block）後再播放
+        // 雙重 rAF 確保 YouTube IFrame 尺寸穩定，避免第一次播放立即暫停
+        requestAnimationFrame(() => {
+            requestAnimationFrame(() => {
+                startSegment();
+            });
+        });
     });
 }
 
@@ -110,9 +116,11 @@ async function loadDayData(day) {
             window.pendingVideoId = result.videoID;
         }
     } else {
-        // Player exists, just load new video
+        // Fix #3: loadVideoById() 是非同步的，不可立刻呼叫 startSegment()
+        // 改為先停止播放，回到待機畫面讓使用者重新點擊「開始播放」
         player.loadVideoById(result.videoID);
-        startSegment();
+        player.stopVideo();
+        showStartState();
     }
 }
 
@@ -199,12 +207,13 @@ function checkVideoTime() {
         const currentTime = player.getCurrentTime();
         
         if (!seekedAndPlaying) {
-            // Confirm we have actually seeked to a time before the end time
-            // This prevents stale times from causing immediate pauses
+            // Fix #1: 確認 seek 已完成（當前時間 < endTime）後立刻 return
+            // 將「確認」與「終止判斷」分在不同的 poll tick，消除同一 tick 內的 Race Condition
             if (currentTime < currentSegment.endTime) {
                 seekedAndPlaying = true;
+                return; // 本 tick 僅做確認，下一個 tick 才開始監控終止點
             } else {
-                return; // wait for seek to finish
+                return; // seek 尚未完成，繼續等待
             }
         }
 

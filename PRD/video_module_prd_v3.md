@@ -64,3 +64,121 @@ JSON 檔案 (`lessons/video_Day1.json`) 結構規範（移除發音提示，簡�
 ## 6. 動力激勵與管理
 * **完課語錄**：每日內容完成後，顯示隨機鼓勵文字。
 * **進度隔離**：影音背誦的 SRS 進度與一般單字卡進度分開儲存於 LocalStorage，避免互相干擾。
+
+---
+
+## 7. 技術約束與已知限制 (Technical Constraints)
+
+### 7.1 YouTube IFrame API 非同步特性
+YouTube IFrame API 的所有播放控制（`seekTo`、`playVideo`、`loadVideoById`）均為**非同步操作**，呼叫後播放器內部狀態需要 200–500ms 的緩衝才會穩定。任何在 API 呼叫後立即讀取播放狀態（如 `getCurrentTime()`）的行為，均可能取得過期數值。
+
+### 7.2 瀏覽器自動播放政策 (Autoplay Policy)
+現代瀏覽器（尤其 Chrome/Safari）限制無使用者互動的媒體自動播放。本系統採用「Start 按鈕觸發首次播放」設計，確保播放命令源自**明確的使用者互動事件 (User Gesture)**，以規避自動播放封鎖。
+
+### 7.3 DOM Layout Reflow 時間差
+當父容器從 `display: none` 切換為 `display: block` 時，瀏覽器需要一個渲染週期（Rendering Frame）重新計算元素尺寸。若在此 Reflow 完成前對 YouTube IFrame 發出播放命令，播放器可能因尺寸未確定而行為異常。
+
+---
+
+## 8. 已知 Bug 根因分析與修正方案 (Bug Analysis & Fix)
+
+### 🐛 Bug 1：字幕（卡片）不會動
+
+**根本原因**：`loadDayData()` 在播放器已存在時的邏輯錯誤（`video.js` Line 112–116）。
+
+```javascript
+// ❌ 問題程式碼
+} else {
+    player.loadVideoById(result.videoID); // 非同步，尚未完成
+    startSegment();                        // 立刻呼叫，時序錯誤
+}
+```
+
+`loadVideoById()` 尚未完成時，`startSegment()` 就執行 `seekTo()` + `playVideo()`，造成播放器狀態混亂，後續所有卡片更新邏輯均跟著失效。
+
+**修正方案**：移除 `startSegment()` 的立即呼叫，改呼叫 `showStartState()`，讓使用者重新點擊「開始播放」。
+
+```javascript
+// ✅ 修正後
+} else {
+    player.loadVideoById(result.videoID);
+    player.stopVideo();
+    showStartState(); // 回到待機畫面，使用者自行點擊開始
+}
+```
+
+---
+
+### 🐛 Bug 2：第一次自動播放後立即暫停
+
+**根本原因**：兩個疊加問題同時發生。
+
+**問題 A — DOM Layout Reflow 衝突**（`video.js` Line 60–67）：
+
+```javascript
+// ❌ 問題程式碼
+showFlashcardState(); // display:none → block（觸發 Layout Reflow）
+startSegment();       // 立刻下播放命令，播放器渲染尚未穩定
+```
+
+**修正方案**：使用雙重 `requestAnimationFrame`，等待瀏覽器完成兩個渲染幀後再播放。
+
+```javascript
+// ✅ 修正後
+showFlashcardState();
+requestAnimationFrame(() => {
+    requestAnimationFrame(() => {
+        startSegment(); // 確保 Layout Reflow 完成後再播放
+    });
+});
+```
+
+**問題 B — `checkVideoTime()` 防呆邏輯缺陷**：
+
+```javascript
+// ❌ 問題程式碼（在同一個 tick 內完成確認與終止判斷）
+if (currentTime < currentSegment.endTime) {
+    seekedAndPlaying = true; // 確認 seek 完成
+}
+// 緊接著在同一個 tick 內判斷是否 >= endTime，無緩衝！
+if (currentTime >= currentSegment.endTime) {
+    player.pauseVideo();
+}
+```
+
+**修正方案**：`seekedAndPlaying = true` 後立刻 `return`，下一個 poll tick 才進行終止判斷。
+
+```javascript
+// ✅ 修正後
+if (!seekedAndPlaying) {
+    if (currentTime < currentSegment.endTime) {
+        seekedAndPlaying = true;
+        return; // 關鍵：本 tick 僅做確認，下一 tick 才開始監控終止
+    } else {
+        return;
+    }
+}
+if (currentTime >= currentSegment.endTime) {
+    player.pauseVideo();
+    clearInterval(checkTimeInterval);
+}
+```
+
+---
+
+### 修正清單摘要
+
+| # | 檔案 | 位置 | 修改說明 |
+|---|------|------|---------|
+| 1 | `js/video.js` | `checkVideoTime()` | `seekedAndPlaying = true` 後立刻 `return` |
+| 2 | `js/video.js` | `startVideoBtn` 事件 | 改用雙重 `requestAnimationFrame` 延遲播放 |
+| 3 | `js/video.js` | `loadDayData()` else 分支 | 移除 `startSegment()`，改為 `showStartState()` |
+
+---
+
+## 9. 後續發展建議 (Future Work)
+
+* **自動化字幕轉換**：開發或串接 Python 腳本，將 YouTube 自動字幕（SRT/VTT 格式）直接轉換為本系統的 JSON 格式，大幅降低人工標記 `startTime`/`endTime` 的成本。
+* **沉浸模式 (Immersive Mode)**：實作 V2 規劃的連續播放模式，支援自動滾動高亮字幕，提供更流暢的聆聽體驗。
+* **播放速度控制**：串接 `player.setPlaybackRate()` API，實作 0.75x / 1.0x 切換按鈕。
+* **離線快取**：利用 Service Worker 快取 JSON 教材，支援無網路狀態下的學習。
