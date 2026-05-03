@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="zh-TW">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>YouTube API Segment Playback PoC</title>
+    <style>
+        body { font-family: sans-serif; background: #121212; color: #fff; padding: 20px; text-align: center; }
+        #player { border-radius: 10px; overflow: hidden; margin-bottom: 20px; }
+        button { padding: 10px 20px; margin: 5px; cursor: pointer; background: #4CAF50; color: white; border: none; border-radius: 5px; font-size: 16px; }
+        #status { margin-top: 15px; font-size: 18px; color: #aaa; }
+        .card { background: rgba(255, 255, 255, 0.1); padding: 20px; border-radius: 10px; display: inline-block; text-align: left; max-width: 400px; backdrop-filter: blur(10px); }
+        .clickable { color: #4CAF50; text-decoration: underline; cursor: pointer; }
+    </style>
+</head>
+<body>
+
+    <h2>YouTube 片段鎖定與播放驗證 (PoC)</h2>
+    <div id="player"></div>
+    
+    <div>
+        <button id="btn-play">播放片段 (12.5s - 18.2s)</button>
+        <button id="btn-speed">切換語速 (0.75x / 1.0x)</button>
+    </div>
+
+    <div id="status">準備就緒</div>
+
+    <div class="card" style="margin-top: 20px;">
+        <h3>句子 (Click-to-Translate PoC)</h3>
+        <!-- 模擬點擊查詞，將關鍵字用 span 包起來 -->
+        <p id="sentence">I am <span class="clickable" onclick="alert('honored: 感到榮幸的 /\\ˈɑːnərd/\\')">honored</span> to be with you today.</p>
+        <p style="color: #bbb;">我很榮幸今天能與你們在一起。</p>
+    </div>
+
+    <script>
+        // YouTube Player API 載入
+        var tag = document.createElement('script');
+        tag.src = "https://www.youtube.com/iframe_api";
+        var firstScriptTag = document.getElementsByTagName('script')[0];
+        firstScriptTag.parentNode.insertBefore(tag, firstScriptTag);
+
+        var player;
+        var checkInterval;
+        var endTime = 18.2;
+        var currentRate = 1.0;
+
+        function onYouTubeIframeAPIReady() {
+            player = new YT.Player('player', {
+                height: '240',
+                width: '360',
+                videoId: 'UF8uR6Z6KLc', // Steve Jobs speech
+                playerVars: {
+                    'playsinline': 1,
+                    'controls': 1,
+                    'rel': 0,
+                    'disablekb': 1
+                },
+                events: {
+                    'onReady': onPlayerReady
+                }
+            });
+        }
+
+        function onPlayerReady(event) {
+            document.getElementById('btn-play').addEventListener('click', function() {
+                playSegment(12.5, 18.2);
+            });
+
+            document.getElementById('btn-speed').addEventListener('click', function() {
+                currentRate = currentRate === 1.0 ? 0.75 : 1.0;
+                player.setPlaybackRate(currentRate);
+                document.getElementById('status').innerText = `目前語速: ${currentRate}x`;
+            });
+        }
+
+        function playSegment(start, end) {
+            clearInterval(checkInterval);
+            endTime = end;
+            player.seekTo(start, true);
+            player.playVideo();
+            document.getElementById('status').innerText = `播放中... 目標暫停時間: ${endTime}s`;
+
+            // 使用 setInterval 監控時間，以實現精準暫停 (MVP 可行性核心)
+            checkInterval = setInterval(function() {
+                if (player.getPlayerState() === YT.PlayerState.PLAYING) {
+                    var currentTime = player.getCurrentTime();
+                    if (currentTime >= endTime) {
+                        player.pauseVideo();
+                        clearInterval(checkInterval);
+                        document.getElementById('status').innerText = `已在 ${currentTime.toFixed(2)}s 暫停 (Drill Mode 觸發)`;
+                    }
+                }
+            }, 50); // 每 50ms 檢查一次
+        }
+    </script>
+</body>
+</html>
