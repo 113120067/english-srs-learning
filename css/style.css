@@ -24,16 +24,19 @@ body {
                       radial-gradient(circle at bottom left, #312e81 0%, transparent 40%);
     background-attachment: fixed;
     color: var(--text-primary);
-    min-height: 100vh;
+    /* Mobile-first: Full viewport lock */
+    height: 100dvh;
+    overflow: hidden;
     display: flex;
     justify-content: center;
-    padding: 20px;
     line-height: 1.5;
 }
 
 .app-container {
     width: 100%;
-    max-width: 600px;
+    max-width: 1200px;
+    height: 100%;
+    padding: 20px;
     display: flex;
     flex-direction: column;
     gap: 20px;
@@ -53,6 +56,7 @@ body {
 .dashboard {
     padding: 20px;
     text-align: center;
+    flex-shrink: 0;
 }
 
 .dashboard h1 {
@@ -92,17 +96,26 @@ select:focus {
     color: var(--text-secondary);
 }
 
-/* Flashcard Scene (3D Flip) */
+/* Main Content Wrapper */
+.main-content {
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    overflow: hidden; /* Contains the flexible flashcard area */
+}
+
+/* Flashcard Area */
 .flashcard-container {
     display: flex;
     flex-direction: column;
     gap: 20px;
     flex: 1;
+    overflow: hidden;
 }
 
 .scene {
     width: 100%;
-    height: 400px;
+    flex: 1; /* Automatically fills available height */
     perspective: 1000px;
 }
 
@@ -131,7 +144,7 @@ select:focus {
     align-items: center;
     padding: 30px;
     text-align: center;
-    overflow-y: auto;
+    overflow-y: auto; /* Allow internal scrolling if content is long */
 }
 
 .card__face--back {
@@ -224,6 +237,7 @@ select:focus {
     display: flex;
     justify-content: space-between;
     gap: 15px;
+    flex-shrink: 0;
 }
 
 .srs-controls {
@@ -291,7 +305,7 @@ select:focus {
     flex-direction: column;
     align-items: center;
     justify-content: center;
-    min-height: 300px;
+    height: 100%;
 }
 
 .empty-state h2 {
@@ -308,7 +322,7 @@ select:focus {
     margin-top: 20px;
 }
 
-/* Scrollbar styling for back of card */
+/* Scrollbar styling */
 ::-webkit-scrollbar {
     width: 6px;
 }
@@ -318,4 +332,26 @@ select:focus {
 ::-webkit-scrollbar-thumb {
     background: rgba(255, 255, 255, 0.2);
     border-radius: 3px;
+}
+
+/* Tablet & PC / Split Layout overrides */
+@media (min-width: 768px) {
+    .app-container {
+        flex-direction: row;
+        align-items: stretch;
+        gap: 40px;
+    }
+
+    .dashboard {
+        width: 300px;
+        height: 100%;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+    }
+
+    .main-content {
+        flex: 1;
+        justify-content: center;
+    }
 }
