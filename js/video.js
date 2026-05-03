@@ -2,271 +2,305 @@
 
 let player;
 let isPlayerReady = false;
-let currentDay = '1';
+let currentDay = "1";
 let reviewList = [];
 let currentSegmentIndex = 0;
 let checkTimeInterval;
 let currentSegment = null;
 
+// === NEW: 時序隔離狀態 (Phase 1) ===
+let lastSeekTime = 0; // 最後一次 seekTo 的時刻（毫秒）
+let isCheckingTime = false; // 防止多重檢查函式執行
+const SEEK_BUFFER_MS = 500; // Seek 緩衝時間（毫秒）
+
 // DOM Elements
-const daySelector = document.getElementById('day-selector');
-const videoWrapper = document.getElementById('video-wrapper');
-const flashcardContainer = document.getElementById('flashcard-container');
-const emptyState = document.getElementById('empty-state');
-const statusSummary = document.getElementById('status-summary');
-const flashcard = document.getElementById('flashcard');
-const chineseFront = document.getElementById('chinese-front');
-const englishBack = document.getElementById('english-back');
-const keyWordsList = document.getElementById('key-words-list');
-const replayBtn = document.getElementById('replay-btn');
-const markBadBtn = document.getElementById('mark-bad-btn');
-const markGoodBtn = document.getElementById('mark-good-btn');
-const resetDayBtn = document.getElementById('reset-day-btn');
-const startState = document.getElementById('start-state');
-const startVideoBtn = document.getElementById('start-video-btn');
+const daySelector = document.getElementById("day-selector");
+const videoWrapper = document.getElementById("video-wrapper");
+const flashcardContainer = document.getElementById("flashcard-container");
+const emptyState = document.getElementById("empty-state");
+const statusSummary = document.getElementById("status-summary");
+const flashcard = document.getElementById("flashcard");
+const chineseFront = document.getElementById("chinese-front");
+const englishBack = document.getElementById("english-back");
+const keyWordsList = document.getElementById("key-words-list");
+const replayBtn = document.getElementById("replay-btn");
+const markBadBtn = document.getElementById("mark-bad-btn");
+const markGoodBtn = document.getElementById("mark-good-btn");
+const resetDayBtn = document.getElementById("reset-day-btn");
+const startState = document.getElementById("start-state");
+const startVideoBtn = document.getElementById("start-video-btn");
 
 // Initialize App
 async function init() {
-    populateDaySelector();
+  populateDaySelector();
+  await loadDayData(currentDay);
+
+  // Event Listeners
+  daySelector.addEventListener("change", async (e) => {
+    currentDay = e.target.value;
     await loadDayData(currentDay);
+  });
 
-    // Event Listeners
-    daySelector.addEventListener('change', async (e) => {
-        currentDay = e.target.value;
-        await loadDayData(currentDay);
-    });
+  flashcard.addEventListener("click", flipCard);
 
-    flashcard.addEventListener('click', flipCard);
-    
-    replayBtn.addEventListener('click', (e) => {
-        e.stopPropagation(); // Prevent card flip
-        replayCurrentSegment();
-    });
+  replayBtn.addEventListener("click", (e) => {
+    e.stopPropagation(); // Prevent card flip
+    replayCurrentSegment();
+  });
 
-    markBadBtn.addEventListener('click', (e) => {
-        e.stopPropagation();
-        handleSrsAction(1); // 1 = bad
-    });
+  markBadBtn.addEventListener("click", (e) => {
+    e.stopPropagation();
+    handleSrsAction(1); // 1 = bad
+  });
 
-    markGoodBtn.addEventListener('click', (e) => {
-        e.stopPropagation();
-        handleSrsAction(2); // 2 = good
-    });
+  markGoodBtn.addEventListener("click", (e) => {
+    e.stopPropagation();
+    handleSrsAction(2); // 2 = good
+  });
 
-    resetDayBtn.addEventListener('click', () => {
-        loadDayData(currentDay);
-    });
+  resetDayBtn.addEventListener("click", () => {
+    loadDayData(currentDay);
+  });
 
-    startVideoBtn.addEventListener('click', () => {
-        if (!isPlayerReady) {
-            alert('Video player is still loading, please wait a moment.');
-            return;
-        }
-        showFlashcardState();
-        // Fix #2: 等待瀏覽器完成 Layout Reflow（display:none → block）後再播放
-        // 雙重 rAF 確保 YouTube IFrame 尺寸穩定，避免第一次播放立即暫停
-        requestAnimationFrame(() => {
-            requestAnimationFrame(() => {
-                startSegment();
-            });
-        });
+  startVideoBtn.addEventListener("click", () => {
+    if (!isPlayerReady) {
+      alert("Video player is still loading, please wait a moment.");
+      return;
+    }
+    showFlashcardState();
+    // Fix #2: 等待瀏覽器完成 Layout Reflow（display:none → block）後再播放
+    // 雙重 rAF 確保 YouTube IFrame 尺寸穩定，避免第一次播放立即暫停
+    requestAnimationFrame(() => {
+      requestAnimationFrame(() => {
+        startSegment();
+      });
     });
+  });
 }
 
 function populateDaySelector() {
-    daySelector.innerHTML = '';
-    
-    const days = [
-        { value: '1', label: 'Day 1 (Intro & Connect the dots)' },
-        { value: '2', label: 'Day 2 (Adoption & College)' },
-        { value: '3', label: 'Day 3 (Dropping out & India)' }
-    ];
+  daySelector.innerHTML = "";
 
-    days.forEach(d => {
-        const option = document.createElement('option');
-        option.value = d.value;
-        option.textContent = d.label;
-        daySelector.appendChild(option);
-    });
+  const days = [
+    { value: "1", label: "Day 1 (Intro & Connect the dots)" },
+    { value: "2", label: "Day 2 (Adoption & College)" },
+    { value: "3", label: "Day 3 (Dropping out & India)" },
+  ];
+
+  days.forEach((d) => {
+    const option = document.createElement("option");
+    option.value = d.value;
+    option.textContent = d.label;
+    daySelector.appendChild(option);
+  });
 }
 
 async function loadDayData(day) {
-    statusSummary.textContent = 'Loading video data...';
-    
-    const result = await StorageModule.getVideoReviewList(day);
-    if (!result || !result.items || result.items.length === 0) {
-        showEmptyState();
-        return;
-    }
+  statusSummary.textContent = "Loading video data...";
 
-    reviewList = result.items;
-    currentSegmentIndex = 0;
-    statusSummary.textContent = `${reviewList.length} segments to review`;
-    
-    showStartState();
-    
-    // Initialize or Update YouTube Player
-    if (!player) {
-        // YT API will call onYouTubeIframeAPIReady when script loads
-        // If it's already loaded but player is null (shouldn't happen often if we use global callback)
-        if (window.YT && window.YT.Player) {
-            createPlayer(result.videoID);
-        } else {
-            // Wait for onYouTubeIframeAPIReady
-            window.pendingVideoId = result.videoID;
-        }
+  const result = await StorageModule.getVideoReviewList(day);
+  if (!result || !result.items || result.items.length === 0) {
+    showEmptyState();
+    return;
+  }
+
+  reviewList = result.items;
+  currentSegmentIndex = 0;
+  statusSummary.textContent = `${reviewList.length} segments to review`;
+
+  showStartState();
+
+  // Initialize or Update YouTube Player
+  if (!player) {
+    // YT API will call onYouTubeIframeAPIReady when script loads
+    // If it's already loaded but player is null (shouldn't happen often if we use global callback)
+    if (window.YT && window.YT.Player) {
+      createPlayer(result.videoID);
     } else {
-        // Fix #3: loadVideoById() 是非同步的，不可立刻呼叫 startSegment()
-        // 改為先停止播放，回到待機畫面讓使用者重新點擊「開始播放」
-        player.loadVideoById(result.videoID);
-        player.stopVideo();
-        showStartState();
+      // Wait for onYouTubeIframeAPIReady
+      window.pendingVideoId = result.videoID;
     }
+  } else {
+    // Fix #3: loadVideoById() 是非同步的，不可立刻呼叫 startSegment()
+    // 改為先停止播放，回到待機畫面讓使用者重新點擊「開始播放」
+    player.loadVideoById(result.videoID);
+    player.stopVideo();
+    showStartState();
+  }
 }
 
 // YouTube API Callback
 function onYouTubeIframeAPIReady() {
-    if (window.pendingVideoId) {
-        createPlayer(window.pendingVideoId);
-    }
+  if (window.pendingVideoId) {
+    createPlayer(window.pendingVideoId);
+  }
 }
 
 function createPlayer(videoId) {
-    player = new YT.Player('youtube-player', {
-        height: '100%',
-        width: '100%',
-        videoId: videoId,
-        playerVars: {
-            'playsinline': 1,
-            'controls': 0, // Hide YT controls
-            'disablekb': 1,
-            'rel': 0,
-            'fs': 0
-        },
-        events: {
-            'onReady': onPlayerReady,
-            'onStateChange': onPlayerStateChange
-        }
-    });
+  player = new YT.Player("youtube-player", {
+    height: "100%",
+    width: "100%",
+    videoId: videoId,
+    playerVars: {
+      playsinline: 1,
+      controls: 0, // Hide YT controls
+      disablekb: 1,
+      rel: 0,
+      fs: 0,
+    },
+    events: {
+      onReady: onPlayerReady,
+      onStateChange: onPlayerStateChange,
+    },
+  });
 }
 
 function onPlayerReady(event) {
-    isPlayerReady = true;
-    // Don't auto-start here to prevent browser autoplay block
+  isPlayerReady = true;
+  // Don't auto-start here to prevent browser autoplay block
 }
 
 function onPlayerStateChange(event) {
-    // Handling buffering or other states if needed
+  // Handling buffering or other states if needed
 }
 
 function startSegment() {
-    if (!isPlayerReady || currentSegmentIndex >= reviewList.length) return;
-    
-    currentSegment = reviewList[currentSegmentIndex];
-    
-    // Reset Card UI
-    flashcard.classList.remove('is-flipped');
-    chineseFront.textContent = currentSegment.chinese;
-    englishBack.textContent = currentSegment.english;
-    
-    // Populate Key Words
-    keyWordsList.innerHTML = '';
-    if (currentSegment.key_words) {
-        currentSegment.key_words.forEach(kw => {
-            const li = document.createElement('li');
-            li.innerHTML = `<span class="kw-word">${kw.word}</span> <span class="kw-phonetic">${kw.phonetic || ''}</span><span class="kw-meaning">${kw.meaning}</span>`;
-            keyWordsList.appendChild(li);
-        });
-    }
+  if (!isPlayerReady || currentSegmentIndex >= reviewList.length) return;
 
-    // Play video segment
-    playSegment();
+  currentSegment = reviewList[currentSegmentIndex];
+
+  // Reset Card UI
+  flashcard.classList.remove("is-flipped");
+  chineseFront.textContent = currentSegment.chinese;
+  englishBack.textContent = currentSegment.english;
+
+  // Populate Key Words
+  keyWordsList.innerHTML = "";
+  if (currentSegment.key_words) {
+    currentSegment.key_words.forEach((kw) => {
+      const li = document.createElement("li");
+      li.innerHTML = `<span class="kw-word">${kw.word}</span> <span class="kw-phonetic">${kw.phonetic || ""}</span><span class="kw-meaning">${kw.meaning}</span>`;
+      keyWordsList.appendChild(li);
+    });
+  }
+
+  // Play video segment
+  playSegment();
 }
 
 let seekedAndPlaying = false;
 
 function playSegment() {
-    if (!currentSegment) return;
-    
-    clearInterval(checkTimeInterval);
-    seekedAndPlaying = false; // Reset lock
-    
-    // allowSeekAhead = true
-    player.seekTo(currentSegment.startTime, true);
-    player.playVideo();
-    
-    // check more frequently for precision
-    checkTimeInterval = setInterval(checkVideoTime, 50);
+  if (!currentSegment) return;
+
+  clearInterval(checkTimeInterval);
+  seekedAndPlaying = false; // Reset lock
+  isCheckingTime = false; // ← NEW: 清理檢查旗標
+
+  lastSeekTime = Date.now(); // ← NEW: 記錄當前時刻（關鍵！）
+
+  // allowSeekAhead = true
+  player.seekTo(currentSegment.startTime, true);
+  player.playVideo();
+
+  // check more frequently for precision
+  checkTimeInterval = setInterval(checkVideoTime, 50);
 }
 
 function checkVideoTime() {
+  // ← NEW: 防止多重檢查函式同時執行
+  if (isCheckingTime) return;
+  isCheckingTime = true;
+
+  try {
     if (player && player.getCurrentTime && player.getPlayerState) {
-        // Only check time if the video is actually playing
-        if (player.getPlayerState() !== YT.PlayerState.PLAYING) return;
+      // Only check time if the video is actually playing
+      if (player.getPlayerState() !== YT.PlayerState.PLAYING) {
+        isCheckingTime = false; // ← NEW: 清理旗標後才 return
+        return;
+      }
 
-        const currentTime = player.getCurrentTime();
-        
-        if (!seekedAndPlaying) {
-            // Fix #1: 確認 seek 已完成（當前時間 < endTime）後立刻 return
-            // 將「確認」與「終止判斷」分在不同的 poll tick，消除同一 tick 內的 Race Condition
-            if (currentTime < currentSegment.endTime) {
-                seekedAndPlaying = true;
-                return; // 本 tick 僅做確認，下一個 tick 才開始監控終止點
-            } else {
-                return; // seek 尚未完成，繼續等待
-            }
-        }
+      const currentTime = player.getCurrentTime();
 
-        if (currentTime >= currentSegment.endTime) {
-            player.pauseVideo();
-            clearInterval(checkTimeInterval);
+      // ← NEW: 第一層：Seek 緩衝保護（0.5 秒鎖定）
+      const timeSinceSeek = Date.now() - lastSeekTime;
+      if (timeSinceSeek < SEEK_BUFFER_MS) {
+        // 在 YouTube API 穩定前（500ms 內），完全鎖定檢查
+        isCheckingTime = false; // ← NEW: 清理旗標後才 return
+        return;
+      }
+
+      if (!seekedAndPlaying) {
+        // Fix #1: 確認 seek 已完成（當前時間 < endTime）後立刻 return
+        // 將「確認」與「終止判斷」分在不同的 poll tick，消除同一 tick 內的 Race Condition
+        if (currentTime < currentSegment.endTime) {
+          seekedAndPlaying = true;
+          isCheckingTime = false; // ← NEW: 清理旗標後才 return
+          return; // 本 tick 僅做確認，下一個 tick 才開始監控終止點
+        } else {
+          isCheckingTime = false; // ← NEW: 清理旗標後才 return
+          return; // seek 尚未完成，繼續等待
         }
+      }
+
+      if (currentTime >= currentSegment.endTime) {
+        player.pauseVideo();
+        clearInterval(checkTimeInterval);
+      }
     }
+  } finally {
+    // ← NEW: 確保 isCheckingTime 一定被重置（即使異常也不例外）
+    isCheckingTime = false;
+  }
 }
 
 function replayCurrentSegment() {
-    if (player) {
-        playSegment();
-    }
+  if (player) {
+    playSegment();
+  }
 }
 
 function flipCard() {
-    flashcard.classList.toggle('is-flipped');
+  flashcard.classList.toggle("is-flipped");
 }
 
 function handleSrsAction(statusId) {
-    StorageModule.updateVideoSegmentStatus(currentDay, currentSegment.id, statusId);
-    
-    // Go to next segment
-    currentSegmentIndex++;
-    if (currentSegmentIndex < reviewList.length) {
-        statusSummary.textContent = `${reviewList.length - currentSegmentIndex} segments remaining`;
-        startSegment();
-    } else {
-        showEmptyState();
-    }
+  StorageModule.updateVideoSegmentStatus(
+    currentDay,
+    currentSegment.id,
+    statusId,
+  );
+
+  // Go to next segment
+  currentSegmentIndex++;
+  if (currentSegmentIndex < reviewList.length) {
+    statusSummary.textContent = `${reviewList.length - currentSegmentIndex} segments remaining`;
+    startSegment();
+  } else {
+    showEmptyState();
+  }
 }
 
 function showEmptyState() {
-    videoWrapper.style.display = 'none';
-    flashcardContainer.style.display = 'none';
-    startState.style.display = 'none';
-    emptyState.style.display = 'flex';
-    statusSummary.textContent = 'All done for today!';
+  videoWrapper.style.display = "none";
+  flashcardContainer.style.display = "none";
+  startState.style.display = "none";
+  emptyState.style.display = "flex";
+  statusSummary.textContent = "All done for today!";
 }
 
 function showFlashcardState() {
-    videoWrapper.style.display = 'block';
-    flashcardContainer.style.display = 'flex';
-    startState.style.display = 'none';
-    emptyState.style.display = 'none';
+  videoWrapper.style.display = "block";
+  flashcardContainer.style.display = "flex";
+  startState.style.display = "none";
+  emptyState.style.display = "none";
 }
 
 function showStartState() {
-    videoWrapper.style.display = 'none';
-    flashcardContainer.style.display = 'none';
-    emptyState.style.display = 'none';
-    startState.style.display = 'flex';
+  videoWrapper.style.display = "none";
+  flashcardContainer.style.display = "none";
+  emptyState.style.display = "none";
+  startState.style.display = "flex";
 }
 
 // Start app
