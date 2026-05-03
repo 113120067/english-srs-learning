@@ -68,6 +68,35 @@ body {
     -webkit-text-fill-color: transparent;
 }
 
+.module-nav {
+    display: flex;
+    gap: 10px;
+    margin-bottom: 15px;
+}
+
+.nav-btn {
+    flex: 1;
+    padding: 8px;
+    text-decoration: none;
+    color: var(--text-secondary);
+    background: rgba(255, 255, 255, 0.05);
+    border: 1px solid var(--glass-border);
+    border-radius: 8px;
+    font-size: 0.9rem;
+    font-weight: 600;
+    transition: all 0.2s;
+}
+
+.nav-btn:hover {
+    background: rgba(255, 255, 255, 0.1);
+}
+
+.nav-btn.active {
+    color: #fff;
+    background: var(--accent-color);
+    border-color: var(--accent-hover);
+}
+
 .controls {
     display: flex;
     flex-direction: column;

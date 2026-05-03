@@ -1,0 +1,38 @@
+{
+  "day": 1,
+  "videoID": "UF8uR6Z6KLc",
+  "items": [
+    {
+      "id": "s_001",
+      "startTime": 12.5,
+      "endTime": 18.2,
+      "english": "I am honored to be with you today.",
+      "chinese": "我很榮幸今天能與你們在一起。",
+      "key_words": [
+        {"word": "honored", "meaning": "感到榮幸的", "phonetic": "/ˈɑːnərd/"}
+      ]
+    },
+    {
+      "id": "s_002",
+      "startTime": 18.2,
+      "endTime": 22.0,
+      "english": "from one of the finest universities in the world.",
+      "chinese": "從世界上最好的大學之一。",
+      "key_words": [
+        {"word": "finest", "meaning": "最好的；最優秀的", "phonetic": "/ˈfaɪnɪst/"},
+        {"word": "universities", "meaning": "大學 (複數)", "phonetic": "/ˌjuːnɪˈvɜːrsətiz/"}
+      ]
+    },
+    {
+      "id": "s_003",
+      "startTime": 22.0,
+      "endTime": 26.5,
+      "english": "I never graduated from college.",
+      "chinese": "我從未從大學畢業。",
+      "key_words": [
+        {"word": "graduated", "meaning": "畢業", "phonetic": "/ˈɡrædʒueɪtɪd/"},
+        {"word": "college", "meaning": "大學", "phonetic": "/ˈkɑːlɪdʒ/"}
+      ]
+    }
+  ]
+}

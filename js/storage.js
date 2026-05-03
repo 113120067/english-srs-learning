@@ -84,5 +84,74 @@ const StorageModule = {
             // If it has a review date, include if date is <= today
             return wordProgress.nextReview <= today;
         });
+    },
+
+    VIDEO_STORAGE_KEY: 'global_english_video_srs_data',
+
+    // Load video SRS progress
+    loadVideoProgress: function() {
+        const data = localStorage.getItem(this.VIDEO_STORAGE_KEY);
+        return data ? JSON.parse(data) : {};
+    },
+
+    // Save video SRS progress
+    saveVideoProgress: function(progressData) {
+        localStorage.setItem(this.VIDEO_STORAGE_KEY, JSON.stringify(progressData));
+    },
+
+    // Update video segment status
+    updateVideoSegmentStatus: function(dayId, segmentId, statusId) {
+        const progress = this.loadVideoProgress();
+        const key = `${dayId}_${segmentId}`;
+        
+        let segData = progress[key] || { status: 0, nextReview: this.getTodayStr() };
+        const today = this.getTodayStr();
+        
+        if (statusId === 1) { // Bad
+            segData.status = 1;
+            segData.nextReview = this.addDays(today, 1);
+        } else if (statusId === 2) { // Good
+            if (segData.status !== 2) {
+                segData.nextReview = this.addDays(today, 3);
+            } else {
+                segData.nextReview = this.addDays(today, 6);
+            }
+            segData.status = 2;
+        }
+
+        progress[key] = segData;
+        this.saveVideoProgress(progress);
+    },
+
+    // Fetch video lesson data
+    fetchVideoLessonData: async function(dayId) {
+        try {
+            const response = await fetch(`lessons/video_${dayId}.json`);
+            if (!response.ok) {
+                throw new Error(`Failed to load video_${dayId}.json`);
+            }
+            return await response.json();
+        } catch (error) {
+            console.error('Error loading video lesson:', error);
+            return null;
+        }
+    },
+
+    // Get video segments to review today
+    getVideoReviewList: async function(dayId) {
+        const lesson = await this.fetchVideoLessonData(dayId);
+        if (!lesson || !lesson.items) return null;
+
+        const progress = this.loadVideoProgress();
+        const today = this.getTodayStr();
+
+        const itemsToReview = lesson.items.filter(item => {
+            const key = `${dayId}_${item.id}`;
+            const segProgress = progress[key];
+            if (!segProgress) return true;
+            return segProgress.nextReview <= today;
+        });
+
+        return { videoID: lesson.videoID, items: itemsToReview };
     }
 };

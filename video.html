@@ -1,0 +1,163 @@
+<!DOCTYPE html>
+<html lang="zh-TW">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Global English SRS - Video Module</title>
+    <!-- Google Fonts for Modern Typography -->
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="css/style.css">
+    <style>
+        /* Specific styles for video page */
+        .video-container {
+            width: 100%;
+            padding-top: 56.25%; /* 16:9 Aspect Ratio */
+            position: relative;
+            border-radius: 12px;
+            overflow: hidden;
+            background: #000;
+            margin-bottom: 20px;
+            flex-shrink: 0;
+            box-shadow: 0 4px 15px rgba(0, 0, 0, 0.5);
+        }
+        
+        .video-container iframe {
+            position: absolute;
+            top: 0;
+            left: 0;
+            width: 100%;
+            height: 100%;
+            border: 0;
+        }
+
+        /* Adjust main content flex to accommodate video player */
+        .video-main-content {
+            display: flex;
+            flex-direction: column;
+            flex: 1;
+            overflow: hidden;
+        }
+
+        .video-action-controls {
+            display: flex;
+            justify-content: center;
+            margin-bottom: 10px;
+        }
+
+        #replay-btn {
+            background: var(--accent-color);
+            color: white;
+            border: none;
+            padding: 10px 20px;
+            border-radius: 8px;
+            font-weight: 600;
+            cursor: pointer;
+            width: 100%;
+        }
+
+        #replay-btn:hover {
+            background: var(--accent-hover);
+        }
+
+        /* Video specific back card layout */
+        .key-words-section {
+            margin-top: 15px;
+            padding-top: 15px;
+            border-top: 1px solid var(--glass-border);
+        }
+        .key-words-list {
+            list-style: none;
+            padding: 0;
+            margin: 0;
+        }
+        .key-words-list li {
+            margin-bottom: 10px;
+            background: rgba(0,0,0,0.2);
+            padding: 10px;
+            border-radius: 8px;
+        }
+        .kw-word { font-weight: bold; color: var(--accent-color); }
+        .kw-phonetic { color: var(--text-secondary); font-size: 0.9em; margin-left: 5px; }
+        .kw-meaning { display: block; margin-top: 5px; }
+    </style>
+</head>
+<body>
+    <div class="app-container">
+        <!-- Dashboard / Day Selector -->
+        <header class="dashboard glass-panel">
+            <h1>Global English SRS</h1>
+            <div class="module-nav">
+                <a href="index.html" class="nav-btn">單字卡</a>
+                <a href="video.html" class="nav-btn active">影音背誦</a>
+            </div>
+            <div class="controls mt-20">
+                <select id="day-selector">
+                    <!-- Populated by JS -->
+                </select>
+                <div class="status-summary" id="status-summary">
+                    Loading...
+                </div>
+            </div>
+        </header>
+
+        <!-- Main Content Wrapper -->
+        <div class="video-main-content">
+            
+            <div class="video-container" id="video-wrapper" style="display: none;">
+                <div id="youtube-player"></div>
+            </div>
+
+            <!-- Flashcard Area -->
+            <main class="flashcard-container" id="flashcard-container" style="display: none;">
+                <div class="scene scene--card">
+                    <div class="card" id="flashcard">
+                        
+                        <!-- Front of card (Chinese only for active recall) -->
+                        <div class="card__face card__face--front glass-panel">
+                            <h2 class="word" id="chinese-front" style="font-size: 1.8rem;">中文翻譯</h2>
+                            <div class="hint-text">Tap to flip</div>
+                        </div>
+
+                        <!-- Back of card (English + Key Words) -->
+                        <div class="card__face card__face--back glass-panel">
+                            <div class="back-content">
+                                <h2 class="word" id="english-back" style="font-size: 1.5rem; margin-bottom: 20px;">English Sentence</h2>
+                                
+                                <div class="key-words-section">
+                                    <h3>Key Words 重點單字</h3>
+                                    <ul class="key-words-list" id="key-words-list">
+                                        <!-- Populated by JS -->
+                                    </ul>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Controls -->
+                <div class="video-action-controls">
+                    <button id="replay-btn">Replay (重播本句)</button>
+                </div>
+                
+                <div class="srs-controls" id="srs-controls">
+                    <!-- Status marking -->
+                    <button class="btn srs-btn bad" id="mark-bad-btn">❌ 不熟</button>
+                    <button class="btn srs-btn good" id="mark-good-btn">✅ 熟練</button>
+                </div>
+            </main>
+            
+            <!-- Empty State -->
+            <div class="empty-state glass-panel" id="empty-state">
+                <h2>You've finished this video lesson!</h2>
+                <p>Great job! Select another day to continue learning.</p>
+                <button class="btn primary mt-20" id="reset-day-btn">Review Again</button>
+            </div>
+        </div>
+    </div>
+
+    <!-- YouTube IFrame API -->
+    <script src="https://www.youtube.com/iframe_api"></script>
+    <script src="js/storage.js"></script>
+    <script src="js/video.js"></script>
+</body>
+</html>
