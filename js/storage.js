@@ -126,9 +126,9 @@ const StorageModule = {
     // Fetch video lesson data
     fetchVideoLessonData: async function(dayId) {
         try {
-            const response = await fetch(`lessons/video_${dayId}.json`);
+            const response = await fetch(`lessons/video_Day${dayId}.json`);
             if (!response.ok) {
-                throw new Error(`Failed to load video_${dayId}.json`);
+                throw new Error(`Failed to load video_Day${dayId}.json`);
             }
             return await response.json();
         } catch (error) {

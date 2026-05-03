@@ -1,0 +1,126 @@
+{
+  "day": 2,
+  "videoID": "UF8uR6Z6KLc",
+  "items": [
+    {
+      "id": "s_016",
+      "startTime": 84.0,
+      "endTime": 89.0,
+      "english": "Except that when I popped out they decided at the last minute that they really wanted a girl.",
+      "chinese": "只不過當我呱呱墜地時，他們在最後一刻決定他們真正想要的是個女孩。",
+      "key_words": [
+        {"word": "popped out", "meaning": "突然出現；這裡指出生", "phonetic": "/pɑːpt aʊt/"},
+        {"word": "last minute", "meaning": "最後一刻", "phonetic": "/læst ˈmɪnɪt/"}
+      ]
+    },
+    {
+      "id": "s_017",
+      "startTime": 89.0,
+      "endTime": 93.0,
+      "english": "So my parents, who were on a waiting list,",
+      "chinese": "所以我的養父母，當時正在候補名單上，",
+      "key_words": [
+        {"word": "waiting list", "meaning": "候補名單", "phonetic": "/ˈweɪtɪŋ lɪst/"}
+      ]
+    },
+    {
+      "id": "s_018",
+      "startTime": 93.0,
+      "endTime": 99.5,
+      "english": "got a call in the middle of the night asking: 'We have an unexpected baby boy; do you want him?'",
+      "chinese": "在半夜接到了一通電話問道：『我們有一個意外出生的男嬰，你們要他嗎？』",
+      "key_words": [
+        {"word": "unexpected", "meaning": "意外的", "phonetic": "/ˌʌnɪkˈspektɪd/"}
+      ]
+    },
+    {
+      "id": "s_019",
+      "startTime": 99.5,
+      "endTime": 102.5,
+      "english": "They said: 'Of course.'",
+      "chinese": "他們說：『當然要。』",
+      "key_words": []
+    },
+    {
+      "id": "s_020",
+      "startTime": 102.5,
+      "endTime": 108.0,
+      "english": "My biological mother later found out that my mother had never graduated from college",
+      "chinese": "我的生母後來發現，我的養母從未從大學畢業，",
+      "key_words": [
+        {"word": "biological", "meaning": "親生的", "phonetic": "/ˌbaɪəˈlɑːdʒɪkl/"}
+      ]
+    },
+    {
+      "id": "s_021",
+      "startTime": 108.0,
+      "endTime": 111.5,
+      "english": "and that my father had never graduated from high school.",
+      "chinese": "而我的養父連高中都沒畢業。",
+      "key_words": []
+    },
+    {
+      "id": "s_022",
+      "startTime": 111.5,
+      "endTime": 116.5,
+      "english": "She refused to sign the final adoption papers.",
+      "chinese": "她拒絕在最終的收養文件上簽字。",
+      "key_words": [
+        {"word": "refused", "meaning": "拒絕", "phonetic": "/rɪˈfjuːzd/"},
+        {"word": "adoption", "meaning": "收養", "phonetic": "/əˈdɑːpʃn/"}
+      ]
+    },
+    {
+      "id": "s_023",
+      "startTime": 116.5,
+      "endTime": 124.0,
+      "english": "She only relented a few months later when my parents promised that I would someday go to college.",
+      "chinese": "幾個月後，直到我的養父母承諾有一天一定會送我上大學，她才妥協。",
+      "key_words": [
+        {"word": "relented", "meaning": "妥協；讓步", "phonetic": "/rɪˈlentɪd/"},
+        {"word": "promised", "meaning": "承諾", "phonetic": "/ˈprɑːmɪst/"}
+      ]
+    },
+    {
+      "id": "s_024",
+      "startTime": 124.0,
+      "endTime": 128.5,
+      "english": "And 17 years later I did go to college.",
+      "chinese": "而 17 年後，我也真的上了大學。",
+      "key_words": []
+    },
+    {
+      "id": "s_025",
+      "startTime": 128.5,
+      "endTime": 134.5,
+      "english": "But I naively chose a college that was almost as expensive as Stanford,",
+      "chinese": "但我很天真地選擇了一所學費幾乎和史丹佛一樣貴的大學，",
+      "key_words": [
+        {"word": "naively", "meaning": "天真地", "phonetic": "/naɪˈiːvli/"},
+        {"word": "expensive", "meaning": "昂貴的", "phonetic": "/ɪkˈspensɪv/"}
+      ]
+    },
+    {
+      "id": "s_026",
+      "startTime": 134.5,
+      "endTime": 141.5,
+      "english": "and all of my working-class parents' savings were being spent on my college tuition.",
+      "chinese": "我那藍領階級父母所有的積蓄，都花在了我的大學學費上。",
+      "key_words": [
+        {"word": "working-class", "meaning": "藍領階級的；勞工階級的", "phonetic": "/ˈwɜːrkɪŋ klæs/"},
+        {"word": "savings", "meaning": "積蓄", "phonetic": "/ˈseɪvɪŋz/"},
+        {"word": "tuition", "meaning": "學費", "phonetic": "/tuˈɪʃn/"}
+      ]
+    },
+    {
+      "id": "s_027",
+      "startTime": 141.5,
+      "endTime": 146.5,
+      "english": "After six months, I couldn't see the value in it.",
+      "chinese": "六個月後，我看不出這一切有什麼價值。",
+      "key_words": [
+        {"word": "value", "meaning": "價值", "phonetic": "/ˈvæljuː/"}
+      ]
+    }
+  ]
+}

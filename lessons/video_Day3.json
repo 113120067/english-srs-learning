@@ -1,0 +1,144 @@
+{
+  "day": 3,
+  "videoID": "UF8uR6Z6KLc",
+  "items": [
+    {
+      "id": "s_028",
+      "startTime": 146.5,
+      "endTime": 150.5,
+      "english": "I had no idea what I wanted to do with my life",
+      "chinese": "我不知道我這輩子想做什麼，",
+      "key_words": []
+    },
+    {
+      "id": "s_029",
+      "startTime": 150.5,
+      "endTime": 154.5,
+      "english": "and no idea how college was going to help me figure it out.",
+      "chinese": "也不知道大學能如何幫我找到答案。",
+      "key_words": [
+        {"word": "figure it out", "meaning": "想清楚；弄明白", "phonetic": "/ˈfɪɡjər ɪt aʊt/"}
+      ]
+    },
+    {
+      "id": "s_030",
+      "startTime": 154.5,
+      "endTime": 160.0,
+      "english": "And here I was spending all of the money my parents had saved their entire life.",
+      "chinese": "而我卻在這裡花光了我父母一輩子的積蓄。",
+      "key_words": [
+        {"word": "entire", "meaning": "整個的；全部的", "phonetic": "/ɪnˈtaɪər/"}
+      ]
+    },
+    {
+      "id": "s_031",
+      "startTime": 160.0,
+      "endTime": 166.5,
+      "english": "So I decided to drop out and trust that it would all work out OK.",
+      "chinese": "所以我決定休學，並相信一切最終都會順利。",
+      "key_words": [
+        {"word": "drop out", "meaning": "休學", "phonetic": "/drɑːp aʊt/"},
+        {"word": "work out", "meaning": "解決；發展良好", "phonetic": "/wɜːrk aʊt/"}
+      ]
+    },
+    {
+      "id": "s_032",
+      "startTime": 166.5,
+      "endTime": 169.0,
+      "english": "It was pretty scary at the time,",
+      "chinese": "當時真的很可怕，",
+      "key_words": [
+        {"word": "scary", "meaning": "可怕的", "phonetic": "/ˈskeri/"}
+      ]
+    },
+    {
+      "id": "s_033",
+      "startTime": 169.0,
+      "endTime": 174.0,
+      "english": "but looking back it was one of the best decisions I ever made.",
+      "chinese": "但現在回頭看，這是我做過最棒的決定之一。",
+      "key_words": [
+        {"word": "decisions", "meaning": "決定", "phonetic": "/dɪˈsɪʒnz/"}
+      ]
+    },
+    {
+      "id": "s_034",
+      "startTime": 174.0,
+      "endTime": 181.5,
+      "english": "The minute I dropped out I could stop taking the required classes that didn't interest me,",
+      "chinese": "休學的那一刻起，我就可以停止去上那些我沒興趣的必修課，",
+      "key_words": [
+        {"word": "required", "meaning": "必修的；要求的", "phonetic": "/rɪˈkwaɪərd/"},
+        {"word": "interest", "meaning": "使感興趣", "phonetic": "/ˈɪntrəst/"}
+      ]
+    },
+    {
+      "id": "s_035",
+      "startTime": 181.5,
+      "endTime": 186.0,
+      "english": "and begin dropping in on the ones that looked interesting.",
+      "chinese": "開始去旁聽那些看起來很有趣的課。",
+      "key_words": [
+        {"word": "dropping in", "meaning": "旁聽；順道拜訪", "phonetic": "/ˈdrɑːpɪŋ ɪn/"}
+      ]
+    },
+    {
+      "id": "s_036",
+      "startTime": 186.0,
+      "endTime": 189.0,
+      "english": "It wasn't all romantic.",
+      "chinese": "這一切並不全都是那麼浪漫。",
+      "key_words": [
+        {"word": "romantic", "meaning": "浪漫的", "phonetic": "/roʊˈmæntɪk/"}
+      ]
+    },
+    {
+      "id": "s_037",
+      "startTime": 189.0,
+      "endTime": 194.5,
+      "english": "I didn't have a dorm room, so I slept on the floor in friends' rooms,",
+      "chinese": "我沒有宿舍可以住，所以我睡在朋友房間的地板上，",
+      "key_words": [
+        {"word": "dorm room", "meaning": "宿舍房間", "phonetic": "/dɔːrm ruːm/"}
+      ]
+    },
+    {
+      "id": "s_038",
+      "startTime": 194.5,
+      "endTime": 200.0,
+      "english": "I returned coke bottles for the 5 cent deposits to buy food with,",
+      "chinese": "我靠著回收可樂空瓶賺取 5 分錢的押金來買食物，",
+      "key_words": [
+        {"word": "deposits", "meaning": "押金", "phonetic": "/dɪˈpɑːzɪts/"}
+      ]
+    },
+    {
+      "id": "s_039",
+      "startTime": 200.0,
+      "endTime": 204.5,
+      "english": "and I would walk the 7 miles across town every Sunday night",
+      "chinese": "每個星期天晚上，我會徒步走 7 英里穿過整個城市，",
+      "key_words": [
+        {"word": "across", "meaning": "穿過", "phonetic": "/əˈkrɔːs/"}
+      ]
+    },
+    {
+      "id": "s_040",
+      "startTime": 204.5,
+      "endTime": 209.5,
+      "english": "to get one good meal a week at the Hare Krishna temple.",
+      "chinese": "只為了能在哈瑞奎師那神廟吃上一頓每週一次的好料。",
+      "key_words": [
+        {"word": "temple", "meaning": "神廟；寺廟", "phonetic": "/ˈtempl/"}
+      ]
+    },
+    {
+      "id": "s_041",
+      "startTime": 209.5,
+      "endTime": 211.5,
+      "english": "I loved it.",
+      "chinese": "我愛死那頓飯了。",
+      "key_words": []
+    }
+  ]
+}

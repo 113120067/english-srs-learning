@@ -6,8 +6,8 @@
       "id": "s_001",
       "startTime": 12.5,
       "endTime": 18.2,
-      "english": "I am honored to be with you today.",
-      "chinese": "我很榮幸今天能與你們在一起。",
+      "english": "I am honored to be with you today",
+      "chinese": "我很榮幸今天能與你們在一起，",
       "key_words": [
         {"word": "honored", "meaning": "感到榮幸的", "phonetic": "/ˈɑːnərd/"}
       ]
@@ -16,11 +16,11 @@
       "id": "s_002",
       "startTime": 18.2,
       "endTime": 22.0,
-      "english": "from one of the finest universities in the world.",
-      "chinese": "從世界上最好的大學之一。",
+      "english": "for your commencement from one of the finest universities in the world.",
+      "chinese": "參加你們的畢業典禮，這是一所世界上最好的大學之一。",
       "key_words": [
-        {"word": "finest", "meaning": "最好的；最優秀的", "phonetic": "/ˈfaɪnɪst/"},
-        {"word": "universities", "meaning": "大學 (複數)", "phonetic": "/ˌjuːnɪˈvɜːrsətiz/"}
+        {"word": "commencement", "meaning": "畢業典禮", "phonetic": "/kəˈmensmənt/"},
+        {"word": "finest", "meaning": "最好的；最優秀的", "phonetic": "/ˈfaɪnɪst/"}
       ]
     },
     {
@@ -30,8 +30,131 @@
       "english": "I never graduated from college.",
       "chinese": "我從未從大學畢業。",
       "key_words": [
-        {"word": "graduated", "meaning": "畢業", "phonetic": "/ˈɡrædʒueɪtɪd/"},
-        {"word": "college", "meaning": "大學", "phonetic": "/ˈkɑːlɪdʒ/"}
+        {"word": "graduated", "meaning": "畢業", "phonetic": "/ˈɡrædʒueɪtɪd/"}
+      ]
+    },
+    {
+      "id": "s_004",
+      "startTime": 26.5,
+      "endTime": 32.5,
+      "english": "Truth be told, this is the closest I've ever gotten to a college graduation.",
+      "chinese": "說實話，這是我人生中最接近大學畢業的一次。",
+      "key_words": [
+        {"word": "Truth be told", "meaning": "說實話", "phonetic": "/truːθ bi toʊld/"},
+        {"word": "closest", "meaning": "最接近的", "phonetic": "/ˈkloʊsɪst/"}
+      ]
+    },
+    {
+      "id": "s_005",
+      "startTime": 32.5,
+      "endTime": 36.0,
+      "english": "Today I want to tell you three stories from my life.",
+      "chinese": "今天我想告訴你們我生命中的三個故事。",
+      "key_words": [
+        {"word": "stories", "meaning": "故事 (複數)", "phonetic": "/ˈstɔːriz/"}
+      ]
+    },
+    {
+      "id": "s_006",
+      "startTime": 36.0,
+      "endTime": 40.0,
+      "english": "That's it. No big deal. Just three stories.",
+      "chinese": "就這樣。沒什麼大不了的。就三個故事。",
+      "key_words": [
+        {"word": "big deal", "meaning": "大不了的事", "phonetic": "/bɪɡ diːl/"}
+      ]
+    },
+    {
+      "id": "s_007",
+      "startTime": 40.0,
+      "endTime": 44.5,
+      "english": "The first story is about connecting the dots.",
+      "chinese": "第一個故事是關於連結生命中的點滴。",
+      "key_words": [
+        {"word": "connecting", "meaning": "連結", "phonetic": "/kəˈnektɪŋ/"},
+        {"word": "dots", "meaning": "點", "phonetic": "/dɑːts/"}
+      ]
+    },
+    {
+      "id": "s_008",
+      "startTime": 44.5,
+      "endTime": 51.0,
+      "english": "I dropped out of Reed College after the first 6 months,",
+      "chinese": "我在里德學院讀了前六個月後就休學了，",
+      "key_words": [
+        {"word": "dropped out", "meaning": "退學；休學", "phonetic": "/drɑːpt aʊt/"}
+      ]
+    },
+    {
+      "id": "s_009",
+      "startTime": 51.0,
+      "endTime": 57.0,
+      "english": "but then stayed around as a drop-in for another 18 months or so before I really quit.",
+      "chinese": "但隨後又以旁聽生的身分待了大約 18 個月才真正離開。",
+      "key_words": [
+        {"word": "drop-in", "meaning": "旁聽生；隨便拜訪的人", "phonetic": "/ˈdrɑːp ɪn/"},
+        {"word": "quit", "meaning": "離開；放棄", "phonetic": "/kwɪt/"}
+      ]
+    },
+    {
+      "id": "s_010",
+      "startTime": 57.0,
+      "endTime": 60.0,
+      "english": "So why did I drop out?",
+      "chinese": "那麼，我為什麼要休學呢？",
+      "key_words": []
+    },
+    {
+      "id": "s_011",
+      "startTime": 60.0,
+      "endTime": 63.5,
+      "english": "It started before I was born.",
+      "chinese": "這要從我出生前說起。",
+      "key_words": [
+        {"word": "born", "meaning": "出生", "phonetic": "/bɔːrn/"}
+      ]
+    },
+    {
+      "id": "s_012",
+      "startTime": 63.5,
+      "endTime": 69.5,
+      "english": "My biological mother was a young, unwed college graduate student,",
+      "chinese": "我的生母是一位年輕、未婚的大學研究生，",
+      "key_words": [
+        {"word": "biological", "meaning": "親生的；生物學的", "phonetic": "/ˌbaɪəˈlɑːdʒɪkl/"},
+        {"word": "unwed", "meaning": "未婚的", "phonetic": "/ʌnˈwed/"}
+      ]
+    },
+    {
+      "id": "s_013",
+      "startTime": 69.5,
+      "endTime": 73.0,
+      "english": "and she decided to put me up for adoption.",
+      "chinese": "她決定把我交給別人收養。",
+      "key_words": [
+        {"word": "adoption", "meaning": "收養", "phonetic": "/əˈdɑːpʃn/"}
+      ]
+    },
+    {
+      "id": "s_014",
+      "startTime": 73.0,
+      "endTime": 78.5,
+      "english": "She felt very strongly that I should be adopted by college graduates,",
+      "chinese": "她非常強烈地認為我應該被大學畢業生收養，",
+      "key_words": [
+        {"word": "strongly", "meaning": "強烈地", "phonetic": "/ˈstrɔːŋli/"},
+        {"word": "adopted", "meaning": "被收養的", "phonetic": "/əˈdɑːptɪd/"}
+      ]
+    },
+    {
+      "id": "s_015",
+      "startTime": 78.5,
+      "endTime": 84.0,
+      "english": "so everything was all set for me to be adopted at birth by a lawyer and his wife.",
+      "chinese": "所以一切都安排好了，我一出生就會被一位律師和他的妻子收養。",
+      "key_words": [
+        {"word": "all set", "meaning": "準備就緒", "phonetic": "/ɔːl set/"},
+        {"word": "lawyer", "meaning": "律師", "phonetic": "/ˈlɔːjər/"}
       ]
     }
   ]

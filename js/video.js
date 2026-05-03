@@ -22,6 +22,8 @@ const replayBtn = document.getElementById('replay-btn');
 const markBadBtn = document.getElementById('mark-bad-btn');
 const markGoodBtn = document.getElementById('mark-good-btn');
 const resetDayBtn = document.getElementById('reset-day-btn');
+const startState = document.getElementById('start-state');
+const startVideoBtn = document.getElementById('start-video-btn');
 
 // Initialize App
 async function init() {
@@ -54,15 +56,32 @@ async function init() {
     resetDayBtn.addEventListener('click', () => {
         loadDayData(currentDay);
     });
+
+    startVideoBtn.addEventListener('click', () => {
+        if (!isPlayerReady) {
+            alert('Video player is still loading, please wait a moment.');
+            return;
+        }
+        showFlashcardState();
+        startSegment();
+    });
 }
 
 function populateDaySelector() {
     daySelector.innerHTML = '';
-    // For MVP, just Day 1
-    const option = document.createElement('option');
-    option.value = '1';
-    option.textContent = 'Day 1 (Video)';
-    daySelector.appendChild(option);
+    
+    const days = [
+        { value: '1', label: 'Day 1 (Intro & Connect the dots)' },
+        { value: '2', label: 'Day 2 (Adoption & College)' },
+        { value: '3', label: 'Day 3 (Dropping out & India)' }
+    ];
+
+    days.forEach(d => {
+        const option = document.createElement('option');
+        option.value = d.value;
+        option.textContent = d.label;
+        daySelector.appendChild(option);
+    });
 }
 
 async function loadDayData(day) {
@@ -78,7 +97,7 @@ async function loadDayData(day) {
     currentSegmentIndex = 0;
     statusSummary.textContent = `${reviewList.length} segments to review`;
     
-    showFlashcardState();
+    showStartState();
     
     // Initialize or Update YouTube Player
     if (!player) {
@@ -125,7 +144,7 @@ function createPlayer(videoId) {
 
 function onPlayerReady(event) {
     isPlayerReady = true;
-    startSegment();
+    // Don't auto-start here to prevent browser autoplay block
 }
 
 function onPlayerStateChange(event) {
@@ -156,20 +175,39 @@ function startSegment() {
     playSegment();
 }
 
+let seekedAndPlaying = false;
+
 function playSegment() {
     if (!currentSegment) return;
     
     clearInterval(checkTimeInterval);
+    seekedAndPlaying = false; // Reset lock
     
-    player.seekTo(currentSegment.startTime);
+    // allowSeekAhead = true
+    player.seekTo(currentSegment.startTime, true);
     player.playVideo();
     
-    checkTimeInterval = setInterval(checkVideoTime, 100);
+    // check more frequently for precision
+    checkTimeInterval = setInterval(checkVideoTime, 50);
 }
 
 function checkVideoTime() {
-    if (player && player.getCurrentTime) {
+    if (player && player.getCurrentTime && player.getPlayerState) {
+        // Only check time if the video is actually playing
+        if (player.getPlayerState() !== YT.PlayerState.PLAYING) return;
+
         const currentTime = player.getCurrentTime();
+        
+        if (!seekedAndPlaying) {
+            // Confirm we have actually seeked to a time before the end time
+            // This prevents stale times from causing immediate pauses
+            if (currentTime < currentSegment.endTime) {
+                seekedAndPlaying = true;
+            } else {
+                return; // wait for seek to finish
+            }
+        }
+
         if (currentTime >= currentSegment.endTime) {
             player.pauseVideo();
             clearInterval(checkTimeInterval);
@@ -203,6 +241,7 @@ function handleSrsAction(statusId) {
 function showEmptyState() {
     videoWrapper.style.display = 'none';
     flashcardContainer.style.display = 'none';
+    startState.style.display = 'none';
     emptyState.style.display = 'flex';
     statusSummary.textContent = 'All done for today!';
 }
@@ -210,7 +249,15 @@ function showEmptyState() {
 function showFlashcardState() {
     videoWrapper.style.display = 'block';
     flashcardContainer.style.display = 'flex';
+    startState.style.display = 'none';
     emptyState.style.display = 'none';
+}
+
+function showStartState() {
+    videoWrapper.style.display = 'none';
+    flashcardContainer.style.display = 'none';
+    emptyState.style.display = 'none';
+    startState.style.display = 'flex';
 }
 
 // Start app
