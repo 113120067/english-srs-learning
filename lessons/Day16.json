@@ -1,162 +1,162 @@
 [
   {
     "word": "look",
-    "phonetic": "/請查字典/",
+    "phonetic": "/lʊk/",
     "meaning": "看；外表",
     "example": "Look at the map.（看看地圖。）",
-    "hint": "聯想到：看的畫面。",
-    "pronunciation": "注意雙元音或長元音的滑動，跟讀 3 次。"
+    "hint": "像是把眼睛湊近地圖找方向。",
+    "pronunciation": "短元音 /ʊ/ 很短，不要拉長。"
   },
   {
     "word": "lose",
-    "phonetic": "/請查字典/",
+    "phonetic": "/luːz/",
     "meaning": "丟失；輸掉",
-    "example": "Don't lose hope.（不要失去希望。）",
-    "hint": "聯想到：丟失的畫面。",
-    "pronunciation": "注意字首與字尾連讀，跟讀 3 次。"
+    "example": "Don't lose your keys.（別弄丟你的鑰匙。）",
+    "hint": "把鑰匙放口袋，免得找不到。",
+    "pronunciation": "/z/ 是有聲音的尾音，要帶聲帶震動。"
   },
   {
     "word": "loud",
-    "phonetic": "/請查字典/",
+    "phonetic": "/laʊd/",
     "meaning": "大聲的",
-    "example": "The room is loud.（這個房間很大聲。）",
-    "hint": "聯想到：大聲的的畫面。",
-    "pronunciation": "注意雙元音或長元音的滑動，跟讀 3 次。"
+    "example": "The music is too loud.（音樂太大聲了。）",
+    "hint": "耳邊被突然放大的音量震到。",
+    "pronunciation": "/aʊ/ 是滑動音，嘴型由開到收。"
   },
   {
     "word": "love",
-    "phonetic": "/請查字典/",
-    "meaning": "愛",
-    "example": "We need love.（我們需要愛。）",
-    "hint": "聯想到：愛的畫面。",
-    "pronunciation": "注意字首與字尾連讀，跟讀 3 次。"
+    "phonetic": "/lʌv/",
+    "meaning": "愛；喜愛",
+    "example": "I love this song.（我喜歡這首歌。）",
+    "hint": "聽到喜歡的歌會忍不住一直播放。",
+    "pronunciation": "/ʌ/ 是短而中性的母音，別唸成 /o/。"
   },
   {
     "word": "luck",
-    "phonetic": "/請查字典/",
+    "phonetic": "/lʌk/",
     "meaning": "幸運",
-    "example": "We need luck.（我們需要幸運。）",
-    "hint": "聯想到：幸運的畫面。",
-    "pronunciation": "注意字首與字尾連讀，跟讀 3 次。"
+    "example": "Good luck on the test.（考試順利。）",
+    "hint": "考前抽到會的題目。",
+    "pronunciation": "字尾 /k/ 要輕快收住。"
   },
   {
     "word": "mail",
-    "phonetic": "/請查字典/",
+    "phonetic": "/meɪl/",
     "meaning": "郵件",
-    "example": "I got mail today.（我今天收到信件。）",
-    "hint": "聯想到：郵件的畫面。",
-    "pronunciation": "注意雙元音或長元音的滑動，跟讀 3 次。"
+    "example": "I got your mail this morning.（我今天早上收到你的信。）",
+    "hint": "信箱裡出現一封期待已久的信。",
+    "pronunciation": "/eɪ/ 要有明顯滑動，不要只剩一個 /e/。"
   },
   {
     "word": "main",
-    "phonetic": "/請查字典/",
+    "phonetic": "/meɪn/",
     "meaning": "主要的",
     "example": "This is the main road.（這是主要道路。）",
-    "hint": "聯想到：主要的的畫面。",
-    "pronunciation": "注意雙元音或長元音的滑動，跟讀 3 次。"
+    "hint": "一條最常走的大路。",
+    "pronunciation": "尾音 /n/ 要收乾淨。"
   },
   {
     "word": "make",
-    "phonetic": "/請查字典/",
+    "phonetic": "/meɪk/",
     "meaning": "做；製造",
-    "example": "Make a plan.（擬一個計畫。）",
-    "hint": "聯想到：做的畫面。",
-    "pronunciation": "注意字首與字尾連讀，跟讀 3 次。"
+    "example": "Make a list before you go.（出門前先列一張清單。）",
+    "hint": "先寫清單，事情就不會亂。",
+    "pronunciation": "/k/ 是輕收的爆破音。"
   },
   {
     "word": "male",
-    "phonetic": "/請查字典/",
+    "phonetic": "/meɪl/",
     "meaning": "男性（的）",
-    "example": "He is male.（他是男性。）",
-    "hint": "聯想到：男性（的）的畫面。",
-    "pronunciation": "注意字首與字尾連讀，跟讀 3 次。"
+    "example": "The male student raised his hand.（那位男學生舉手了。）",
+    "hint": "教室裡一位男生把手舉高。",
+    "pronunciation": "尾音 /l/ 要清楚，別吞掉。"
   },
   {
     "word": "many",
-    "phonetic": "/請查字典/",
+    "phonetic": "/ˈmeni/",
     "meaning": "許多的",
-    "example": "Many people came.（很多人來了。）",
-    "hint": "聯想到：許多的的畫面。",
-    "pronunciation": "注意字尾 y 的音值，跟讀 3 次。"
+    "example": "Many people came to the party.（很多人來參加派對。）",
+    "hint": "門口擠滿來訪的人。",
+    "pronunciation": "重音在第一音節，/mɛ/ 要先開口。"
   },
   {
     "word": "mark",
-    "phonetic": "/請查字典/",
+    "phonetic": "/mɑːrk/",
     "meaning": "標記",
-    "example": "I got mark today.（我今天得到標記。）",
-    "hint": "聯想到：標記的畫面。",
-    "pronunciation": "注意字首與字尾連讀，跟讀 3 次。"
+    "example": "Put a mark on the page.（在頁面上做個記號。）",
+    "hint": "書頁邊緣折角做記號。",
+    "pronunciation": "/r/ 要明顯，後面接 /k/ 收尾。"
   },
   {
     "word": "meal",
-    "phonetic": "/請查字典/",
+    "phonetic": "/miːl/",
     "meaning": "一餐",
-    "example": "We had a meal together.（我們一起吃了一頓飯。）",
-    "hint": "聯想到：一餐的畫面。",
-    "pronunciation": "注意雙元音或長元音的滑動，跟讀 3 次。"
+    "example": "We shared a simple meal.（我們一起吃了一頓簡單的餐。）",
+    "hint": "餐桌上冒著熱氣的食物。",
+    "pronunciation": "長音 /iː/ 拉長一點，尾音 /l/ 要收住。"
   },
   {
     "word": "mean",
-    "phonetic": "/請查字典/",
+    "phonetic": "/miːn/",
     "meaning": "意味；卑鄙的",
-    "example": "What does this word mean?（這個字是什麼意思？）",
-    "hint": "聯想到：意味的畫面。",
-    "pronunciation": "注意雙元音或長元音的滑動，跟讀 3 次。"
+    "example": "What do you mean?（你是什麼意思？）",
+    "hint": "聽到一句話不太懂，想追問清楚。",
+    "pronunciation": "/iː/ 很乾淨，尾音 /n/ 要收好。"
   },
   {
     "word": "meat",
-    "phonetic": "/請查字典/",
+    "phonetic": "/miːt/",
     "meaning": "肉",
-    "example": "I got meat today.（我今天得到肉。）",
-    "hint": "聯想到：肉的畫面。",
-    "pronunciation": "注意雙元音或長元音的滑動，跟讀 3 次。"
+    "example": "I bought some meat for dinner.（我買了一些肉準備晚餐。）",
+    "hint": "超市冷藏櫃裡的肉排。",
+    "pronunciation": "/t/ 結尾要短促，別拖音。"
   },
   {
     "word": "meet",
-    "phonetic": "/請查字典/",
+    "phonetic": "/miːt/",
     "meaning": "遇見；碰上",
-    "example": "I got meet today.（我今天得到遇見。）",
-    "hint": "聯想到：遇見的畫面。",
-    "pronunciation": "注意雙元音或長元音的滑動，跟讀 3 次。"
+    "example": "Let's meet at the library.（我們在圖書館見面。）",
+    "hint": "在約好的地方碰頭。",
+    "pronunciation": "和 meat 同音，這個對照很重要。"
   },
   {
     "word": "mile",
-    "phonetic": "/請查字典/",
+    "phonetic": "/maɪl/",
     "meaning": "哩",
-    "example": "I walked a mile today.（我今天走了一英里。）",
-    "hint": "聯想到：哩的畫面。",
-    "pronunciation": "注意字首與字尾連讀，跟讀 3 次。"
+    "example": "We walked a mile home.（我們走了一英里回家。）",
+    "hint": "走很長一段路，腳步越來越慢。",
+    "pronunciation": "/aɪ/ 是滑動音，嘴形由開到收。"
   },
   {
     "word": "milk",
-    "phonetic": "/請查字典/",
+    "phonetic": "/mɪlk/",
     "meaning": "牛奶",
-    "example": "We need milk.（我們需要牛奶。）",
-    "hint": "聯想到：牛奶的畫面。",
-    "pronunciation": "注意字首與字尾連讀，跟讀 3 次。"
+    "example": "She drinks a glass of milk every day.（她每天喝一杯牛奶。）",
+    "hint": "早餐桌上的冰牛奶。",
+    "pronunciation": "/lk/ 連綴要順，l 不要分開太久。"
   },
   {
     "word": "mind",
-    "phonetic": "/請查字典/",
+    "phonetic": "/maɪnd/",
     "meaning": "心智；介意",
     "example": "Keep an open mind.（保持開放的心態。）",
-    "hint": "聯想到：心智的畫面。",
-    "pronunciation": "注意字首與字尾連讀，跟讀 3 次。"
+    "hint": "先不要急著下判斷，先把腦袋打開。",
+    "pronunciation": "/aɪ/ 之後接 /nd/，尾音要穩。"
   },
   {
     "word": "mine",
-    "phonetic": "/請查字典/",
+    "phonetic": "/maɪn/",
     "meaning": "我的（人或事物）；礦坑",
     "example": "This seat is mine.（這個座位是我的。）",
-    "hint": "聯想到：我的（人或事物）的畫面。",
-    "pronunciation": "注意字首與字尾連讀，跟讀 3 次。"
+    "hint": "把座位圈起來，表示是自己的。",
+    "pronunciation": "和 mind 很像，但尾音只剩 /n/。"
   },
   {
     "word": "miss",
-    "phonetic": "/請查字典/",
+    "phonetic": "/mɪs/",
     "meaning": "錯過",
-    "example": "I got miss today.（我今天得到錯過。）",
-    "hint": "聯想到：錯過的畫面。",
-    "pronunciation": "注意字首與字尾連讀，跟讀 3 次。"
+    "example": "Don't miss the bus.（別錯過公車。）",
+    "hint": "公車要開走時衝出去追。",
+    "pronunciation": "短音 /ɪ/ 很短，結尾 /s/ 要清楚。"
   }
 ]

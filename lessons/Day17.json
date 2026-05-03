@@ -1,0 +1,162 @@
+[
+  {
+    "word": "moon",
+    "phonetic": "/muːn/",
+    "meaning": "月亮",
+    "example": "The moon is bright tonight.（今晚的月亮很亮。）",
+    "hint": "夜空裡最安靜的一盞白燈。",
+    "pronunciation": "長音 /uː/ 要拉開，尾音 /n/ 收乾淨。"
+  },
+  {
+    "word": "more",
+    "phonetic": "/mɔːr/",
+    "meaning": "更多的",
+    "example": "I need more time.（我需要更多時間。）",
+    "hint": "還想再多拿一點。",
+    "pronunciation": "/r/ 要帶出捲舌感，不要太平。"
+  },
+  {
+    "word": "most",
+    "phonetic": "/moʊst/",
+    "meaning": "大多數的",
+    "example": "Most students finished early.（大多數學生很早就完成了。）",
+    "hint": "一群人裡面占最大的一群。",
+    "pronunciation": "/oʊ/ 是滑動音，接 /st/ 要俐落。"
+  },
+  {
+    "word": "move",
+    "phonetic": "/muːv/",
+    "meaning": "移動",
+    "example": "Please move the chair.（請把椅子移開。）",
+    "hint": "把椅子從路中央推到旁邊。",
+    "pronunciation": "尾音 /v/ 要有聲帶震動。"
+  },
+  {
+    "word": "much",
+    "phonetic": "/mʌtʃ/",
+    "meaning": "很多的",
+    "example": "Thank you very much.（非常謝謝你。）",
+    "hint": "表示「很多」時常出現在感謝句裡。",
+    "pronunciation": "字尾 /tʃ/ 要收緊，別拖音。"
+  },
+  {
+    "word": "must",
+    "phonetic": "/mʌst/",
+    "meaning": "必須",
+    "example": "You must be on time.（你必須準時。）",
+    "hint": "像紅燈一樣強烈的命令。",
+    "pronunciation": "/st/ 結尾很短，句子語氣要堅定。"
+  },
+  {
+    "word": "nail",
+    "phonetic": "/neɪl/",
+    "meaning": "指甲；釘子",
+    "example": "He hit the nail with a hammer.（他用槌子敲釘子。）",
+    "hint": "工具箱裡閃亮的小金屬釘。",
+    "pronunciation": "雙元音 /eɪ/ 要完整，尾音 /l/ 要清楚。"
+  },
+  {
+    "word": "name",
+    "phonetic": "/neɪm/",
+    "meaning": "名字",
+    "example": "My name is Tina.（我的名字是 Tina。）",
+    "hint": "第一次見面先說名字。",
+    "pronunciation": "尾音 /m/ 要收住，不要鼻音拖太長。"
+  },
+  {
+    "word": "navy",
+    "phonetic": "/ˈneɪvi/",
+    "meaning": "海軍",
+    "example": "He joined the navy.（他加入了海軍。）",
+    "hint": "穿著深藍制服的海軍軍人。",
+    "pronunciation": "重音在第一音節，/v/ 要清楚。"
+  },
+  {
+    "word": "near",
+    "phonetic": "/nɪr/",
+    "meaning": "靠近……",
+    "example": "The store is near my home.（那家店靠近我家。）",
+    "hint": "走幾步就能到的距離。",
+    "pronunciation": "/ɪr/ 帶出捲舌感，聲音別太平。"
+  },
+  {
+    "word": "neck",
+    "phonetic": "/nɛk/",
+    "meaning": "脖子",
+    "example": "My neck hurts today.（我今天脖子痛。）",
+    "hint": "轉頭時最先感受到的地方。",
+    "pronunciation": "短音 /ɛ/ 很短，字尾 /k/ 要乾脆。"
+  },
+  {
+    "word": "need",
+    "phonetic": "/niːd/",
+    "meaning": "需要",
+    "example": "We need more water.（我們需要更多水。）",
+    "hint": "口渴時最先想到的字。",
+    "pronunciation": "長音 /iː/ 清楚，尾音 /d/ 要收好。"
+  },
+  {
+    "word": "news",
+    "phonetic": "/nuːz/",
+    "meaning": "新聞",
+    "example": "The news is good today.（今天的新聞很好。）",
+    "hint": "打開電視看最新消息。",
+    "pronunciation": "尾音 /z/ 是濁音，舌尖不要太緊。"
+  },
+  {
+    "word": "next",
+    "phonetic": "/nɛkst/",
+    "meaning": "下一個",
+    "example": "See you next week.（下週見。）",
+    "hint": "翻到下一頁、下一站、下一題。",
+    "pronunciation": "/kst/ 連在一起，別把中間切開。"
+  },
+  {
+    "word": "nice",
+    "phonetic": "/naɪs/",
+    "meaning": "美好的；宜人的",
+    "example": "That is a nice shirt.（那是一件好看的襯衫。）",
+    "hint": "看到喜歡的東西，心情會變好。",
+    "pronunciation": "/aɪ/ 的滑動要完整。"
+  },
+  {
+    "word": "noon",
+    "phonetic": "/nuːn/",
+    "meaning": "正午",
+    "example": "It is noon now.（現在是正午。）",
+    "hint": "太陽正高掛在天空中央。",
+    "pronunciation": "前後都是 /n/，中間長音 /uː/ 要穩。"
+  },
+  {
+    "word": "nose",
+    "phonetic": "/noʊz/",
+    "meaning": "鼻子",
+    "example": "I have a small nose.（我有一個小鼻子。）",
+    "hint": "用手指輕點自己的鼻尖。",
+    "pronunciation": "尾音 /z/ 要有聲音，不要唸成 /s/。"
+  },
+  {
+    "word": "note",
+    "phonetic": "/noʊt/",
+    "meaning": "注意；筆記",
+    "example": "Write a note for me.（幫我寫一張便條。）",
+    "hint": "把提醒寫在紙條上。",
+    "pronunciation": "/oʊ/ 要滑開，尾音 /t/ 要短。"
+  },
+  {
+    "word": "obey",
+    "phonetic": "/oʊˈbeɪ/",
+    "meaning": "服從；遵守",
+    "example": "Obey the rules.（遵守規則。）",
+    "hint": "在教室裡安靜聽指令。",
+    "pronunciation": "重音在第二音節 /ˈbeɪ/。"
+  },
+  {
+    "word": "once",
+    "phonetic": "/wʌns/",
+    "meaning": "一旦；曾經",
+    "example": "I saw it once.（我看過一次。）",
+    "hint": "只做一次、只見一次。",
+    "pronunciation": "開頭 /w/ 很輕，/ʌ/ 很短。"
+  }
+]

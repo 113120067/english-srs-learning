@@ -1,0 +1,162 @@
+[
+  {
+    "word": "fight",
+    "phonetic": "/faɪt/",
+    "meaning": "打鬥；爭執",
+    "example": "They had a fight over money.（他們因錢吵了一架。）",
+    "hint": "身體或言語上的衝突。",
+    "pronunciation": "/aɪ/ 滑音，尾音 /t/ 清楚。"
+  },
+  {
+    "word": "final",
+    "phonetic": "/ˈfaɪnəl/",
+    "meaning": "最後的",
+    "example": "The final exam is next week.（期末考在下週。）",
+    "hint": "結尾或最終階段。",
+    "pronunciation": "重音在第一音節，/əl/ 輕音節。"
+  },
+  {
+    "word": "first",
+    "phonetic": "/fɜːrst/",
+    "meaning": "第一的",
+    "example": "She finished first in the race.（她在比賽中拿第一。）",
+    "hint": "序列中的第一位。",
+    "pronunciation": "/ɜːr/ 帶 r 音。"
+  },
+  {
+    "word": "float",
+    "phonetic": "/floʊt/",
+    "meaning": "漂浮",
+    "example": "Leaves float on the water.（葉子在水面漂浮。）",
+    "hint": "不下沉於液體表面。",
+    "pronunciation": "/oʊ/ 滑音。"
+  },
+  {
+    "word": "floor",
+    "phonetic": "/flɔːr/",
+    "meaning": "地板",
+    "example": "Please sit on the floor.（請坐在地板上。）",
+    "hint": "房間底部的表面。",
+    "pronunciation": "/ɔːr/ 帶 r 音。"
+  },
+  {
+    "word": "fluid",
+    "phonetic": "/ˈfluːɪd/",
+    "meaning": "液體；流動的",
+    "example": "Blood is a vital fluid in the body.（血液是體內重要的液體。）",
+    "hint": "能流動的物質。",
+    "pronunciation": "/fluː/ 長音，/ɪd/ 輕音節。"
+  },
+  {
+    "word": "force",
+    "phonetic": "/fɔːrs/",
+    "meaning": "力量；強迫",
+    "example": "They used force to open the door.（他們用力打開門。）",
+    "hint": "推動或施壓的力量。",
+    "pronunciation": "/f/ 開始，/ɔːr/ 帶 r 音。"
+  },
+  {
+    "word": "frame",
+    "phonetic": "/freɪm/",
+    "meaning": "框架；構架",
+    "example": "The picture frame was broken.（畫框壞了。）",
+    "hint": "支撐或限定的結構。",
+    "pronunciation": "/eɪ/ 滑音。"
+  },
+  {
+    "word": "fresh",
+    "phonetic": "/frɛʃ/",
+    "meaning": "新鮮的",
+    "example": "Buy fresh vegetables at the market.（在市場買新鮮蔬菜。）",
+    "hint": "剛採或未久放的狀態。",
+    "pronunciation": "/fr/ 連音，/ɛ/ 短音。"
+  },
+  {
+    "word": "front",
+    "phonetic": "/frʌnt/",
+    "meaning": "前方的；前面",
+    "example": "Stand in front of the class.（站在班級前方。）",
+    "hint": "面向前方的位置。",
+    "pronunciation": "/ʌ/ 中央元音。"
+  },
+  {
+    "word": "fruit",
+    "phonetic": "/fruːt/",
+    "meaning": "水果",
+    "example": "Bananas are my favorite fruit.（香蕉是我最喜歡的水果。）",
+    "hint": "植物的可食用成熟部分。",
+    "pronunciation": "長音 /uː/，尾音 /t/ 清。"
+  },
+  {
+    "word": "glass",
+    "phonetic": "/ɡlæs/",
+    "meaning": "玻璃；杯子",
+    "example": "He broke a glass by accident.（他不小心打破一個玻璃杯。）",
+    "hint": "透明材料或容器。",
+    "pronunciation": "/ɡ/ 起始，/æs/ 開口短促。"
+  },
+  {
+    "word": "grass",
+    "phonetic": "/ɡræs/",
+    "meaning": "草地",
+    "example": "Children played on the grass.（孩子們在草地上玩耍。）",
+    "hint": "地面覆蓋的綠色植物。",
+    "pronunciation": "/ɡr/ 連音，/æs/ 短。"
+  },
+  {
+    "word": "great",
+    "phonetic": "/ɡreɪt/",
+    "meaning": "很棒的；偉大的",
+    "example": "You did a great job.（你做得很好。）",
+    "hint": "高度肯定或讚賞。",
+    "pronunciation": "/eɪ/ 滑音，尾音 /t/ 清。"
+  },
+  {
+    "word": "green",
+    "phonetic": "/ɡriːn/",
+    "meaning": "綠色的",
+    "example": "The leaves are bright green in spring.（春天葉子是亮綠色。）",
+    "hint": "顏色詞，常與自然相關。",
+    "pronunciation": "長音 /iː/。"
+  },
+  {
+    "word": "group",
+    "phonetic": "/ɡruːp/",
+    "meaning": "團體；群組",
+    "example": "They work well as a group.（他們作為一個團隊合作得很好。）",
+    "hint": "多人集合成單位。",
+    "pronunciation": "/uː/ 長音，/p/ 爆破。"
+  },
+  {
+    "word": "guard",
+    "phonetic": "/ɡɑːrd/",
+    "meaning": "守衛；保護",
+    "example": "A guard watches the entrance.（守衛看守入口。）",
+    "hint": "保護或監視的職務。",
+    "pronunciation": "/ɑːr/ 帶 r 音。"
+  },
+  {
+    "word": "guess",
+    "phonetic": "/ɡɛs/",
+    "meaning": "猜測",
+    "example": "I guess we'll be late.（我猜我們會遲到。）",
+    "hint": "沒有確定依據時的推測。",
+    "pronunciation": "/ɛ/ 短元音。"
+  },
+  {
+    "word": "guide",
+    "phonetic": "/ɡaɪd/",
+    "meaning": "引導；導遊",
+    "example": "A guide showed us the museum.（導遊帶我們參觀博物館。）",
+    "hint": "帶領或示範方向的人。",
+    "pronunciation": "/aɪ/ 滑音，尾音 /d/ 清。"
+  },
+  {
+    "word": "happy",
+    "phonetic": "/ˈhæpi/",
+    "meaning": "快樂的",
+    "example": "She felt happy about the news.（她對這個消息感到高興。）",
+    "hint": "愉快或滿足的情緒。",
+    "pronunciation": "重音在第一音節，/hæ/ 開口。"
+  }
+]

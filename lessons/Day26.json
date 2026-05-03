@@ -1,0 +1,162 @@
+[
+  {
+    "word": "wool",
+    "phonetic": "/wʊl/",
+    "meaning": "羊毛",
+    "example": "The sweater is made of soft wool.（這件毛衣是由柔軟的羊毛做的。）",
+    "hint": "冬天保暖的天然纖維。",
+    "pronunciation": "/ʊ/ 短音，尾音 /l/ 輕收。"
+  },
+  {
+    "word": "word",
+    "phonetic": "/wɜːrd/",
+    "meaning": "字；詞彙",
+    "example": "She can't find the right word.（她找不到適當的字詞。）",
+    "hint": "語言的最小意義單位。",
+    "pronunciation": "/ɜːr/ 帶 r 音。"
+  },
+  {
+    "word": "work",
+    "phonetic": "/wɜːrk/",
+    "meaning": "工作",
+    "example": "I go to work by bike.（我騎腳踏車去上班。）",
+    "hint": "職場或任務相關活動。",
+    "pronunciation": "/ɜːr/ + 清晰的 /k/ 結尾。"
+  },
+  {
+    "word": "yard",
+    "phonetic": "/jɑːrd/",
+    "meaning": "院子；碼（長度）",
+    "example": "They played in the backyard yard.（他們在後院玩耍。）",
+    "hint": "房屋周圍的開放空間。",
+    "pronunciation": "/j/ 開頭，/ɑːr/ 帶 r 色。"
+  },
+  {
+    "word": "year",
+    "phonetic": "/jɪər/",
+    "meaning": "年",
+    "example": "This year I'm learning more English.（今年我正在學更多英文。）",
+    "hint": "時間單位的一年。",
+    "pronunciation": "/j/ 起頭，/ɪər/ 三音節感。"
+  },
+  {
+    "word": "allow",
+    "phonetic": "/əˈlaʊ/",
+    "meaning": "允許",
+    "example": "Parents allow their children some freedom.（父母允許孩子一些自由。）",
+    "hint": "給予許可或同意。",
+    "pronunciation": "弱讀 /ə/，重音在第二音節 /laʊ/。"
+  },
+  {
+    "word": "alone",
+    "phonetic": "/əˈloʊn/",
+    "meaning": "單獨的",
+    "example": "She likes to be alone sometimes.（她有時喜歡獨處。）",
+    "hint": "沒有別人陪伴的狀態。",
+    "pronunciation": "重音在第二音節，/oʊ/ 滑音。"
+  },
+  {
+    "word": "along",
+    "phonetic": "/əˈlɔːŋ/",
+    "meaning": "沿著；一起",
+    "example": "Walk along the river for a nice view.（沿著河邊走會有好風景。）",
+    "hint": "跟著方向或位置移動。",
+    "pronunciation": "/lɔːŋ/ 長音結尾。"
+  },
+  {
+    "word": "among",
+    "phonetic": "/əˈmʌŋ/",
+    "meaning": "在……之間（多者之中）",
+    "example": "She was happy among friends.（她在朋友中很快樂。）",
+    "hint": "多個對象中的其中。",
+    "pronunciation": "/ʌ/ 中央元音要短促。"
+  },
+  {
+    "word": "anger",
+    "phonetic": "/ˈæŋɡər/",
+    "meaning": "憤怒",
+    "example": "He couldn't hide his anger.（他無法掩飾自己的憤怒。）",
+    "hint": "強烈的不滿或情緒。",
+    "pronunciation": "重音在第一音節，/æ/ 要張口。"
+  },
+  {
+    "word": "angle",
+    "phonetic": "/ˈæŋɡəl/",
+    "meaning": "角度",
+    "example": "Change the angle of the camera.（改變相機的角度。）",
+    "hint": "兩條線之間的夾角。",
+    "pronunciation": "/ŋ/ 後鼻音，/əl/ 輕音節。"
+  },
+  {
+    "word": "apple",
+    "phonetic": "/ˈæpəl/",
+    "meaning": "蘋果",
+    "example": "She ate an apple for breakfast.（她早餐吃了一顆蘋果。）",
+    "hint": "常見水果之一。",
+    "pronunciation": "/æ/ 開口音，/p/ 爆破短促。"
+  },
+  {
+    "word": "apply",
+    "phonetic": "/əˈplaɪ/",
+    "meaning": "運用；申請",
+    "example": "You can apply for the scholarship.（你可以申請這個獎學金。）",
+    "hint": "向機構請求或把方法用到情況上。",
+    "pronunciation": "弱讀 /ə/，重音第二音節 /plaɪ/。"
+  },
+  {
+    "word": "argue",
+    "phonetic": "/ˈɑːrɡjuː/",
+    "meaning": "爭論",
+    "example": "They often argue about small things.（他們經常為小事爭論。）",
+    "hint": "意見不合時的言語交流。",
+    "pronunciation": "/ɑːr/ 帶 r 音，/juː/ 要圓。"
+  },
+  {
+    "word": "below",
+    "phonetic": "/bɪˈloʊ/",
+    "meaning": "在……下面",
+    "example": "The instructions are below the picture.（說明在圖片下面。）",
+    "hint": "位置詞，表示低於某物。",
+    "pronunciation": "弱讀 /bɪ/，重音 /loʊ/。"
+  },
+  {
+    "word": "birth",
+    "phonetic": "/bɜːrθ/",
+    "meaning": "誕生",
+    "example": "The birth of the baby was a joyful event.（嬰兒的誕生是一件喜悅的事。）",
+    "hint": "生命開始的時刻。",
+    "pronunciation": "/ɜːr/ + /θ/ 無聲齒間音。"
+  },
+  {
+    "word": "black",
+    "phonetic": "/blæk/",
+    "meaning": "黑色的",
+    "example": "She wore a black coat.（她穿著黑色外套。）",
+    "hint": "顏色詞之一。",
+    "pronunciation": "/bl/ 起始連音，/æk/ 開口短促。"
+  },
+  {
+    "word": "blade",
+    "phonetic": "/bleɪd/",
+    "meaning": "刀刃",
+    "example": "The blade of the knife is sharp.（刀刃很鋒利。）",
+    "hint": "刀或工具的鋒利部分。",
+    "pronunciation": "/eɪ/ 滑音，尾音 /d/ 清晰。"
+  },
+  {
+    "word": "blame",
+    "phonetic": "/bleɪm/",
+    "meaning": "責備",
+    "example": "Don't blame others for your mistakes.（不要為你的錯誤責備別人。）",
+    "hint": "把過錯歸給某人。",
+    "pronunciation": "/eɪ/ + /m/ 鼻音感。"
+  },
+  {
+    "word": "blank",
+    "phonetic": "/blæŋk/",
+    "meaning": "空白的",
+    "example": "Fill in the blank with the correct word.（用正確的字填空。）",
+    "hint": "沒有內容的空處。",
+    "pronunciation": "/æ/ 開口音，/ŋk/ 後鼻音加爆破。"
+  }
+]

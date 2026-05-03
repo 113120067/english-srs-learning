@@ -1,0 +1,162 @@
+[
+  {
+    "word": "bleed",
+    "phonetic": "/bliːd/",
+    "meaning": "流血",
+    "example": "He began to bleed after the cut.（割傷後他開始流血。）",
+    "hint": "傷口流出的血液。",
+    "pronunciation": "長音 /iː/，尾音 /d/ 清晰。"
+  },
+  {
+    "word": "blind",
+    "phonetic": "/blaɪnd/",
+    "meaning": "盲的；看不見的",
+    "example": "She was temporarily blind after the accident.（事故後她暫時失明。）",
+    "hint": "看不見或無法辨識的狀態。",
+    "pronunciation": "/aɪ/ + /nd/ 收尾。"
+  },
+  {
+    "word": "block",
+    "phonetic": "/blɒk/",
+    "meaning": "方塊；阻礙",
+    "example": "A fallen tree blocked the road.（倒下的樹擋住了道路。）",
+    "hint": "障礙或堆疊的方形物。",
+    "pronunciation": "/bl/ 起始連音，/k/ 爆破。"
+  },
+  {
+    "word": "blood",
+    "phonetic": "/blʌd/",
+    "meaning": "血液",
+    "example": "Donating blood can save lives.（捐血可以拯救生命。）",
+    "hint": "循環在體內的紅色液體。",
+    "pronunciation": "/ʌ/ 中央元音短促。"
+  },
+  {
+    "word": "board",
+    "phonetic": "/bɔːrd/",
+    "meaning": "木板；董事會",
+    "example": "They nailed the board to the wall.（他們把木板釘在牆上。）",
+    "hint": "扁平的硬質材料或決策團體。",
+    "pronunciation": "/ɔːr/ 帶 r 音。"
+  },
+  {
+    "word": "bonus",
+    "phonetic": "/ˈboʊnəs/",
+    "meaning": "紅利；獎金",
+    "example": "Employees received a year-end bonus.（員工領到年終獎金。）",
+    "hint": "額外的獎勵或津貼。",
+    "pronunciation": "/boʊ/ 滑音，尾音 /nəs/ 輕。"
+  },
+  {
+    "word": "brain",
+    "phonetic": "/breɪn/",
+    "meaning": "腦子",
+    "example": "Use your brain before you decide.（做決定前先動動腦筋。）",
+    "hint": "思考與控制身體的器官。",
+    "pronunciation": "/eɪ/ 滑音。"
+  },
+  {
+    "word": "brake",
+    "phonetic": "/breɪk/",
+    "meaning": "煞車",
+    "example": "Press the brake gently.（輕踩煞車。）",
+    "hint": "使車輛減速或停止的裝置。",
+    "pronunciation": "/eɪ/ + /k/ 爆破。"
+  },
+  {
+    "word": "brave",
+    "phonetic": "/breɪv/",
+    "meaning": "勇敢的",
+    "example": "She was brave during the emergency.（她在緊急情況中很勇敢。）",
+    "hint": "面對困難不退縮。",
+    "pronunciation": "/eɪ/ + /v/ 有聲。"
+  },
+  {
+    "word": "bread",
+    "phonetic": "/brɛd/",
+    "meaning": "麵包",
+    "example": "Would you like some fresh bread?（你要一些新鮮的麵包嗎？）",
+    "hint": "主食或烘焙品之一。",
+    "pronunciation": "/ɛ/ 中央短音。"
+  },
+  {
+    "word": "count",
+    "phonetic": "/kaʊnt/",
+    "meaning": "數；計算",
+    "example": "Count how many apples there are.（數一數有多少顆蘋果。）",
+    "hint": "計數或算數的動作。",
+    "pronunciation": "/aʊ/ 滑音，尾音 /nt/ 清楚。"
+  },
+  {
+    "word": "court",
+    "phonetic": "/kɔːrt/",
+    "meaning": "法庭；球場",
+    "example": "The case will be heard in court.（此案將在法庭審理。）",
+    "hint": "法律程序或運動場地。",
+    "pronunciation": "/ɔːr/ + /t/ 清晰。"
+  },
+  {
+    "word": "cover",
+    "phonetic": "/ˈkʌvər/",
+    "meaning": "覆蓋；封面",
+    "example": "Cover the pot to keep it warm.（蓋上鍋蓋保持溫度。）",
+    "hint": "遮住或保護某物。",
+    "pronunciation": "重音在第一音節，/ʌ/ 短促。"
+  },
+  {
+    "word": "crash",
+    "phonetic": "/kræʃ/",
+    "meaning": "撞擊；墜毀",
+    "example": "The computer crashed before I saved the file.（電腦當機，我還沒存檔。）",
+    "hint": "突然的碰撞或失敗。",
+    "pronunciation": "/æ/ 開口，結尾 /ʃ/ 無聲。"
+  },
+  {
+    "word": "crime",
+    "phonetic": "/kraɪm/",
+    "meaning": "罪行",
+    "example": "The police investigated the crime.（警察調查了那起罪案。）",
+    "hint": "違反法律的行為。",
+    "pronunciation": "/aɪ/ 滑音，尾音 /m/。"
+  },
+  {
+    "word": "cross",
+    "phonetic": "/krɒs/",
+    "meaning": "穿過；十字",
+    "example": "Cross the street at the crosswalk.（在斑馬線過馬路。）",
+    "hint": "從一邊到另一邊的行為。",
+    "pronunciation": "/r/ 要帶出，/s/ 清晰。"
+  },
+  {
+    "word": "crowd",
+    "phonetic": "/kraʊd/",
+    "meaning": "群眾；擁擠",
+    "example": "A crowd gathered at the concert.（一群人聚集在音樂會。）",
+    "hint": "大量人在同一空間。",
+    "pronunciation": "/aʊ/ 滑音，尾音 /d/。"
+  },
+  {
+    "word": "crush",
+    "phonetic": "/krʌʃ/",
+    "meaning": "壓碎；迷戀",
+    "example": "Be careful not to crush the flowers.（小心不要壓壞花。）",
+    "hint": "強力壓迫導致破壞。",
+    "pronunciation": "/ʌ/ 短音，/ʃ/ 無聲。"
+  },
+  {
+    "word": "dance",
+    "phonetic": "/dæns/",
+    "meaning": "跳舞",
+    "example": "They dance every Friday night.（他們每週五晚上跳舞。）",
+    "hint": "跟著節奏移動身體。",
+    "pronunciation": "/æ/ 開口，/ns/ 集中發音。"
+  },
+  {
+    "word": "delay",
+    "phonetic": "/dɪˈleɪ/",
+    "meaning": "延遲",
+    "example": "The flight was delayed due to weather.（班機因天候延遲。）",
+    "hint": "原定時間往後推。",
+    "pronunciation": "弱讀第一音節，重音第二音節 /leɪ/。"
+  }
+]

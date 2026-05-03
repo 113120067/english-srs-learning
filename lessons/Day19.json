@@ -1,0 +1,162 @@
+[
+  {
+    "word": "pray",
+    "phonetic": "/preɪ/",
+    "meaning": "禱告",
+    "example": "They pray before dinner.（他們在晚餐前禱告。）",
+    "hint": "雙手合十、安靜低頭。",
+    "pronunciation": "/pr/ 連綴後接 /eɪ/，滑動要完整。"
+  },
+  {
+    "word": "pull",
+    "phonetic": "/pʊl/",
+    "meaning": "拉",
+    "example": "Pull the door open.（把門拉開。）",
+    "hint": "握住把手往自己身邊拉。",
+    "pronunciation": "短元音 /ʊ/ 很短，尾音 /l/ 要收住。"
+  },
+  {
+    "word": "pure",
+    "phonetic": "/pjʊr/",
+    "meaning": "純粹的",
+    "example": "This water is pure.（這水很純淨。）",
+    "hint": "清澈透明的水杯。",
+    "pronunciation": "/pj/ 起頭，後面接捲舌 /r/。"
+  },
+  {
+    "word": "push",
+    "phonetic": "/pʊʃ/",
+    "meaning": "推",
+    "example": "Push the cart forward.（把推車往前推。）",
+    "hint": "雙手往前一推，東西就往前走。",
+    "pronunciation": "字尾 /ʃ/ 要像噓聲一樣柔和。"
+  },
+  {
+    "word": "quit",
+    "phonetic": "/kwɪt/",
+    "meaning": "離開；解除；停止",
+    "example": "He decided to quit the job.（他決定辭職。）",
+    "hint": "關掉工作電腦，走出辦公室。",
+    "pronunciation": "/kw/ 連綴要一起發，不要拆開。"
+  },
+  {
+    "word": "race",
+    "phonetic": "/reɪs/",
+    "meaning": "比賽",
+    "example": "She won the race.（她贏得了比賽。）",
+    "hint": "跑道上的衝刺畫面。",
+    "pronunciation": "/eɪ/ 要明顯，結尾 /s/ 要短。"
+  },
+  {
+    "word": "raid",
+    "phonetic": "/reɪd/",
+    "meaning": "突襲；劫掠",
+    "example": "The police made a raid.（警方進行了突襲。）",
+    "hint": "突然闖入的行動。",
+    "pronunciation": "尾音 /d/ 要收住，不要拖長。"
+  },
+  {
+    "word": "rail",
+    "phonetic": "/reɪl/",
+    "meaning": "欄杆；鐵路",
+    "example": "Hold the rail when you walk down.（下樓時抓住欄杆。）",
+    "hint": "樓梯旁邊的金屬扶手。",
+    "pronunciation": "/eɪ/ 後接 /l/，尾音要清楚。"
+  },
+  {
+    "word": "rain",
+    "phonetic": "/reɪn/",
+    "meaning": "雨；下雨",
+    "example": "It may rain this afternoon.（今天下午可能會下雨。）",
+    "hint": "窗外滴滴答答的雨聲。",
+    "pronunciation": "/eɪ/ 滑動清楚，尾音 /n/ 收好。"
+  },
+  {
+    "word": "rare",
+    "phonetic": "/rer/",
+    "meaning": "少見的",
+    "example": "A rare bird was seen here.（這裡曾看到一隻罕見的鳥。）",
+    "hint": "像博物館裡很少見的收藏品。",
+    "pronunciation": "尾端 /r/ 要帶出捲舌感。"
+  },
+  {
+    "word": "rate",
+    "phonetic": "/reɪt/",
+    "meaning": "速率；比例；利率",
+    "example": "The rate is very high.（這個比率很高。）",
+    "hint": "看到百分比或價格變化。",
+    "pronunciation": "/eɪ/ 要完整，尾音 /t/ 短促。"
+  },
+  {
+    "word": "read",
+    "phonetic": "/riːd/",
+    "meaning": "閱讀",
+    "example": "Read this book tonight.（今晚讀這本書。）",
+    "hint": "坐在燈下翻書。",
+    "pronunciation": "長音 /iː/ 很乾淨，尾音 /d/ 要清楚。"
+  },
+  {
+    "word": "real",
+    "phonetic": "/riːl/",
+    "meaning": "真實的",
+    "example": "This is a real story.（這是真實的故事。）",
+    "hint": "不是想像，而是真發生過。",
+    "pronunciation": "/l/ 要收乾淨，別拖太長。"
+  },
+  {
+    "word": "rest",
+    "phonetic": "/rɛst/",
+    "meaning": "休息；剩餘的",
+    "example": "Take a rest after work.（下班後休息一下。）",
+    "hint": "把背包放下，坐著喘口氣。",
+    "pronunciation": "/ɛ/ 短而清楚，/st/ 要緊收。"
+  },
+  {
+    "word": "rice",
+    "phonetic": "/raɪs/",
+    "meaning": "米",
+    "example": "I ate rice for lunch.（我午餐吃了飯。）",
+    "hint": "白白一碗熱騰騰的白飯。",
+    "pronunciation": "/aɪ/ 要滑動，尾音 /s/ 乾脆。"
+  },
+  {
+    "word": "rich",
+    "phonetic": "/rɪtʃ/",
+    "meaning": "富有的",
+    "example": "He is very rich.（他非常富有。）",
+    "hint": "看見大房子和豪車。",
+    "pronunciation": "尾音 /tʃ/ 要收緊。"
+  },
+  {
+    "word": "ride",
+    "phonetic": "/raɪd/",
+    "meaning": "騎乘",
+    "example": "I ride my bike to school.（我騎腳踏車去學校。）",
+    "hint": "腳踏車輪子一直轉。",
+    "pronunciation": "/aɪ/ 後接 /d/，尾音輕收。"
+  },
+  {
+    "word": "ring",
+    "phonetic": "/rɪŋ/",
+    "meaning": "圈；包圍；按鈴",
+    "example": "The phone rings again.（電話又響了。）",
+    "hint": "手機響起來的聲音。",
+    "pronunciation": "尾音 /ŋ/ 要從鼻腔出聲。"
+  },
+  {
+    "word": "riot",
+    "phonetic": "/ˈraɪət/",
+    "meaning": "暴動",
+    "example": "The riot was dangerous.（那場暴動很危險。）",
+    "hint": "街上混亂、人群推擠。",
+    "pronunciation": "重音在第一音節，/aɪ/ 要完整。"
+  },
+  {
+    "word": "rise",
+    "phonetic": "/raɪz/",
+    "meaning": "上升；增加",
+    "example": "Prices rise every year.（價格每年都上升。）",
+    "hint": "像太陽慢慢升起。",
+    "pronunciation": "尾音 /z/ 是濁音，別唸成 /s/。"
+  }
+]

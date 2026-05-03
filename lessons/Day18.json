@@ -1,0 +1,162 @@
+[
+  {
+    "word": "once",
+    "phonetic": "/wʌns/",
+    "meaning": "一旦；曾經",
+    "example": "I saw it once.（我看過一次。）",
+    "hint": "只做一次、只見一次。",
+    "pronunciation": "開頭 /w/ 很輕，/ʌ/ 很短。"
+  },
+  {
+    "word": "only",
+    "phonetic": "/ˈoʊnli/",
+    "meaning": "僅……；只",
+    "example": "Only one person came.（只有一個人來了。）",
+    "hint": "畫面裡只有一盞燈亮著。",
+    "pronunciation": "重音在第一音節，尾音 /li/ 要清楚。"
+  },
+  {
+    "word": "open",
+    "phonetic": "/ˈoʊpən/",
+    "meaning": "打開；開啟的；開放的",
+    "example": "Open the window, please.（請打開窗戶。）",
+    "hint": "早上拉開窗簾，陽光進來。",
+    "pronunciation": "第一音節重讀，第二音節輕。"
+  },
+  {
+    "word": "ours",
+    "phonetic": "/ˈaʊərz/",
+    "meaning": "我們的",
+    "example": "This table is ours.（這張桌子是我們的。）",
+    "hint": "把東西圍起來，表示屬於我們。",
+    "pronunciation": "結尾 /z/ 要有聲音。"
+  },
+  {
+    "word": "oust",
+    "phonetic": "/aʊst/",
+    "meaning": "驅逐",
+    "example": "They tried to oust the boss.（他們想趕走老闆。）",
+    "hint": "把不受歡迎的人請出去。",
+    "pronunciation": "/aʊ/ 滑向 /st/，要乾脆。"
+  },
+  {
+    "word": "over",
+    "phonetic": "/ˈoʊvər/",
+    "meaning": "在……之上；超過",
+    "example": "The bird flew over the tree.（鳥飛過樹上。）",
+    "hint": "一隻鳥從樹頂上方掠過。",
+    "pronunciation": "重音在第一音節，/v/ 要清楚。"
+  },
+  {
+    "word": "page",
+    "phonetic": "/peɪdʒ/",
+    "meaning": "（書）頁",
+    "example": "Turn to page ten.（翻到第十頁。）",
+    "hint": "翻書時聽到紙張沙沙聲。",
+    "pronunciation": "字尾 /dʒ/ 要濁，不要唸成 /j/。"
+  },
+  {
+    "word": "pain",
+    "phonetic": "/peɪn/",
+    "meaning": "疼痛",
+    "example": "I feel a sharp pain.（我感到一陣刺痛。）",
+    "hint": "突然抽痛會讓人皺眉。",
+    "pronunciation": "/eɪ/ 要明顯，尾音 /n/ 收住。"
+  },
+  {
+    "word": "part",
+    "phonetic": "/pɑːrt/",
+    "meaning": "一部分；離開；角色",
+    "example": "This is my part.（這是我的部分。）",
+    "hint": "把一個蛋糕分成幾塊。",
+    "pronunciation": "/r/ 要帶出捲舌感。"
+  },
+  {
+    "word": "pass",
+    "phonetic": "/pæs/",
+    "meaning": "通過；通行證",
+    "example": "Please pass the salt.（請把鹽遞過來。）",
+    "hint": "餐桌上把調味料傳給別人。",
+    "pronunciation": "/æ/ 張口，尾音 /s/ 清楚。"
+  },
+  {
+    "word": "past",
+    "phonetic": "/pæst/",
+    "meaning": "過去；通過",
+    "example": "Walk past the store.（走過那家店。）",
+    "hint": "你從店門口快步走過去。",
+    "pronunciation": "/st/ 結尾要短，不要拖長。"
+  },
+  {
+    "word": "path",
+    "phonetic": "/pæθ/",
+    "meaning": "小徑；路線",
+    "example": "Follow the path to the house.（沿著小徑走到那棟房子。）",
+    "hint": "森林裡一條彎彎的小路。",
+    "pronunciation": "/θ/ 要輕咬舌尖，氣流摩擦出來。"
+  },
+  {
+    "word": "pick",
+    "phonetic": "/pɪk/",
+    "meaning": "挑選；挑剔",
+    "example": "Pick a card.（挑一張卡片。）",
+    "hint": "桌上有幾張卡，你只拿一張。",
+    "pronunciation": "短音 /ɪ/ 很短，尾音 /k/ 乾脆。"
+  },
+  {
+    "word": "pint",
+    "phonetic": "/paɪnt/",
+    "meaning": "品脫（容量）",
+    "example": "A pint of milk.（一品脫牛奶。）",
+    "hint": "量杯上的容量刻度。",
+    "pronunciation": "/aɪ/ 滑動清楚，/nt/ 收尾要穩。"
+  },
+  {
+    "word": "pipe",
+    "phonetic": "/paɪp/",
+    "meaning": "管；煙斗",
+    "example": "The pipe is broken.（那根管子壞了。）",
+    "hint": "牆裡或地下的水管。",
+    "pronunciation": "雙元音 /aɪ/ 接 /p/，收得很快。"
+  },
+  {
+    "word": "plan",
+    "phonetic": "/plæn/",
+    "meaning": "計畫",
+    "example": "We made a plan for tomorrow.（我們為明天做了計畫。）",
+    "hint": "先畫流程圖，再去執行。",
+    "pronunciation": "/pl/ 連綴要順，/æ/ 要張口。"
+  },
+  {
+    "word": "play",
+    "phonetic": "/pleɪ/",
+    "meaning": "玩；戲劇",
+    "example": "The children play outside.（孩子們在外面玩。）",
+    "hint": "放學後跑去操場。",
+    "pronunciation": "/eɪ/ 滑動要完整。"
+  },
+  {
+    "word": "poor",
+    "phonetic": "/pʊr/",
+    "meaning": "貧窮的；不充足的",
+    "example": "The poor dog is hungry.（那隻可憐的狗很餓。）",
+    "hint": "一隻看起來很餓的小狗。",
+    "pronunciation": "/ʊr/ 要帶出捲舌感。"
+  },
+  {
+    "word": "port",
+    "phonetic": "/pɔːrt/",
+    "meaning": "港口",
+    "example": "The ship entered the port.（船進入港口。）",
+    "hint": "海邊一排停靠的大船。",
+    "pronunciation": "/ɔːr/ 捲舌後接 /t/。"
+  },
+  {
+    "word": "pour",
+    "phonetic": "/pɔːr/",
+    "meaning": "倒；灌；注；傾瀉",
+    "example": "Pour the water into the cup.（把水倒進杯子裡。）",
+    "hint": "水流從壺嘴慢慢落下。",
+    "pronunciation": "/ɔːr/ 的口形要穩，尾音不要吞掉。"
+  }
+]

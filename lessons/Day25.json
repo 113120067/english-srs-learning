@@ -1,0 +1,162 @@
+[
+  {
+    "word": "wave",
+    "phonetic": "/weɪv/",
+    "meaning": "揮手；波浪",
+    "example": "She gave me a quick wave as she passed by.（她經過時對我快速揮手。）",
+    "hint": "想像手擺動像海浪一樣。",
+    "pronunciation": "/weɪ/ 滑音，尾音 /v/ 需用齒唇發音。"
+  },
+  {
+    "word": "weak",
+    "phonetic": "/wiːk/",
+    "meaning": "虛弱的",
+    "example": "After the flu he still felt weak.（感冒後他仍覺得虛弱。）",
+    "hint": "力量不足的感覺。",
+    "pronunciation": "長音 /iː/，注意與 /week/ 的區別。"
+  },
+  {
+    "word": "wear",
+    "phonetic": "/wɛər/",
+    "meaning": "穿著；磨損",
+    "example": "I like to wear comfortable shoes.（我喜歡穿舒適的鞋子。）",
+    "hint": "身上穿的東西或東西被磨壞的狀態。",
+    "pronunciation": "/w/ 開頭，/ɛə/ 要滑動自然。"
+  },
+  {
+    "word": "week",
+    "phonetic": "/wiːk/",
+    "meaning": "星期",
+    "example": "We will meet next week.（我們下週會見面。）",
+    "hint": "七天的時間。",
+    "pronunciation": "長音 /iː/，與 `weak` 發音對比練習。"
+  },
+  {
+    "word": "well",
+    "phonetic": "/wɛl/",
+    "meaning": "好地；健康的；井",
+    "example": "I hope you are well.（希望你一切安好。）",
+    "hint": "狀態良好的感覺。",
+    "pronunciation": "/ɛ/ 短音，尾音 /l/ 輕收。"
+  },
+  {
+    "word": "west",
+    "phonetic": "/wɛst/",
+    "meaning": "西方",
+    "example": "The sun sets in the west.（太陽在西方落下。）",
+    "hint": "方位詞，和 east 對照。",
+    "pronunciation": "/st/ 結尾清晰。"
+  },
+  {
+    "word": "what",
+    "phonetic": "/wɒt/",
+    "meaning": "什麼",
+    "example": "What do you need?（你需要什麼？）",
+    "hint": "疑問詞核心。",
+    "pronunciation": "/w/ 起頭，/ɒ/ 短音（美式可能 /ɑ/）。"
+  },
+  {
+    "word": "when",
+    "phonetic": "/wɛn/",
+    "meaning": "何時；當……時",
+    "example": "When will the bus arrive?（公車何時到？）",
+    "hint": "用來詢問時間或時機。",
+    "pronunciation": "/w/ + /ɛn/ 要連貫。"
+  },
+  {
+    "word": "wide",
+    "phonetic": "/waɪd/",
+    "meaning": "寬的",
+    "example": "The road is too wide for the bike.（這條路對自行車來說太寬了。）",
+    "hint": "寬度感覺。",
+    "pronunciation": "雙元音 /aɪ/，尾音 /d/ 清楚。"
+  },
+  {
+    "word": "wife",
+    "phonetic": "/waɪf/",
+    "meaning": "妻子",
+    "example": "His wife is a teacher.（他的妻子是一位老師。）",
+    "hint": "婚姻中的女性伴侶。",
+    "pronunciation": "/aɪ/ + /f/，/f/ 用上齒唇摩擦。"
+  },
+  {
+    "word": "wild",
+    "phonetic": "/waɪld/",
+    "meaning": "野性的；狂野的",
+    "example": "The forest is full of wild animals.（森林裡有很多野生動物。）",
+    "hint": "未被馴服的狀態。",
+    "pronunciation": "/aɪ/ + /ld/ 收尾要自然。"
+  },
+  {
+    "word": "will",
+    "phonetic": "/wɪl/",
+    "meaning": "將；意願；遺囑",
+    "example": "I will call you later.（我稍後會打給你。）",
+    "hint": "表示未來或意願。",
+    "pronunciation": "短音 /ɪ/，不要拖長。"
+  },
+  {
+    "word": "wind",
+    "phonetic": "/wɪnd/ 或 /waɪnd/（動詞/名詞）",
+    "meaning": "風；上緊（發條）",
+    "example": "The wind is strong today.（今天風很大。）",
+    "hint": "注意名詞/動詞發音不同（wind /wɪnd/ vs. wind a clock /waɪnd/）。",
+    "pronunciation": "察覺語意改變時音標也會變。"
+  },
+  {
+    "word": "wine",
+    "phonetic": "/waɪn/",
+    "meaning": "葡萄酒",
+    "example": "They ordered a bottle of red wine.（他們點了一瓶紅酒。）",
+    "hint": "常見於餐桌語境。",
+    "pronunciation": "/aɪ/ 滑音，尾音 /n/ 收好。"
+  },
+  {
+    "word": "wing",
+    "phonetic": "/wɪŋ/",
+    "meaning": "翅膀；飛機的翼",
+    "example": "The bird spread its wings and flew.（鳥展開翅膀飛走了。）",
+    "hint": "飛行用的器官或結構。",
+    "pronunciation": "鼻音 /ŋ/ 用後鼻音發出。"
+  },
+  {
+    "word": "wire",
+    "phonetic": "/waɪər/",
+    "meaning": "電線；金屬線",
+    "example": "Be careful with the exposed wire.（小心裸露的電線。）",
+    "hint": "細長的金屬線條。",
+    "pronunciation": "/aɪər/ 三音節感覺要順。"
+  },
+  {
+    "word": "wise",
+    "phonetic": "/waɪz/",
+    "meaning": "明智的",
+    "example": "It's wise to save some money.（存一些錢是明智的。）",
+    "hint": "有經驗且判斷好的狀態。",
+    "pronunciation": "/aɪ/ + /z/，/z/ 要有聲。"
+  },
+  {
+    "word": "wish",
+    "phonetic": "/wɪʃ/",
+    "meaning": "希望；祝福",
+    "example": "I wish you a happy birthday.（祝你生日快樂。）",
+    "hint": "表示渴望或祝福。",
+    "pronunciation": "/ʃ/ 與中文「ㄒ」近似。"
+  },
+  {
+    "word": "with",
+    "phonetic": "/wɪð/ 或 /wɪθ/",
+    "meaning": "與……一起；用……",
+    "example": "Come with me.（跟我一起來。）",
+    "hint": "表示伴隨或使用工具。",
+    "pronunciation": "/ð/ 與 /θ/ 兩種發音在不同口音中常見。"
+  },
+  {
+    "word": "wood",
+    "phonetic": "/wʊd/",
+    "meaning": "木頭",
+    "example": "The table is made of solid wood.（這張桌子是實木做的。）",
+    "hint": "樹的硬質部分，可用來製作家具。",
+    "pronunciation": "短音 /ʊ/，尾音 /d/ 清楚。"
+  }
+]

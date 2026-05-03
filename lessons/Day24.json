@@ -1,0 +1,162 @@
+[
+  {
+    "word": "tree",
+    "phonetic": "/triː/",
+    "meaning": "樹",
+    "example": "The old tree gives us shade in summer.（那棵老樹在夏天為我們遮陰。）",
+    "hint": "想像公園裡高高的綠色頂蓋。",
+    "pronunciation": "長音 /iː/ 要拉長，開頭 /tr/ 清楚連音。"
+  },
+  {
+    "word": "trip",
+    "phonetic": "/trɪp/",
+    "meaning": "旅行；絆倒",
+    "example": "We planned a short trip to the coast.（我們計畫去海邊短程旅行。）",
+    "hint": "短暫的出門走走或被東西絆了一下。",
+    "pronunciation": "/ɪ/ 短促，結尾 /p/ 輕爆破。"
+  },
+  {
+    "word": "tube",
+    "phonetic": "/tjuːb/",
+    "meaning": "管子；（英）地鐵",
+    "example": "He fixed the broken tube under the sink.（他修好了水槽下壞掉的管子。）",
+    "hint": "想像細長的管子或倫敦地鐵（The Tube）。",
+    "pronunciation": "/tj/ 連音，長音 /uː/ 要圓唇。"
+  },
+  {
+    "word": "turn",
+    "phonetic": "/tɜːrn/",
+    "meaning": "轉動；輪到",
+    "example": "Turn the page when you're ready.（準備好就翻頁。）",
+    "hint": "從一個方向移到另一個方向。",
+    "pronunciation": "/ɜːr/ 要有 r 色，尾音 /n/ 清晰。"
+  },
+  {
+    "word": "unit",
+    "phonetic": "/ˈjuːnɪt/",
+    "meaning": "單位；元件",
+    "example": "One unit costs fifty dollars.（一個單位要價五十美元。）",
+    "hint": "衡量或組成的最小單位。",
+    "pronunciation": "重音在第一音節，/juː/ 要分明。"
+  },
+  {
+    "word": "upon",
+    "phonetic": "/əˈpɒn/",
+    "meaning": "在……之上；一……就（正式用法）",
+    "example": "Once upon a time, there was a small village.（從前有個小村莊。）",
+    "hint": "常見於故事開頭或正式用語。",
+    "pronunciation": "弱讀開頭 /ə/，重讀節奏落在第二音節。"
+  },
+  {
+    "word": "urge",
+    "phonetic": "/ɜːrdʒ/",
+    "meaning": "力勸；衝動",
+    "example": "I urge you to check the schedule again.（我強烈建議你再確認行程表。）",
+    "hint": "像是推你去做某事的力量或想法。",
+    "pronunciation": "/ɜːr/ 帶 r 音，結尾 /dʒ/ 類似中文「j」音。"
+  },
+  {
+    "word": "vary",
+    "phonetic": "/ˈvɛəri/",
+    "meaning": "變化；不同",
+    "example": "Prices may vary depending on the season.（價格可能會依季節有所不同。）",
+    "hint": "同一類但會改變的情況。",
+    "pronunciation": "雙元音 /ɛə/ 要滑動自然。"
+  },
+  {
+    "word": "very",
+    "phonetic": "/ˈvɛri/",
+    "meaning": "非常；很",
+    "example": "She is very talented.（她非常有天賦。）",
+    "hint": "用來加強形容詞或副詞的程度。",
+    "pronunciation": "重音在第一音節，/v/ 舌齒發音要輕柔。"
+  },
+  {
+    "word": "veto",
+    "phonetic": "/ˈviːtoʊ/",
+    "meaning": "否決（權）",
+    "example": "The president can veto the bill.（總統可以否決該法案。）",
+    "hint": "否決像是按下停止鍵。",
+    "pronunciation": "/viː/ 長音，/toʊ/ 滑音收尾。"
+  },
+  {
+    "word": "view",
+    "phonetic": "/vjuː/",
+    "meaning": "視野；觀點",
+    "example": "The view from the hill is fantastic.（從小山上看到的景色很棒。）",
+    "hint": "眼睛看到的場景或對事情的看法。",
+    "pronunciation": "/v/ 開頭，/juː/ 要連貫。"
+  },
+  {
+    "word": "vote",
+    "phonetic": "/voʊt/",
+    "meaning": "投票",
+    "example": "Don't forget to vote in the election.（別忘了在選舉投票。）",
+    "hint": "表達選擇意見的行為。",
+    "pronunciation": "/oʊ/ 滑音後爆破成 /t/。"
+  },
+  {
+    "word": "wage",
+    "phonetic": "/weɪdʒ/",
+    "meaning": "工資；（發動）戰爭（片語用法）",
+    "example": "She earned a higher wage after training.（訓練之後她的薪水提高了。）",
+    "hint": "與薪資報酬相關的金錢詞。",
+    "pronunciation": "/weɪ/ 滑音，/dʒ/ 類似中文「j」。"
+  },
+  {
+    "word": "wait",
+    "phonetic": "/weɪt/",
+    "meaning": "等待",
+    "example": "Please wait a moment.（請稍等片刻。）",
+    "hint": "停留不動直到下一步發生。",
+    "pronunciation": "/weɪ/ 長滑音，結尾 /t/ 清晰。"
+  },
+  {
+    "word": "walk",
+    "phonetic": "/wɔːk/",
+    "meaning": "走路",
+    "example": "I walk to work every day.（我每天步行去上班。）",
+    "hint": "雙腳移動的基本動作。",
+    "pronunciation": "/w/ 開頭輕，/ɔː/ 要有圓唇感。"
+  },
+  {
+    "word": "wall",
+    "phonetic": "/wɔːl/",
+    "meaning": "牆壁",
+    "example": "They painted the wall blue.（他們把牆壁漆成藍色。）",
+    "hint": "把空間分開的垂直面。",
+    "pronunciation": "尾音 /l/ 放在口腔後方收住。"
+  },
+  {
+    "word": "want",
+    "phonetic": "/wɒnt/",
+    "meaning": "想要",
+    "example": "I want a cup of coffee.（我想要一杯咖啡。）",
+    "hint": "表示需要或願望的心情。",
+    "pronunciation": "/w/ 開始，/ɒ/ 要短促（美式可能接近 /ɑː/）。"
+  },
+  {
+    "word": "warm",
+    "phonetic": "/wɔːrm/",
+    "meaning": "溫暖的",
+    "example": "The blanket makes me feel warm.（那條毯子讓我感到溫暖。）",
+    "hint": "舒服且不冷的感覺。",
+    "pronunciation": "/ɔːr/ 帶 r 色，注意不要把 /w/ 弱化。"
+  },
+  {
+    "word": "warn",
+    "phonetic": "/wɔːrn/",
+    "meaning": "警告",
+    "example": "They warned us about the slippery road.（他們警告我們路面很滑。）",
+    "hint": "提醒可能的危險或問題。",
+    "pronunciation": "/wɔːr/ 與 /warm/ 類似，但語境不同。"
+  },
+  {
+    "word": "wash",
+    "phonetic": "/wɒʃ/",
+    "meaning": "清洗",
+    "example": "Wash your hands before dinner.（吃飯前洗手。）",
+    "hint": "用清水或肥皂去除髒東西。",
+    "pronunciation": "/ʃ/ 要像中文「ㄒ」加上 h 的感覺。"
+  }
+]

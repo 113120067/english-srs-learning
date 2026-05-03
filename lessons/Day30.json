@@ -1,0 +1,162 @@
+[
+  {
+    "word": "heart",
+    "phonetic": "/hɑːrt/",
+    "meaning": "心；核心",
+    "example": "She spoke from the heart.（她發自內心地說話。）",
+    "hint": "情感的中心或器官。",
+    "pronunciation": "/h/ 輕氣音，/ɑːr/ 帶 r 音。"
+  },
+  {
+    "word": "heavy",
+    "phonetic": "/ˈhɛvi/",
+    "meaning": "沉重的",
+    "example": "The box is too heavy to carry.（這箱子太重，拿不動。）",
+    "hint": "重量大的感覺。",
+    "pronunciation": "重音在第一音節，/h/ 明顯。"
+  },
+  {
+    "word": "horse",
+    "phonetic": "/hɔːrs/",
+    "meaning": "馬",
+    "example": "They rode a horse along the beach.（他們沿海灘騎馬。）",
+    "hint": "大型的四足動物，常供騎乘。",
+    "pronunciation": "/ɔːr/ 帶 r 音。"
+  },
+  {
+    "word": "house",
+    "phonetic": "/haʊs/",
+    "meaning": "房子",
+    "example": "Their house has a small garden.（他們的房子有個小花園。）",
+    "hint": "人居住的建築物。",
+    "pronunciation": "/aʊ/ 滑音，尾音 /s/ 清。"
+  },
+  {
+    "word": "human",
+    "phonetic": "/ˈhjuːmən/",
+    "meaning": "人類的；人",
+    "example": "Being human means making mistakes.（做為人類就是會犯錯。）",
+    "hint": "與人有關的特質或存在。",
+    "pronunciation": "/hjuː/ 起頭，/mən/ 輕音。"
+  },
+  {
+    "word": "humor",
+    "phonetic": "/ˈhjuːmər/",
+    "meaning": "幽默",
+    "example": "He has a great sense of humor.（他很有幽默感。）",
+    "hint": "使人發笑或覺得好笑的特質。",
+    "pronunciation": "重音第一音節，/j/ 音近乎英式連音。"
+  },
+  {
+    "word": "hurry",
+    "phonetic": "/ˈhɜːri/",
+    "meaning": "匆忙；催促",
+    "example": "Hurry up or we'll be late.（快點，否則我們會遲到。）",
+    "hint": "快速移動或趕時間的狀態。",
+    "pronunciation": "/ɜːr/ 帶 r 音，重音第一音節。"
+  },
+  {
+    "word": "issue",
+    "phonetic": "/ˈɪʃuː/ 或 /ˈɪsjuː/",
+    "meaning": "問題；議題",
+    "example": "Let's discuss the issue tomorrow.（我們明天來討論這個問題。）",
+    "hint": "需要關注或解決的事情。",
+    "pronunciation": "首音節重，第二音節弱讀。"
+  },
+  {
+    "word": "jewel",
+    "phonetic": "/ˈdʒuːəl/",
+    "meaning": "寶石",
+    "example": "The crown was decorated with many jewels.（王冠鑲滿了許多寶石。）",
+    "hint": "閃亮且珍貴的裝飾物。",
+    "pronunciation": "/dʒ/ 開頭，/uːəl/ 滑音過渡。"
+  },
+  {
+    "word": "joint",
+    "phonetic": "/dʒɔɪnt/",
+    "meaning": "連接處；關節",
+    "example": "My knee joint hurts after running.（跑步後我的膝蓋關節痛。）",
+    "hint": "兩部分連接的地方。",
+    "pronunciation": "/ɔɪ/ 滑音，尾音 /nt/ 清楚。"
+  },
+  {
+    "word": "judge",
+    "phonetic": "/dʒʌdʒ/",
+    "meaning": "判斷；法官",
+    "example": "Don't judge others too quickly.（不要太快評斷別人。）",
+    "hint": "評斷或裁定的動作或人。",
+    "pronunciation": "/ʌ/ 短音，/dʒ/ 有聲。"
+  },
+  {
+    "word": "knife",
+    "phonetic": "/naɪf/",
+    "meaning": "刀",
+    "example": "Cut the vegetables with a sharp knife.（用鋒利的刀切蔬菜。）",
+    "hint": "切割工具。",
+    "pronunciation": "/naɪf/，/n/ 起頭，/f/ 結尾摩擦。"
+  },
+  {
+    "word": "labor",
+    "phonetic": "/ˈleɪbər/",
+    "meaning": "勞動；勞工",
+    "example": "Manual labor can be physically demanding.（體力勞動可能很累人。）",
+    "hint": "工作或辛勤付出的活動。",
+    "pronunciation": "重音第一音節，/leɪ/ 滑音。"
+  },
+  {
+    "word": "large",
+    "phonetic": "/lɑːrdʒ/",
+    "meaning": "大的",
+    "example": "They live in a large apartment.（他們住在一間大公寓。）",
+    "hint": "尺寸或規模很大。",
+    "pronunciation": "/ɑːr/ 帶 r 色，/dʒ/ 有聲。"
+  },
+  {
+    "word": "laugh",
+    "phonetic": "/læf/",
+    "meaning": "笑",
+    "example": "We laugh at funny stories.（我們對有趣的故事大笑。）",
+    "hint": "表達愉快或好笑的反應。",
+    "pronunciation": "/æ/ 開口，/f/ 無聲。"
+  },
+  {
+    "word": "learn",
+    "phonetic": "/lɜːrn/",
+    "meaning": "學習",
+    "example": "I want to learn a new language.（我想學一門新語言。）",
+    "hint": "獲得新知識或技能的過程。",
+    "pronunciation": "/ɜːr/ 帶 r 音。"
+  },
+  {
+    "word": "least",
+    "phonetic": "/liːst/",
+    "meaning": "最少的",
+    "example": "At least try your best.（至少盡力試試看。）",
+    "hint": "最低限度或最小量。",
+    "pronunciation": "長音 /iː/，/st/ 清晰。"
+  },
+  {
+    "word": "leave",
+    "phonetic": "/liːv/",
+    "meaning": "離開；留下",
+    "example": "I will leave at six o'clock.（我會在六點離開。）",
+    "hint": "從某處移開或允許留下。",
+    "pronunciation": "/iː/ 長音，尾音 /v/ 有聲。"
+  },
+  {
+    "word": "legal",
+    "phonetic": "/ˈliːɡəl/",
+    "meaning": "合法的；法律的",
+    "example": "They sought legal advice.（他們尋求法律建議。）",
+    "hint": "與法律或規則有關。",
+    "pronunciation": "重音在第一音節，/ɡ/ 清楚。"
+  },
+  {
+    "word": "level",
+    "phonetic": "/ˈlɛvəl/",
+    "meaning": "等級；水平",
+    "example": "Keep the camera level when taking photos.（拍照時保持相機水平。）",
+    "hint": "高度或階段的平面。",
+    "pronunciation": "重音在第一音節，/v/ 有聲。"
+  }
+]

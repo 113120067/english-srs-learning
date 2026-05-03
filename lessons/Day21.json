@@ -1,0 +1,162 @@
+[
+  {
+    "word": "self",
+    "phonetic": "/sɛlf/",
+    "meaning": "自我",
+    "example": "Take care of yourself.（照顧好你自己。）",
+    "hint": "先把自己照顧好，才有力氣幫別人。",
+    "pronunciation": "尾音 /lf/ 要一起收住。"
+  },
+  {
+    "word": "sell",
+    "phonetic": "/sɛl/",
+    "meaning": "賣；銷售",
+    "example": "Please sell the old books.（請把舊書賣掉。）",
+    "hint": "把不用的東西賣出去。",
+    "pronunciation": "短音 /ɛ/，尾音 /l/ 清楚。"
+  },
+  {
+    "word": "send",
+    "phonetic": "/sɛnd/",
+    "meaning": "傳送",
+    "example": "Send me a message.（傳訊息給我。）",
+    "hint": "手機按下送出鍵。",
+    "pronunciation": "/nd/ 結尾要穩。"
+  },
+  {
+    "word": "ship",
+    "phonetic": "/ʃɪp/",
+    "meaning": "船隻；運送",
+    "example": "Ship the box tomorrow.（明天把箱子寄出。）",
+    "hint": "大船把貨物送到遠方。",
+    "pronunciation": "/ʃ/ 是柔和的氣音，尾音 /p/ 要短。"
+  },
+  {
+    "word": "shoe",
+    "phonetic": "/ʃuː/",
+    "meaning": "鞋子",
+    "example": "These shoes are new.（這雙鞋是新的。）",
+    "hint": "早上出門前先穿鞋。",
+    "pronunciation": "長音 /uː/ 要拉開。"
+  },
+  {
+    "word": "shop",
+    "phonetic": "/ʃɑːp/",
+    "meaning": "店面；購物",
+    "example": "We shop after work.（我們下班後去購物。）",
+    "hint": "下班後去逛街買東西。",
+    "pronunciation": "尾音 /p/ 要輕快收住。"
+  },
+  {
+    "word": "show",
+    "phonetic": "/ʃoʊ/",
+    "meaning": "顯示；放映",
+    "example": "Show me the answer.（把答案給我看。）",
+    "hint": "把東西拿到眼前給別人看。",
+    "pronunciation": "/oʊ/ 要有滑動。"
+  },
+  {
+    "word": "shut",
+    "phonetic": "/ʃʌt/",
+    "meaning": "關閉",
+    "example": "Shut the door softly.（輕輕把門關上。）",
+    "hint": "把門輕輕合上。",
+    "pronunciation": "尾音 /t/ 要乾脆。"
+  },
+  {
+    "word": "sick",
+    "phonetic": "/sɪk/",
+    "meaning": "生病的；令人噁心的",
+    "example": "She feels sick today.（她今天覺得不舒服。）",
+    "hint": "肚子不舒服、臉色發白。",
+    "pronunciation": "短音 /ɪ/ 很短。"
+  },
+  {
+    "word": "side",
+    "phonetic": "/saɪd/",
+    "meaning": "側邊；面",
+    "example": "Sit by my side.（坐在我旁邊。）",
+    "hint": "坐在朋友旁邊聊天。",
+    "pronunciation": "/aɪ/ 要滑動完整。"
+  },
+  {
+    "word": "sign",
+    "phonetic": "/saɪn/",
+    "meaning": "記號；徵兆；招牌",
+    "example": "Sign your name here.（在這裡簽名。）",
+    "hint": "在紙上留下自己的名字。",
+    "pronunciation": "尾音 /n/ 要收好。"
+  },
+  {
+    "word": "silk",
+    "phonetic": "/sɪlk/",
+    "meaning": "絲",
+    "example": "This shirt is made of silk.（這件襯衫是絲做的。）",
+    "hint": "摸起來很滑的布料。",
+    "pronunciation": "/lk/ 連綴要順。"
+  },
+  {
+    "word": "sing",
+    "phonetic": "/sɪŋ/",
+    "meaning": "唱歌",
+    "example": "They sing every morning.（他們每天早上唱歌。）",
+    "hint": "早上一起開口唱歌。",
+    "pronunciation": "尾音 /ŋ/ 要從鼻腔出來。"
+  },
+  {
+    "word": "size",
+    "phonetic": "/saɪz/",
+    "meaning": "尺寸",
+    "example": "What size do you wear?（你穿什麼尺寸？）",
+    "hint": "買鞋、買衣服時最常問。",
+    "pronunciation": "尾音 /z/ 要有聲音。"
+  },
+  {
+    "word": "skin",
+    "phonetic": "/skɪn/",
+    "meaning": "皮膚",
+    "example": "Protect your skin from the sun.（保護你的皮膚免受陽光傷害。）",
+    "hint": "臉和手上那層最外面的皮。",
+    "pronunciation": "/sk/ 連綴開頭要順。"
+  },
+  {
+    "word": "slip",
+    "phonetic": "/slɪp/",
+    "meaning": "滑動；洩漏",
+    "example": "Don't slip on the wet floor.（不要在濕地板上滑倒。）",
+    "hint": "地板太滑，腳一踩就失去平衡。",
+    "pronunciation": "/sl/ 連綴自然銜接。"
+  },
+  {
+    "word": "slow",
+    "phonetic": "/sloʊ/",
+    "meaning": "緩慢的",
+    "example": "Please drive slowly.（請開慢一點。）",
+    "hint": "在車流裡慢慢前進。",
+    "pronunciation": "/oʊ/ 的滑動要清楚。"
+  },
+  {
+    "word": "snow",
+    "phonetic": "/snoʊ/",
+    "meaning": "雪；下雪",
+    "example": "It may snow tonight.（今晚可能會下雪。）",
+    "hint": "窗外飄著白白的雪花。",
+    "pronunciation": "/s/ 接 /n/ 再到 /oʊ/，連起來讀。"
+  },
+  {
+    "word": "soap",
+    "phonetic": "/soʊp/",
+    "meaning": "肥皂",
+    "example": "Wash your hands with soap.（用肥皂洗手。）",
+    "hint": "洗手台旁的白色肥皂。",
+    "pronunciation": "尾音 /p/ 很輕，但要有。"
+  },
+  {
+    "word": "soft",
+    "phonetic": "/sɔːft/",
+    "meaning": "柔軟的；輕柔的",
+    "example": "This pillow is soft.（這個枕頭很柔軟。）",
+    "hint": "摸起來會想一直按下去的枕頭。",
+    "pronunciation": "/ft/ 結尾要短，別拖長。"
+  }
+]

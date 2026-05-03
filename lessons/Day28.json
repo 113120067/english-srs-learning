@@ -1,0 +1,162 @@
+[
+  {
+    "word": "doubt",
+    "phonetic": "/daʊt/",
+    "meaning": "懷疑",
+    "example": "I doubt he will come on time.（我懷疑他會準時到。）",
+    "hint": "不確定或不相信。",
+    "pronunciation": "/daʊt/，結尾 /t/ 清晰。"
+  },
+  {
+    "word": "drain",
+    "phonetic": "/dreɪn/",
+    "meaning": "排出；排水管",
+    "example": "The sink won't drain properly.（水槽排水不順。）",
+    "hint": "讓水流走的動作或管子。",
+    "pronunciation": "/dreɪn/，/eɪ/ 滑音。"
+  },
+  {
+    "word": "dream",
+    "phonetic": "/driːm/",
+    "meaning": "夢；夢想",
+    "example": "She dreamt of traveling the world.（她夢想周遊世界。）",
+    "hint": "睡眠中或心中的想望。",
+    "pronunciation": "長音 /iː/，尾音 /m/ 輕。"
+  },
+  {
+    "word": "dress",
+    "phonetic": "/drɛs/",
+    "meaning": "穿衣；洋裝",
+    "example": "She dressed quickly and left.（她快速穿好衣服就走了。）",
+    "hint": "穿著打扮的動作或服裝。",
+    "pronunciation": "/dr/ 起始，/ɛ/ 短音。"
+  },
+  {
+    "word": "drink",
+    "phonetic": "/drɪŋk/",
+    "meaning": "喝；飲料",
+    "example": "Would you like a cold drink?（你想要一杯冰飲嗎？）",
+    "hint": "液體攝取的動作。",
+    "pronunciation": "/ɪ/ 短元音，/ŋk/ 後鼻加爆破。"
+  },
+  {
+    "word": "drive",
+    "phonetic": "/draɪv/",
+    "meaning": "駕駛；開車",
+    "example": "I drive to work every morning.（我每天早上開車去上班。）",
+    "hint": "操控車輛移動。",
+    "pronunciation": "/aɪ/ 滑音，/v/ 有聲。"
+  },
+  {
+    "word": "early",
+    "phonetic": "/ˈɜːrli/",
+    "meaning": "早的",
+    "example": "I prefer to arrive early.（我喜歡早到。）",
+    "hint": "在預定時間之前。",
+    "pronunciation": "重音在第一音節，/ɜːr/。"
+  },
+  {
+    "word": "earth",
+    "phonetic": "/ɜːrθ/",
+    "meaning": "地球；土地",
+    "example": "Protecting the earth is everyone's job.（保護地球是每個人的責任。）",
+    "hint": "地球或土壤的涵義。",
+    "pronunciation": "/ɜːr/ + /θ/ 無聲。"
+  },
+  {
+    "word": "empty",
+    "phonetic": "/ˈɛmpti/",
+    "meaning": "空的",
+    "example": "The box is empty.（盒子是空的。）",
+    "hint": "沒有東西的狀態。",
+    "pronunciation": "/ɛm/ 開頭短促，/ti/ 末尾輕。"
+  },
+  {
+    "word": "enemy",
+    "phonetic": "/ˈɛnəmi/",
+    "meaning": "敵人",
+    "example": "They treated him as an enemy.（他們把他當作敵人。）",
+    "hint": "對立或敵對的一方。",
+    "pronunciation": "/ɛn/ 起始，/mi/ 輕。"
+  },
+  {
+    "word": "enjoy",
+    "phonetic": "/ɛnˈdʒɔɪ/",
+    "meaning": "享受",
+    "example": "Enjoy your meal!（好好享受你的餐點！）",
+    "hint": "獲得愉快的體驗。",
+    "pronunciation": "弱讀第一音節，重音第二音節 /dʒɔɪ/。"
+  },
+  {
+    "word": "enter",
+    "phonetic": "/ˈɛntər/",
+    "meaning": "進入",
+    "example": "Please enter your password.（請輸入你的密碼。）",
+    "hint": "從外面進到裡面。",
+    "pronunciation": "重音在第一音節，/tər/ 輕。"
+  },
+  {
+    "word": "equal",
+    "phonetic": "/ˈiːkwəl/",
+    "meaning": "平等的",
+    "example": "All people are equal under the law.（所有人在法律下是平等的。）",
+    "hint": "彼此沒有差別或不分高低。",
+    "pronunciation": "長音 /iː/ 開頭，/kw/ 連音。"
+  },
+  {
+    "word": "erase",
+    "phonetic": "/ɪˈreɪs/",
+    "meaning": "擦掉",
+    "example": "Erase the mistakes with a clean cloth.（用乾淨的布擦掉錯誤。）",
+    "hint": "去除或抹掉。",
+    "pronunciation": "弱讀 /ɪ/，重音 /reɪs/。"
+  },
+  {
+    "word": "event",
+    "phonetic": "/ɪˈvɛnt/",
+    "meaning": "事件；活動",
+    "example": "The event attracted many visitors.（那個活動吸引了很多參觀者。）",
+    "hint": "重要的發生或安排。",
+    "pronunciation": "弱讀第一音節，重音第二音節 /vɛnt/。"
+  },
+  {
+    "word": "every",
+    "phonetic": "/ˈɛvri/",
+    "meaning": "每一個",
+    "example": "Every student must register.（每位學生都必須註冊。）",
+    "hint": "涵蓋所有成員。",
+    "pronunciation": "重音在第一音節，/v/ 要有聲。"
+  },
+  {
+    "word": "exact",
+    "phonetic": "/ɪɡˈzækt/",
+    "meaning": "確切的",
+    "example": "Give me the exact time, please.（請告訴我確切時間。）",
+    "hint": "毫不含糊、精確。",
+    "pronunciation": "弱讀第一音節，重音第二音節 /zækt/。"
+  },
+  {
+    "word": "exist",
+    "phonetic": "/ɪɡˈzɪst/",
+    "meaning": "存在",
+    "example": "Do ghosts really exist?（鬼真的存在嗎？）",
+    "hint": "有無或有形的存在狀態。",
+    "pronunciation": "重音第二音節，/z/ 有聲。"
+  },
+  {
+    "word": "extra",
+    "phonetic": "/ˈekstrə/",
+    "meaning": "額外的",
+    "example": "We need extra time to finish.（我們需要額外時間完成。）",
+    "hint": "超出基本或預期的量。",
+    "pronunciation": "重音在第一音節，/ks/ 聲音清楚。"
+  },
+  {
+    "word": "field",
+    "phonetic": "/fiːld/",
+    "meaning": "田野；領域",
+    "example": "He works in the medical field.（他從事醫療領域工作。）",
+    "hint": "開放的土地或專業領域。",
+    "pronunciation": "長音 /iː/，/ld/ 收尾。"
+  }
+]

@@ -1,0 +1,162 @@
+[
+  {
+    "word": "team",
+    "phonetic": "/tiːm/",
+    "meaning": "團隊",
+    "example": "Our team worked hard.（我們的團隊很努力。）",
+    "hint": "一群人一起完成同一件事。",
+    "pronunciation": "長音 /iː/ 要穩，尾音 /m/ 收好。"
+  },
+  {
+    "word": "tear",
+    "phonetic": "/ter/",
+    "meaning": "撕裂",
+    "example": "Don't tear the paper.（不要把紙撕破。）",
+    "hint": "紙張被硬生生拉破。",
+    "pronunciation": "這個 tear 讀 /ter/，和眼淚不同。"
+  },
+  {
+    "word": "tear",
+    "phonetic": "/tɪr/",
+    "meaning": "眼淚",
+    "example": "A tear fell from her eye.（一滴眼淚從她眼角落下。）",
+    "hint": "難過時臉頰滑下來的一滴水。",
+    "pronunciation": "這個 tear 讀 /tɪr/，和「撕裂」不同。"
+  },
+  {
+    "word": "tell",
+    "phonetic": "/tɛl/",
+    "meaning": "告訴",
+    "example": "Tell me the story.（告訴我這個故事。）",
+    "hint": "有人開口把事情說出來。",
+    "pronunciation": "尾音 /l/ 要收住。"
+  },
+  {
+    "word": "term",
+    "phonetic": "/tɜːrm/",
+    "meaning": "學期；條款",
+    "example": "This term starts today.（這個學期今天開始。）",
+    "hint": "學校行事曆上的一段時間。",
+    "pronunciation": "/ɜːr/ 要帶出捲舌感。"
+  },
+  {
+    "word": "test",
+    "phonetic": "/tɛst/",
+    "meaning": "測試",
+    "example": "We have a test tomorrow.（我們明天有測驗。）",
+    "hint": "考卷發下來前的緊張感。",
+    "pronunciation": "/st/ 結尾要短促。"
+  },
+  {
+    "word": "than",
+    "phonetic": "/ðæn/",
+    "meaning": "比；比較",
+    "example": "He is taller than me.（他比我高。）",
+    "hint": "做比較時常常會出現。",
+    "pronunciation": "/ð/ 要咬舌，/æ/ 要打開。"
+  },
+  {
+    "word": "that",
+    "phonetic": "/ðæt/",
+    "meaning": "那個",
+    "example": "That is my bag.（那是我的包包。）",
+    "hint": "指著遠一點的東西。",
+    "pronunciation": "/ð/ 先出聲，/t/ 要短。"
+  },
+  {
+    "word": "them",
+    "phonetic": "/ðɛm/",
+    "meaning": "他們（受格）",
+    "example": "I saw them at school.（我在學校看到他們。）",
+    "hint": "指向一群人。",
+    "pronunciation": "/ð/ 開頭不要用成 /d/。"
+  },
+  {
+    "word": "then",
+    "phonetic": "/ðɛn/",
+    "meaning": "那時；接下來",
+    "example": "Finish this, then rest.（先完成這個，再休息。）",
+    "hint": "先做一件事，然後做下一件。",
+    "pronunciation": "尾音 /n/ 要收好。"
+  },
+  {
+    "word": "they",
+    "phonetic": "/ðeɪ/",
+    "meaning": "他們",
+    "example": "They are my friends.（他們是我的朋友。）",
+    "hint": "一群人一起出現。",
+    "pronunciation": "/eɪ/ 滑動要完整。"
+  },
+  {
+    "word": "thin",
+    "phonetic": "/θɪn/",
+    "meaning": "瘦的",
+    "example": "He is very thin.（他很瘦。）",
+    "hint": "衣服穿起來空空的。",
+    "pronunciation": "/θ/ 要咬舌，不要發成 /s/。"
+  },
+  {
+    "word": "this",
+    "phonetic": "/ðɪs/",
+    "meaning": "這個",
+    "example": "This is my pen.（這是我的筆。）",
+    "hint": "指著眼前這個東西。",
+    "pronunciation": "/ð/ 要有聲，/s/ 要清楚。"
+  },
+  {
+    "word": "thus",
+    "phonetic": "/ðʌs/",
+    "meaning": "那麼",
+    "example": "Thus we begin.（於是我們開始。）",
+    "hint": "像「因此」「於是」那樣的連接感。",
+    "pronunciation": "尾音 /s/ 很短。"
+  },
+  {
+    "word": "time",
+    "phonetic": "/taɪm/",
+    "meaning": "時間；計時",
+    "example": "I need more time.（我需要更多時間。）",
+    "hint": "手錶上的指針一直走。",
+    "pronunciation": "/aɪ/ 滑動要清楚。"
+  },
+  {
+    "word": "tiny",
+    "phonetic": "/ˈtaɪni/",
+    "meaning": "微小的",
+    "example": "It is a tiny star.（那是一顆很小的星星。）",
+    "hint": "幾乎要用放大鏡才看得到。",
+    "pronunciation": "重音在第一音節。"
+  },
+  {
+    "word": "tire",
+    "phonetic": "/ˈtaɪər/",
+    "meaning": "使疲倦；輪胎",
+    "example": "The long walk made me tire.（長時間走路讓我累了。）",
+    "hint": "跑久了人會開始想休息。",
+    "pronunciation": "/aɪ/ 後面接捲舌音。"
+  },
+  {
+    "word": "tone",
+    "phonetic": "/toʊn/",
+    "meaning": "音調；色調",
+    "example": "Her voice has a warm tone.（她的聲音有溫暖的音調。）",
+    "hint": "聲音高低起伏的感覺。",
+    "pronunciation": "/oʊ/ 滑動後收在 /n/。"
+  },
+  {
+    "word": "tool",
+    "phonetic": "/tuːl/",
+    "meaning": "工具",
+    "example": "A hammer is a useful tool.（槌子是有用的工具。）",
+    "hint": "工具箱裡的扳手、槌子和螺絲起子。",
+    "pronunciation": "長音 /uː/ 後接 /l/。"
+  },
+  {
+    "word": "town",
+    "phonetic": "/taʊn/",
+    "meaning": "小鎮",
+    "example": "We live in a small town.（我們住在一個小鎮。）",
+    "hint": "有商店和街道的小地方。",
+    "pronunciation": "/aʊ/ 的滑動要自然。"
+  }
+]
