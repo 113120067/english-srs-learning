@@ -46,17 +46,41 @@ document.addEventListener("DOMContentLoaded", () => {
 
   function populateDaySelector() {
     // Populate from lessons/manifest.json when available
+    daySelector.innerHTML = "";
+
+    // Add a placeholder option
+    const placeholder = document.createElement("option");
+    placeholder.value = "";
+    placeholder.textContent = "Select a Day or Job...";
+    placeholder.disabled = true;
+    placeholder.selected = true;
+    daySelector.appendChild(placeholder);
+
     (async () => {
       try {
         const res = await fetch("lessons/manifest.json");
         if (!res.ok) throw new Error("manifest not found");
-        const days = await res.json();
-        days.forEach((d) => {
+        const items = await res.json();
+
+        const daysGroup = document.createElement("optgroup");
+        daysGroup.label = "Days";
+        const jobsGroup = document.createElement("optgroup");
+        jobsGroup.label = "Jobs";
+
+        items.forEach((d) => {
           const option = document.createElement("option");
           option.value = d;
-          option.textContent = d.replace("Day", "Day ");
-          daySelector.appendChild(option);
+          if (/^Day\d+/i.test(d)) {
+            option.textContent = d.replace(/^Day(\d+)/i, "Day $1");
+            daysGroup.appendChild(option);
+          } else {
+            option.textContent = d;
+            jobsGroup.appendChild(option);
+          }
         });
+
+        if (daysGroup.children.length) daySelector.appendChild(daysGroup);
+        if (jobsGroup.children.length) daySelector.appendChild(jobsGroup);
       } catch (err) {
         // Fallback: populate 1..14
         for (let i = 1; i <= 14; i++) {
