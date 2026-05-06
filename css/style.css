@@ -113,6 +113,34 @@ html {
     gap: 10px;
 }
 
+.speed-control {
+    display: flex;
+    flex-direction: column;
+    gap: 6px;
+    color: var(--text-primary);
+    font-size: 0.95rem;
+}
+
+.speed-control label {
+    font-weight: 600;
+}
+
+.speed-range {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+
+.speed-range input[type="range"] {
+    width: 100%;
+}
+
+.speed-range span {
+    min-width: 50px;
+    text-align: right;
+    color: var(--text-secondary);
+}
+
 select {
     width: 100%;
     padding: 12px;

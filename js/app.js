@@ -20,6 +20,8 @@ document.addEventListener("DOMContentLoaded", () => {
   const hintBack = document.getElementById("hint-back");
   const pronunciationBack = document.getElementById("pronunciation-back");
   const ttsBackBtn = document.getElementById("tts-back");
+  const speechRateRange = document.getElementById("speech-rate-range");
+  const speechRateValue = document.getElementById("speech-rate-value");
 
   // Sections
   const hintSection = document.getElementById("hint-section");
@@ -87,6 +89,7 @@ document.addEventListener("DOMContentLoaded", () => {
   // Initialization
   function init() {
     populateDaySelector();
+    loadSpeechRate();
     bindEvents();
     loadDayData("Day1");
   }
@@ -161,7 +164,26 @@ document.addEventListener("DOMContentLoaded", () => {
     ttsFrontBtn.addEventListener("click", playTTS);
     ttsBackBtn.addEventListener("click", playTTS);
 
+    if (speechRateRange) {
+      speechRateRange.addEventListener("input", handleSpeechRateChange);
+    }
+
     resetDayBtn.addEventListener("click", () => loadDayData(daySelector.value));
+  }
+
+  function loadSpeechRate() {
+    const savedRate = localStorage.getItem("speechRate");
+    const rate = savedRate ? Number(savedRate) : 0.9;
+    if (speechRateRange) speechRateRange.value = rate.toFixed(2);
+    if (speechRateValue) speechRateValue.textContent = `${rate.toFixed(2)}x`;
+    TTSModule.setRate(rate);
+  }
+
+  function handleSpeechRateChange(e) {
+    const rate = Number(e.target.value);
+    if (speechRateValue) speechRateValue.textContent = `${rate.toFixed(2)}x`;
+    TTSModule.setRate(rate);
+    localStorage.setItem("speechRate", rate.toFixed(2));
   }
 
   async function loadDayData(dayId) {
