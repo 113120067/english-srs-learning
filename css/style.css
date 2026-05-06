@@ -36,12 +36,16 @@ body {
 html {
     -webkit-text-size-adjust: 100%;
     -ms-text-size-adjust: 100%;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+    /* Set a stable base font size to avoid unexpected scaling on iOS */
+    font-size: 16px;
 }
 
 .app-container {
     width: 100%;
     max-width: 1200px;
-    height: 100%;
+    min-height: 100vh; /* allow page to grow and be scrollable */
     padding: 20px;
     display: flex;
     flex-direction: column;
@@ -150,13 +154,14 @@ select:focus {
 
 .scene {
     width: 100%;
-    flex: 1; /* Automatically fills available height */
+    flex: none; /* don't force scene to stretch full viewport height */
     perspective: 1000px;
 }
 
 .card {
     width: 100%;
-    height: 100%;
+    height: auto; /* let card grow with content */
+    min-height: 60vh; /* keep large card feel on desktop while allowing page scroll */
     position: relative;
     transition: transform 0.6s;
     transform-style: preserve-3d;
@@ -416,16 +421,21 @@ select:focus {
         font-size: 1.6rem;
     }
 
+    /* Use px sizes on small phones to avoid iOS text-size-adjust side-effects */
     .back-content .meaning {
-        font-size: 1.05rem;
-        line-height: 1.4;
+        font-size: 16px;
+        line-height: 1.45;
     }
 
     .section p {
-        font-size: 1rem;
+        font-size: 15px;
     }
 
     .word {
         font-size: 2rem;
+    }
+
+    .card__face {
+        padding: 18px; /* reduce padding so text wraps better on narrow screens */
     }
 }
