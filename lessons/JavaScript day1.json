@@ -1,0 +1,107 @@
+[
+  {
+    "word": ".trim()",
+    "meaning": "去掉字串前後的空白字元",
+    "example": "'  hello  '.trim(); // 'hello'",
+    "hint": "常用於處理使用者輸入，防止無意義的空白導致比對錯誤。",
+    "type": "JS/String"
+  },
+  {
+    "word": ".includes()",
+    "meaning": "檢查陣列或字串中是否包含特定內容，回傳布林值",
+    "example": "[1, 2, 3].includes(2); // true \n'JavaScript'.includes('Java'); // true",
+    "hint": "區分大小寫，且不僅適用於陣列，字串也很好用。",
+    "type": "JS/Array"
+  },
+  {
+    "word": "否定運算子 (!)",
+    "meaning": "將布林值反轉：真變成假，假變成真",
+    "example": "!true; // false \n!0; // true (因為 0 是 Falsy)",
+    "hint": "連續用兩個 !! 可以將任何值轉換為真正的布林型別。",
+    "type": "JS/Logic"
+  },
+  {
+    "word": "Falsy Values (虛假值)",
+    "meaning": "在 JS 中會被判定為 false 的值，共有 6 種",
+    "example": "false, 0, '', null, undefined, NaN",
+    "hint": "除了這六種，其他在邏輯判斷中大多會被視為 Truthy。",
+    "type": "JS/Logic"
+  },
+  {
+    "word": "typeof null 陷阱",
+    "meaning": "typeof null 會回傳 'object'，這是 JS 著名的 Bug",
+    "example": "typeof null === 'object'; // true",
+    "hint": "它就像個『偽裝成物件的間諜』，寫判斷式時要特別注意！",
+    "type": "JS/Logic"
+  },
+  {
+    "word": "typeof 運算子",
+    "meaning": "檢查資料型別的一元運算子",
+    "example": "typeof 'hello'; // 'string' \ntypeof 123; // 'number'",
+    "hint": "它是運算子而非函式，所以呼叫時『不需要』加括號。",
+    "type": "JS/Logic"
+  },
+  {
+    "word": "Array.push()",
+    "meaning": "將一個或多個元素加入陣列的末端",
+    "example": "const errors = []; \nerrors.push('error log');",
+    "hint": "會直接改變原始陣列，並回傳陣列的新長度。",
+    "type": "JS/Array"
+  },
+  {
+    "word": "Math & Date 基礎",
+    "meaning": "產生隨機數與目前的毫秒時間戳",
+    "example": "Math.random(); // 0.123... \nDate.now(); // 171... (目前毫秒數)",
+    "hint": "這兩者是產生唯一識別碼（ID）的最基礎工具。",
+    "type": "JS/Math"
+  },
+  {
+    "word": ".toString(36)",
+    "meaning": "將數字轉換為 36 進位（0-9, a-z）的字串",
+    "example": "(123456).toString(36); // '2n9c'",
+    "hint": "常用於縮短長數字，使其看起來像簡短的英文代碼。",
+    "type": "JS/String"
+  },
+  {
+    "word": "隨機 ID 產生技巧",
+    "meaning": "結合時間、隨機數與進位轉換產生隨機字串",
+    "example": "Math.random().toString(36).slice(2);",
+    "hint": ".slice(2) 是為了去掉 toString(36) 產生的 '0.' 前綴。",
+    "type": "JS/Logic"
+  },
+  {
+    "word": "Math 常用方法",
+    "meaning": "floor (向下捨入), ceil (向上進位), abs (絕對值)",
+    "example": "Math.floor(1.9); // 1 \nMath.ceil(1.1); // 2 \nMath.abs(-5); // 5",
+    "hint": "圖像記憶：Floor 是地板，Ceil 是天花板。",
+    "type": "JS/Math"
+  },
+  {
+    "word": "String.length",
+    "meaning": "回傳字串的長度（字元個數）",
+    "example": "'hello'.length; // 5",
+    "hint": "注意它是屬性（Property），所以後面不加括號喔！",
+    "type": "JS/String"
+  },
+  {
+    "word": ".reduce() 核心定義",
+    "meaning": "將陣列中的多個值，精煉（演化）成單一結果",
+    "example": "[1, 2, 3].reduce((acc, cur) => acc + cur, 0); // 6",
+    "hint": "想像成『雪球』，會保留上一次的結果繼續往下運算。",
+    "type": "JS/Array"
+  },
+  {
+    "word": ".reduce() 參數詳解",
+    "meaning": "包含 accumulator (累加器) 與 currentValue (當前元素)",
+    "example": "array.reduce((acc, cur, idx, arr) => { ... });",
+    "hint": "acc 是靈魂，它會接收上一次執行回傳的值。",
+    "type": "JS/Array"
+  },
+  {
+    "word": ".reduce() 初始值 (initialValue)",
+    "meaning": "reduce 的第二個參數，決定累加器的起點",
+    "example": "array.reduce(callback, 0); // 這裡的 0 就是初始值",
+    "hint": "非常重要！沒給初始值時，預設會拿陣列第一個元素當起點。",
+    "type": "JS/Array"
+  }
+]
