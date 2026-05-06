@@ -32,6 +32,12 @@ body {
     line-height: 1.5;
 }
 
+/* Prevent iOS Safari font inflation which can shrink Chinese text */
+html {
+    -webkit-text-size-adjust: 100%;
+    -ms-text-size-adjust: 100%;
+}
+
 .app-container {
     width: 100%;
     max-width: 1200px;
@@ -396,5 +402,30 @@ select:focus {
     .main-content {
         flex: 1;
         justify-content: center;
+    }
+}
+
+/* Small-screen (phones) tweaks to improve Chinese meaning readability on iPhone */
+@media (max-width: 420px) {
+    .back-content {
+        max-height: 55vh;
+        padding-right: 8px; /* avoid scrollbar overlaying text */
+    }
+
+    .back-content .word {
+        font-size: 1.6rem;
+    }
+
+    .back-content .meaning {
+        font-size: 1.05rem;
+        line-height: 1.4;
+    }
+
+    .section p {
+        font-size: 1rem;
+    }
+
+    .word {
+        font-size: 2rem;
     }
 }
