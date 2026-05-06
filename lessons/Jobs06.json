@@ -1,0 +1,66 @@
+[
+  {
+    "word": "It was beautiful, historical, artistically subtle, in a way that science can't capture.",
+    "phonetic": "",
+    "meaning": "它美麗、有歷史感、藝術上細膩微妙，以一種科學無法捕捉的方式呈現。",
+    "example": "The art of calligraphy had a beauty and depth that no scientific formula could explain.",
+    "hint": "中文解釋：Jobs 對書法的深度讚嘆，強調藝術與人文的獨特價值，是科學難以取代的。\n1) artistically subtle (phr.): 藝術上細膩微妙的；syn: aesthetically refined; ant: crude\n2) capture (v.): 捕捉、掌握；syn: grasp; ant: miss",
+    "pronunciation": "Admiring: beau-ti-FUL | his-TOR-i-cal | ar-TIS-tic-ally SUB-tle | sci-ENCE can't CAP-ture."
+  },
+  {
+    "word": "And I found it fascinating.",
+    "phonetic": "",
+    "meaning": "我覺得這令人著迷。",
+    "example": "He was completely captivated by what he was learning.",
+    "hint": "中文解釋：簡潔表達發自內心的熱情，呼應「找到自己所愛」的主題。\n1) found (v.): 覺得、發現；syn: considered; ant: ignored\n2) fascinating (adj.): 迷人的、令人著迷的；syn: captivating; ant: boring",
+    "pronunciation": "Genuine: And I FOUND it fas-ci-NA-ting. (warm, unhurried)"
+  },
+  {
+    "word": "None of this had even a hope of any practical application in my life.",
+    "phonetic": "",
+    "meaning": "這一切看起來絲毫沒有任何實際應用到我人生中的希望。",
+    "example": "At the time, he saw no way that calligraphy would ever be useful to him.",
+    "hint": "中文解釋：關鍵轉折前的鋪墊——當時看似毫無用處，才更能凸顯後來的驚喜。\n1) practical application (n.): 實際應用；syn: real-world use; ant: theoretical\n2) not even a hope (phr.): 連一點希望都沒有；syn: no chance at all; ant: great potential",
+    "pronunciation": "Ironic: NONE of this | had EVEN a HOPE | of any PRAC-ti-cal ap-pli-CA-tion."
+  },
+  {
+    "word": "But ten years later, when we were designing the first Macintosh computer, it all came back to me.",
+    "phonetic": "",
+    "meaning": "但十年後，當我們在設計第一台麥金塔電腦時，這一切都回到了我的腦海中。",
+    "example": "A decade later, while working on the Macintosh, all those calligraphy lessons suddenly became relevant.",
+    "hint": "中文解釋：核心轉折——看似無用的知識，在十年後設計 Mac 時全部派上用場。\n1) ten years later (phr.): 十年後；syn: a decade later; ant: immediately\n2) came back to me (phr.): 回到腦海、想起來了；syn: resurfaced; ant: was forgotten",
+    "pronunciation": "Revelation: TEN YEARS LA-ter | when we were de-SIGN-ing | the first MAC-in-TOSH | it ALL came BACK."
+  },
+  {
+    "word": "And we designed it all into the Mac.",
+    "phonetic": "",
+    "meaning": "我們把這一切都設計進了麥金塔電腦裡。",
+    "example": "All the calligraphy knowledge was built directly into the Mac's design.",
+    "hint": "中文解釋：點明書法知識的實際成果——Mac 的字體設計直接來自書法課的學習。\n1) designed into (phr.): 設計進去、融入設計；syn: incorporated into; ant: excluded from\n2) the Mac (n.): 麥金塔電腦（Mac）；syn: Macintosh; ant: (n/a)",
+    "pronunciation": "Proud: And we de-SIGNED it ALL | in-to the MAC. (short, definitive)"
+  },
+  {
+    "word": "It was the first computer with beautiful typography.",
+    "phonetic": "",
+    "meaning": "它是第一台擁有美麗字體排版的電腦。",
+    "example": "The Macintosh became the first personal computer to feature elegant, well-designed fonts.",
+    "hint": "中文解釋：強調 Mac 的歷史性突破——因為書法課，才有了美麗的電腦字體設計。\n1) typography (n.): 字體排版；syn: font design; ant: plain text\n2) beautiful (adj.): 美麗的；syn: elegant; ant: plain",
+    "pronunciation": "Historic: It was the FIRST com-PU-ter | with beau-ti-FUL ty-POG-ra-phy."
+  },
+  {
+    "word": "If I had never dropped in on that single course in college, the Mac would have never had multiple typefaces or proportionally spaced fonts.",
+    "phonetic": "",
+    "meaning": "如果我當時沒有旁聽那門大學裡的書法課，麥金塔電腦就永遠不會有多種字體或等比例間距的字型。",
+    "example": "Without that one calligraphy class, the Mac would have lacked the font variety it became famous for.",
+    "hint": "中文解釋：用假設句強調那門書法課對科技史的深遠影響。\n1) dropped in on (phr.): 旁聽、順道參加；syn: attended informally; ant: officially enrolled\n2) proportionally spaced (adj.): 等比例間距的；syn: kerned; ant: monospaced",
+    "pronunciation": "Conditional: If I had NEV-er | DROPPED IN on that COURSE | the MAC would NEV-er have had | MULT-iple TYPE-fac-es."
+  },
+  {
+    "word": "And since Windows just copied the Mac, it's likely that no personal computer would have them.",
+    "phonetic": "",
+    "meaning": "而由於 Windows 只是複製了麥金塔的設計，很可能沒有任何個人電腦會有這些功能。",
+    "example": "Because Windows followed the Mac's lead, all computers today have beautiful typography thanks to that class.",
+    "hint": "中文解釋：一個書法課的選擇，影響了整個個人電腦產業——極具震撼力的結論。\n1) copied (v.): 複製、抄襲；syn: imitated; ant: innovated\n2) personal computer (n.): 個人電腦；syn: PC; ant: mainframe",
+    "pronunciation": "Bold claim: WIN-dows just COP-ied the MAC | it's LIKE-ly | NO per-son-al COM-pu-ter | would HAVE them."
+  }
+]
