@@ -37,6 +37,53 @@ document.addEventListener("DOMContentLoaded", () => {
   let currentIndex = 0;
   let isFlipped = false;
 
+  // Enable better touch scrolling for iOS inside scrollable elements
+  function enableTouchScrollFor(el) {
+    let startY = 0;
+    el.addEventListener(
+      "touchstart",
+      function (e) {
+        if (e.touches && e.touches.length) startY = e.touches[0].clientY;
+      },
+      { passive: true },
+    );
+
+    el.addEventListener(
+      "touchmove",
+      function (e) {
+        if (!e.touches || !e.touches.length) return;
+        const curY = e.touches[0].clientY;
+        const deltaY = curY - startY;
+
+        // If the element is not scrollable, do nothing
+        if (el.scrollHeight <= el.clientHeight) return;
+
+        // Scrolling up when already at the top -> prevent page scroll
+        if (el.scrollTop === 0 && deltaY > 0) {
+          e.preventDefault();
+          return;
+        }
+
+        // Scrolling down when already at the bottom -> prevent page scroll
+        if (el.scrollTop + el.clientHeight >= el.scrollHeight && deltaY < 0) {
+          e.preventDefault();
+          return;
+        }
+
+        // Otherwise allow the inner element to scroll
+        // do not call preventDefault so native scrolling occurs
+        startY = curY;
+      },
+      { passive: false },
+    );
+  }
+
+  // Attach to card faces and back-content after DOM ready
+  const attachTouchScroll = () => {
+    const faces = document.querySelectorAll(".card__face, .back-content");
+    faces.forEach((el) => enableTouchScrollFor(el));
+  };
+
   // Initialization
   function init() {
     populateDaySelector();
@@ -101,6 +148,9 @@ document.addEventListener("DOMContentLoaded", () => {
       if (e.target.closest("button")) return;
       toggleFlip();
     });
+
+    // enable touch scrolling handlers
+    attachTouchScroll();
 
     prevBtn.addEventListener("click", showPrevWord);
     nextBtn.addEventListener("click", showNextWord);
