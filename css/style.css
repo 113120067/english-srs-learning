@@ -24,9 +24,9 @@ body {
                       radial-gradient(circle at bottom left, #312e81 0%, transparent 40%);
     background-attachment: fixed;
     color: var(--text-primary);
-    /* Mobile-first: Full viewport lock */
-    height: 100dvh;
-    overflow: hidden;
+    /* Mobile-first: allow the page to scroll while keeping minimum full viewport height */
+    min-height: 100dvh;
+    overflow: auto;
     display: flex;
     justify-content: center;
     line-height: 1.5;
@@ -130,7 +130,7 @@ select:focus {
     flex: 1;
     display: flex;
     flex-direction: column;
-    overflow: hidden; /* Contains the flexible flashcard area */
+    overflow: visible; /* allow page scrolling; card internals still handle their own scrolling */
 }
 
 /* Flashcard Area */
@@ -139,7 +139,7 @@ select:focus {
     flex-direction: column;
     gap: 20px;
     flex: 1;
-    overflow: hidden;
+    overflow: visible;
 }
 
 .scene {
