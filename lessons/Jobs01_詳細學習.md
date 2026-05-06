@@ -1,7 +1,7 @@
 # Jobs01 詳細學習（Steve Jobs — Stanford Commencement Address, Opening)
 
 ## 來源與標註
-- Title: **“You’ve got to find what you love,” Jobs says**
+- Title: **Steve Jobs’ 2005 Stanford Commencement Address (prepared text)**
 - Speaker: Steve Jobs
 - Delivered: Stanford Commencement Address (prepared text)
 - Date: 2005-06-12
@@ -20,21 +20,24 @@
 
 ---
 
+> 本檔案已更新為：**逐句對應 `lessons/Jobs01.json`（8 句）**。
+
+---
+
 ## 句子 1
 **EN**: I’m honored to be with you today for your commencement from one of the finest universities in the world.
 
-**ZH（翻譯）**：我很榮幸今天能與你們同在，參加你們在世界上最優秀的大學之一的畢業典禮。
+**ZH（翻譯）**：我很榮幸今天能和你們一起，參加你們在世界頂尖大學之一的畢業典禮。
 
-**EN explanation**: He says he feels privileged to attend and speak at the graduation ceremony of a top university.
+**EN explanation**: He says he feels proud to attend the graduation at a great university.
 
-**中文解釋**：他先用非常正式、禮貌的方式開場：表達「很榮幸」參與大家的畢業典禮，並稱讚這所學校是世界頂尖之一。
+**中文解釋**：這是正式且禮貌的開場，表達受邀出席畢業典禮的榮幸，並稱讚學校是世界頂尖之一。
 
 **Key terms（每句 1–3 個）**
-1) honored *(adj.)*：感到榮幸的；syn: privileged, grateful; ant: ashamed
-2) commencement *(n.)*：畢業典禮；syn: graduation ceremony; ant: (none)
-3) finest *(adj.)*：最好的、最優秀的；syn: best, top; ant: worst
+1) commencement *(n.)*：畢業典禮；syn: graduation; ant: enrollment
+2) finest *(adj.)*：最好的／頂尖的；syn: best, top; ant: worst
 
-**朗讀提示**：commencement 重音在第二音節 /kəˈmensmənt/；one of the finest 這段可連讀成一個語塊。
+**朗讀提示**：Focus: I'm HON-ored | com-MENCE-ment | ONE of the FIN-est. Pause after 'today'.
 
 ---
 
@@ -45,32 +48,30 @@
 
 **EN explanation**: He admits honestly that he did not finish college.
 
-**中文解釋**：truth be told 是固定說法，表示「說真的／老實說」，用來引出坦白的內容；這句他直接承認自己其實沒有大學畢業。
+**中文解釋**：truth be told 是固定說法，意思是「說真的／老實說」，用來引出坦白的內容；這句他直接承認自己沒有大學畢業。
 
 **Key terms**
-1) truth be told *(phrase)*：說實話；syn: honestly, to be honest; ant: (none)
-2) graduated *(v., past)*：畢業；syn: completed, finished; ant: drop out (of)
-3) college *(n.)*：大學；syn: university (AmE usage differs slightly); ant: (none)
+1) truth be told *(phrase)*：說真的；syn: honestly, to be honest; ant: falsely
+2) graduate *(v.)*：畢業；syn: finish, complete; ant: drop out
 
-**朗讀提示**：Truth be told 常作插入語，語速可稍快、兩側停頓；graduated from 可弱讀 from。
+**朗讀提示**：Chunk: TRUTH be told | I NE-ver GRAD-u-a-ted from COL-lege.
 
 ---
 
 ## 句子 3
 **EN**: And this is the closest I’ve ever gotten to a college graduation.
 
-**ZH（翻譯）**：而這（今天）是我這輩子最接近「大學畢業」的一次。
+**ZH（翻譯）**：而這就是我人生中離大學畢業最近的一次。
 
-**EN explanation**: He says this ceremony is the nearest experience he has had to graduating from college.
+**EN explanation**: He jokes that speaking at this event is his nearest experience of a college graduation.
 
-**中文解釋**：closest … to … 表示「最接近……」；I’ve ever gotten 是現在完成式，強調「到目前為止的人生經驗」。他用一點幽默：自己沒畢業，所以站在這裡反而是最像在參加自己的畢業。
+**中文解釋**：這句帶點幽默：他其實沒大學畢業，但今天站在畢業典禮的舞台上，反而成了他「最接近大學畢業」的經驗。
 
 **Key terms**
-1) closest *(adj.)*：最接近的；syn: nearest; ant: farthest
-2) have ever gotten to *(phrase)*：曾經到達／曾經接近（到目前為止）；syn: have ever come to; ant: (none)
-3) graduation *(n.)*：畢業；syn: commencement; ant: dropout
+1) the closest *(adj.)*：最接近的；syn: nearest; ant: farthest
+2) graduation *(n.)*：畢業；syn: commencement; ant: dropout
 
-**朗讀提示**：closest 放重音；I’ve ever gotten to 通常弱讀連讀，重點落在 closest 和 graduation。
+**朗讀提示**：Emphasis: the CLO-sest | E-ver GOT-ten | COL-lege grad-u-A-tion.
 
 ---
 
@@ -79,49 +80,47 @@
 
 **ZH（翻譯）**：今天我想跟你們分享我人生中的三個故事。
 
-**EN explanation**: He plans to share three personal stories.
+**EN explanation**: He plans to share three life stories with the audience.
 
-**中文解釋**：很直白的結構：want to tell you…；from my life 表示故事取材自他的親身經歷。
+**中文解釋**：直接宣布演講結構：接下來會用三個故事來表達他想傳達的重點。
 
 **Key terms**
-1) tell *(v.)*：講述；syn: share, recount; ant: conceal
-2) story *(n.)*：故事；syn: tale, narrative; ant: fact (in contrast)
-3) from my life *(prep. phrase)*：取材自我的人生；syn: from my personal experience; ant: (none)
+1) story *(n.)*：故事；syn: tale; ant: fact
+2) from my life *(phrase)*：取自我的人生經歷；syn: from my experience; ant: imaginary
 
-**朗讀提示**：three stories 可稍加重；from my life 輕帶過作收尾。
+**朗讀提示**：Rhythm: To-DAY | I want to TELL you | THREE STO-ries | from my LIFE.
 
 ---
 
 ## 句子 5
 **EN**: That’s it.
 
-**ZH（翻譯）**：就這樣。（就只有這些。）
+**ZH（翻譯）**：就這樣而已。
 
-**EN explanation**: He emphasizes that he will keep it simple and limited.
+**EN explanation**: He says the plan is simple and limited.
 
-**中文解釋**：口語強調句，用來表示「就到這裡、沒有更多了」，語氣像在說：我不講太多，就三個故事。
+**中文解釋**：口語強調句，意思是「就這些、沒有更多」，用來營造簡潔、輕鬆的語氣。
 
 **Key terms**
-1) that’s it *(phrase)*：就這樣／就是這些；syn: that’s all; ant: (none)
+1) that's it *(phrase)*：就這樣／就這些；syn: that's all; ant: that's not all
 
-**朗讀提示**：短句要乾脆。
+**朗讀提示**：Short + clear: THAT'S it. (falling tone)
 
 ---
 
 ## 句子 6
 **EN**: No big deal.
 
-**ZH（翻譯）**：沒什麼大不了的。
+**ZH（翻譯）**：沒什麼了不起的。
 
-**EN explanation**: He downplays the significance to sound casual.
+**EN explanation**: He downplays it and says it is not a big matter.
 
-**中文解釋**：口語用法，表示「不算什麼」，他用來讓氣氛更輕鬆，也降低聽眾壓力。
+**中文解釋**：口語用法，表示「不算什麼」，讓語氣更輕鬆，也讓聽眾知道他不打算長篇大論。
 
 **Key terms**
-1) big deal *(n., informal)*：大事、很重要的事；syn: important matter; ant: triviality
-2) no big deal *(phrase)*：沒什麼／不重要；syn: it’s nothing, no problem; ant: a big deal
+1) big deal *(n.)*：大事；syn: important matter; ant: trivial thing
 
-**朗讀提示**：no BIG deal 重音在 big。
+**朗讀提示**：Casual: No BIG deal. (stress BIG)
 
 ---
 
@@ -130,29 +129,29 @@
 
 **ZH（翻譯）**：就三個故事而已。
 
-**EN explanation**: He repeats the plan: only three stories.
+**EN explanation**: He repeats the simple structure: only three stories.
 
-**中文解釋**：just 在這裡是「僅僅」，再次強調內容很精簡。
+**中文解釋**：再次重申「只有三個」來建立聽眾期待，也暗示他會用故事而不是大道理來說服你。
 
 **Key terms**
-1) just *(adv.)*：只是、僅僅；syn: only, merely; ant: more than
+1) just *(adv.)*：只是；syn: only; ant: more than
+2) story *(n.)*：故事；syn: account; ant: silence
 
-**朗讀提示**：Just three stories 當作一個節奏單位，重音在 three。
+**朗讀提示**：Linking: Just THREE STO-ries. (stress THREE)
 
 ---
 
 ## 句子 8
 **EN**: The first story is about connecting the dots.
 
-**ZH（翻譯）**：第一個故事要談的是「把點點滴滴連起來」。
+**ZH（翻譯）**：第一個故事是關於把點連成線（串起人生的線索）。
 
-**EN explanation**: The first story is about how separate experiences can later make sense as a connected pattern.
+**EN explanation**: The first story explains how different events in life connect later.
 
-**中文解釋**：connecting the dots 是比喻：把零散的經歷/選擇在事後看成一條線、一個脈絡。這句是第一段主題句，宣告接下來要講的核心概念。
+**中文解釋**：這句是主題句：人生很多選擇當下看似無關，回頭才會發現彼此相連；他要用第一個故事說明這個概念。
 
 **Key terms**
-1) connect *(v.)*：連結；syn: link, tie; ant: separate
-2) dot *(n.)*：點；（比喻）零散線索；syn: point, clue; ant: (none)
-3) connecting the dots *(idiom)*：把線索串起來／融會貫通；syn: make connections, see the bigger picture; ant: miss the connection
+1) connect *(v.)*：連結；syn: link; ant: separate
+2) dots *(n.)*：點、線索；syn: clues; ant: answers
 
-**朗讀提示**：first story 重音；connecting the dots 末尾 dots 可清楚收 /ts/。
+**朗讀提示**：Phrase: con-NECT-ing the DOTS. Slight pause after 'story'.
